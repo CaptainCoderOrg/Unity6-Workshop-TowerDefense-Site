@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Tower Defense Course]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Tower Defense Course</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 28 Nov 2024 21:49:15 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 28 Nov 2024 21:48:59 GMT</pubDate><copyright><![CDATA[Captain Coder]]></copyright><ttl>60</ttl><dc:creator>Captain Coder</dc:creator><item><title><![CDATA[Isometric Camera Challenge]]></title><description><![CDATA[ 
+ <br>Before starting this challenge, you should complete <a data-href="05 - Creating an Isometric Camera" href="\lessons\05-creating-an-isometric-camera.html" class="internal-link" target="_self" rel="noopener nofollow">05 - Creating an Isometric Camera</a>.<br>In this challenge you are tasked with setting up an Isometric Camera for a pre-existing scene.<br><br>
+<br>Download the Isometric Camera Challenge: <a data-href="IsometricCameraChallenge v1.0.0.unitypackage" href="\challenges\01-isometric-camera-challenge\isometriccamerachallenge-v1.0.0.unitypackage" class="internal-link" target="_self" rel="noopener nofollow">IsometricCameraChallenge v1.0.0.unitypackage</a>
+<br>Import the package into your Unity Project
+<br><img alt="import-challenge.webp" src="\lib\media\import-challenge.webp"><br><br>
+<br>Open the Isometric Camera Challenge Scene
+<br>Configure the scene's Main Camera to be Isometric using a Rotation of (30, -45, 0)
+<br>Modify the elements in the Hierarchy such that the elements are centered at the game world's origin (0, 0, 0)
+<br><br>When you've completed this challenge, your Game View should look similar to the one below.<br><img alt="isometric-camera-challenge-solution.png" src="\lib\media\isometric-camera-challenge-solution.png">]]></description><link>challenges\01-isometric-camera-challenge\isometric-camera-challenge.html</link><guid isPermaLink="false">Challenges/01 - Isometric Camera Challenge/Isometric Camera Challenge.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Wed, 27 Nov 2024 01:46:38 GMT</pubDate><enclosure url="lib\media\import-challenge.webp" length="0" type="image/webp"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\import-challenge.webp&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Binary Waypoint Challenge]]></title><description><![CDATA[ 
+ <br>Before starting this challenge, you should complete <a data-href="07 - Waypoints" href="\lessons\07-waypoints.html" class="internal-link" target="_self" rel="noopener nofollow">07 - Waypoints</a>.<br>In this challenge, you are tasked with creating a Binary Waypoint that can connected up to TWO other Binary Waypoints.<br><br>
+<br>Download the Binary Waypoint Challenge: <a data-href="BinaryWaypointChallenge V1.0.0.unitypackage" href="\challenges\02-binary-waypoint-challenge\binarywaypointchallenge-v1.0.0.unitypackage" class="internal-link" target="_self" rel="noopener nofollow">BinaryWaypointChallenge V1.0.0.unitypackage</a>
+<br>Import the package into your Unity Project
+<br><br>
+<br>Open the Binary Waypoint Challenge
+<br>Create a Binary Waypoint Prefab
+<br>The Binary Waypoint Prefab should have 3D Cube
+<br>Create a BinaryWaypoint MonoBehaviour Script
+
+<br>Create a First Property that is a BinaryWaypoint
+<br>Create a Second Property that is a BinaryWaypoint
+<br>Both properties should be visible in the inspector
+
+
+<br>Implement the OnDrawGizmos method
+
+<br>Draw a red line from the waypoint to First
+<br>Draw a yellow line from the waypoint to Second
+<br>Add null checks such that 0, 1, or 2, waypoints can be specified
+
+
+<br>Add Binary Waypoints to the scene to match the image below
+<br><img alt="binary-waypoint-connections.png" src="\lib\media\binary-waypoint-connections.png"><br>
+<br>Ensure that the Binary Waypoints are not visible in the Game View
+<br><img alt="no-waypoints-visible.png" src="\lib\media\no-waypoints-visible.png">]]></description><link>challenges\02-binary-waypoint-challenge\binary-waypoint-challenge.html</link><guid isPermaLink="false">Challenges/02 - Binary Waypoint Challenge/Binary Waypoint Challenge.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Wed, 27 Nov 2024 23:36:04 GMT</pubDate><enclosure url="lib\media\binary-waypoint-connections.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\binary-waypoint-connections.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[00 - Install Unity 6]]></title><description><![CDATA[ 
+ <br>Before you can start this course, you will need to ensure you have the correct version of Unity installed. In this course, you will be using Unity 6 (version: 6000.0.XYZ), although many aspects of this project will likely work in later versions, no guarantees will be made by the author.<br><br>
+<br>In Unity Hub select the Installs tab on the left side of the interface. Then select Install Editor.
+<br><img alt="UnityHubInstalls.png" src="\lib\media\unityhubinstalls.png"><br>
+<br>
+Under Official releases locate the Unity 6 section and select a version that starts with 6000.0. Note: Anything that comes after 6000.0. is called a patch number and for our purposes we want to ensure that it ends with the letter f<br>
+<img alt="SelectUnity6000.0.png" src="\lib\media\selectunity6000.0.png">
+
+<br>
+Before clicking finalizing the Install be sure you add the WebGL Build Support module on the next screen. You will need to scroll through the available modules to find it. You do not need any other modules for this project.<br>
+<img alt="Unity6InstallWebGLBuildSupport.png" src="\lib\media\unity6installwebglbuildsupport.png">
+
+<br>If all went well, the Editor application and WebGL  Build Support module will download and install. Depending on your internet connection speed and your computer's processor speed, this can take anywhere from 5 minutes to 1 hour to complete (longer for slower internet connections).<br>
+<img alt="Unity6DownloadInProgress.png" src="\lib\media\unity6downloadinprogress.png"><br>
+Note: After the download has finished, the installer will prompt you to finish the installation. You may need the password you use to log into your computer to finish this step. If you encounter any issues, do not hesitate to contact your instructor.<br>After the install is complete, you should see an Install complete message and a green check mark next to Editor application and WebGL Build Support. If you do not see this, contact your instructor for additional help.<br><img alt="Unity6DownloadComplete.png" src="\lib\media\unity6downloadcomplete.png"><br><br>In the next section, you will create a new Unity 6 project<br><a data-href="01 - Creating the Project" href="\lessons\01-creating-the-project.html" class="internal-link" target="_self" rel="noopener nofollow">01 - Creating the Project</a>]]></description><link>lessons\00-install-unity-6.html</link><guid isPermaLink="false">Lessons/00 - Install Unity 6.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Thu, 28 Nov 2024 21:34:03 GMT</pubDate><enclosure url="lib\media\unityhubinstalls.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\unityhubinstalls.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[01 - Creating the Project]]></title><description><![CDATA[ 
+ <br><br>Before starting, you will need to create a new Unity 6 project. The picture below shows the settings you should select when creating the project.<br>
+<br>Ensure the editor version begins with 6000.0.
+<br>Ensure you are using the Universal 3D Core template 
+
+<br>(DO NOT USE High Definition 3D you will not be able to publish your project if you choose this setting)
+
+
+<br>Name your project (I recommend naming it Tower Defense)
+<br>You do not need to connect to Unity Cloud or Unity Version Control you can unselect these options.<br>
+<img alt="UnityHubProjectSettings.png" src="\lib\media\unityhubprojectsettings.png">
+<br>After selecting Create project you should see the Unity Engine window (similar to the one below). The first time you initialize a project, it may take several minutes depending on the speed of your computer.<br><img alt="UnityEngineInitializing.png" src="\lib\media\unityengineinitializing.png"><br>If all went well, you should see the default Unity project displayed. It should be similar to the image below:<br><img alt="DefaultProjectInitialized.png" src="\lib\media\defaultprojectinitialized.png"><br>If something doesn't look quite right, you may want to set the Layout to the default view. For the majority of this course, the screenshot will be using the default layout.<br>You can set the default layout from the top menu: Windows &gt; Layouts &gt; Default<br><img alt="UnitySetDefaultLayout.png" src="\lib\media\unitysetdefaultlayout.png"><br><br>Before continuing, be sure to create a new Tower Defense Scene for your project. If you use the default Sample Scene there is a slight chance that it could be overwritten during an import of library / challenge project.<br>
+<br>In the Project View, navigate to Assets &gt; Scenes
+<br><img alt="open-scenes-folder.png" src="\lib\media\open-scenes-folder.png"><br>
+<br>Right click in the Project View 
+<br>Select Create &gt; Scene &gt; Scene
+<br><img alt="create-scene.png" src="\lib\media\create-scene.png"><br>
+<br>Rename your new Scene (I recommend "TowerDefenseScene")
+<br><img alt="rename-scene.png" src="\lib\media\rename-scene.png"><br>
+<br>Double click to open your new Scene
+<br>Delete the original SampleScene to prevent yourself from accidentally using it.
+<br><img alt="delete-sample-scene.png" src="\lib\media\delete-sample-scene.png"><br><br>With your Tower Defense Scene created, you're ready to design your map. In the next section, you create a Tile Grid that will be used to create your map<br><a data-href="02 - Creating a Tile Grid" href="\lessons\02-creating-a-tile-grid.html" class="internal-link" target="_self" rel="noopener nofollow">02 - Creating a Tile Grid</a>]]></description><link>lessons\01-creating-the-project.html</link><guid isPermaLink="false">Lessons/01 - Creating the Project.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Thu, 28 Nov 2024 15:33:25 GMT</pubDate><enclosure url="lib\media\unityhubprojectsettings.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\unityhubprojectsettings.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[02 - Creating a Tile Grid]]></title><description><![CDATA[ 
+ <br><br>The mini-lecture below provides a high level overview of what you'll learn in this section. Watch the video and take notes. Then, complete the lesson below to apply the concepts from the video. <br>Warning: It is not recommended to work along side the video as the content is not identical to the lesson.<br><br><br>
+<br>Download Kenney's Tower Defense Kit: <a rel="noopener nofollow" class="external-link" href="https://kenney.nl/assets/tower-defense-kit" target="_blank">https://kenney.nl/assets/tower-defense-kit</a>
+<br>Extract the archived zip file
+<br><img alt="ExtractFile.png" src="\lib\media\extractfile.png"><br>
+<br>Within the extracted folder find the open the Models folder and open it<br>
+<img alt="find-models.webp" src="\lib\media\find-models.webp">
+<br>Import the FBX format folder into your Assets folder<br>
+<img alt="import-fbx-format.webp" src="\lib\media\import-fbx-format.webp">
+<br>Rename the folder. I recommend calling it Kenney Tower Defense Kit Models<br>
+<img alt="rename-folder.webp" src="\lib\media\rename-folder.webp">
+<br><br>
+<br>Navigate to the Tower Defense Kit Models in folder in Unity's Project explorer
+<br>Note: You can adjust the size of the preview by using the slider in the bottom right corner of the Project Explorer tab.<br><img alt="resize-project-preview-size.webp" src="\lib\media\resize-project-preview-size.webp"><br>
+<br>Find the tile model and drag it into the scene
+<br><img alt="add-tile-fbx-to-scene.webp" src="\lib\media\add-tile-fbx-to-scene.webp"><br><br>Before you add any more tiles to the scene, you should parent the tile model and create a Prefab to represent your tile. This will be useful if you decide to change the tile later (and you will).<br>
+<br>Right click on the tile object in the Hierarchy and select Create Empty Parent this will create a new Game Object with the tile as a child.
+<br><img alt="create-parent.webp" src="\lib\media\create-parent.webp"><br>
+<br>Rename the parent object. I recommend calling it Tile
+<br>Now that you have a Tile Game Object, that will be the basis of each cell of your map, it is time to turn it into a reusable Prefab. To create a Prefab from an existing object, drag that object from the Hierarchy into your Project tab.<br>
+<br>Drag your Tile Game Object into your Assets folder.
+<br><img alt="create-prefab.webp" src="\lib\media\create-prefab.webp"><br>You'll notice that the Game Object in the Hierarchy is now appears in blue and has a small arrow &gt; on the right side of the Hierarchy. This tells you that this Game Object is using a Prefab.<br><img alt="notice-prefab.png" src="\lib\media\notice-prefab.png"><br>Note: You should use a Prefab any time you plan to use the same Game Object in multiple places (e.g., enemies, structures, UI elements). Most projects have many Prefabs and as such, it typically makes sense to create a folder to hold them.<br>
+<br>Create a Prefabs folder in your Assets folder
+<br>Move the Tile Prefab into your Prefabs folder
+<br><img alt="create-prefabs-folder.webp" src="\lib\media\create-prefabs-folder.webp"><br><br>For this game, you will need to create a grid of Tile Game Objects that are aligned perfectly on the X, Y, and Z axis. This can be quite difficult and tedious to do even with just two Tiles! Try it.<br>
+<br>Add a second Tile Prefab to your Hierarchy
+<br>Try to align the new Tile perfectly on the X, Y, and Z axis with the existing tile so they are adjacent.
+<br><img alt="try-to-align.webp" src="\lib\media\try-to-align.webp"><br>You may have found it very difficult to perfectly align the two tiles, especially using the mouse! One option to align them perfectly is to use the inspector to se them to be exactly 1 unit apart (the tiles happen to be 1 Unity unit on the X and Z axis! LUCKY YOU!)<br>
+<br>Use the Inspector to adjust the Tile positions to be perfectly spaced 1 unit apart on the X or Z axis
+<br><img alt="perfect-alignment-with-inspector.webp" src="\lib\media\perfect-alignment-with-inspector.webp"><br><br>Using the above process, can you create a perfectly aligned 3x3 grid of Tiles?<br>
+<br>Create 9 Tile prefabs
+<br>Move the Tiles into a parent object named Grid
+<br>Perfectly align each Tile such that they form a 3x3 grid with no overlapping edges and no visible seams
+<br>When you are finished, your Hierarchy and Scene view should look similar to the image below:<br><img alt="challenge1-solution.png" src="\lib\media\challenge1-solution.png"><br><br>After completing the previous challenge, you might be realizing how difficult, tedious, and painful it is going to be to create a large grid for your game in this manner. When you find yourself performing a repetitive task, it is often beneficial to seek if an automated solution exists and if it does not exists, create one.<br>In this case, there exists a partially automated solution (later you will create a fully automated solution).<br><br>You will often want to place Game Objects at an evenly spaced distance. This can be quickly don by using Unity's Linear Spacing Syntax. This allows you to specify a starting position and an ending position for a set of objects and Unity will automagically space the objects between those positions.<br>
+<br>Create 1 more Tile so you have a total of 10 tiles
+<br>Select all 10 Tile objects in the inspector
+
+<br>Note: You can select multiple objects by holding Shift while clicking. This will select all of the objects between the first object clicked and the last object clicked.
+<br>Note: You can add or remove a single object to a selection by holding Ctrl/Command and clicking on the object
+
+
+<br>Set all of the Tiles positions to 0, 0, 0 in the inspector.
+<br>In the X Position editor, type L(0, 9)
+<br><img alt="linear-on-10-objects.webp" src="\lib\media\linear-on-10-objects.webp"><br>At this point, you should have 10 Tile objects spaced perfectly in a single row. Next, you need to create 10 rows that are evenly spaced.<br>
+<br>Select your 10 Tiles and put them into an Empty Parent Object
+<br>Rename the parent (I recommend calling it a row)
+<br>Duplicate your row such that you have 10 rows
+
+<br>Note: Ctrl+D/Command+D will duplicate the selected Game Object 
+
+
+<br>Use Linear Spacing Syntax to place the rows evenly on the Z axis between 0 and 9
+<br><img alt="linear-on-z-axis.webp" src="\lib\media\linear-on-z-axis.webp"><br><br>Earlier in the lesson, you created a Tile Prefab. One of the major benefits of using a Prefab is the ability to change all Game Objects that use that Prefab throughout your project by modifying the original.<br>Double clicking on a Prefab asset in the Project explorer will open it in the Scene tab where it can be edited. You can exit the Prefab editor by clicking the &lt; near the top of the Hierarchy. <br><img alt="open-prefab-editor.webp" src="\lib\media\open-prefab-editor.webp"><br>
+<br>Open your Tile Prefab
+<br>You may have noticed that the tile model you previously added to the Tile object is a prefab! Recall that you can easily identify prefab game objects by their blue color in the Inspector.<br>Some times, it is useful to unpack a prefab object to separate it from the parent Prefab. This can be done by right clicking on the Game Object in the Hierarchy and selecting Prefab &gt; Unpack. When you do this, it disconnects it from the prefab such that it won't update if the original prefab changes. Because some of your Tiles will use different models, you will want disconnect the tile Prefab to allow the model to be changed.<br>
+<br>Completely Unpack the tile object
+<br>Rename the tile object to be more generalized (I recommend model)
+<br><img alt="unpack-tile-model.webp" src="\lib\media\unpack-tile-model.webp"><br>With the child object renamed, you can verify that all of your Tile Prefabs have changed exiting the Prefab Scene and opening your Tile objects.<br>
+<br>Verify that your Prefabs have updated
+<br><img alt="verify-prefab-update.webp" src="\lib\media\verify-prefab-update.webp"><br>You will often want to make changes to a single instance of a Prefab. For example, you will want to change some of your tiles to use a different model. This can be done by editing the Game Object directly in the Scene view's Hierarchy / Inspector.<br>In this case, you want to adjust some of your Tiles to use a different mesh. This can be set on the model Game Object's Mesh Filter. In the Inspector you can click the small circle next to the Mesh field to see all mesh assets in your project that can be set.<br>
+<br>Select a Tile in your Scene
+<br>Select the model child Game Object
+<br>Update the Mesh of the model Game Object to be tile-dirt
+<br><img alt="set-tile-dirt-model.webp" src="\lib\media\set-tile-dirt-model.webp"><br>By clicking the &gt; button to the right of a Prefab in the Hierarchy, you can edit a Prefab in the Scene view. When you do this, all elements in the Scene view that are not apart of the selected object will be shown in grey scale indicating that you cannot interact with them in the Hierarchy.<br>
+<br>Select a Tile in the Inspector
+<br>Click the &gt; button to enter the Prefab editor within the Scene
+<br><img alt="enter-prefab-scene-editor.webp" src="\lib\media\enter-prefab-scene-editor.webp"><br>While editing the Tile Prefab while in the Scene view, you can observe the changes live.<br>
+<br>Change the Tile Prefab's the Mesh property to be snow-tile
+<br>Exit the Prefab editor
+<br><img alt="change-to-snow-tile.webp" src="\lib\media\change-to-snow-tile.webp"><br>One thing to note is that the Prefab that you previously modified in the Hierarchy did not change. This is because the Mesh property has been overridden. You can see all Overrides for a Game Object in the Inspector by selecting the Overrides drop down. Additionally, if you can Revert those changes to the Prefab's current setting or Apply those changes to the Prefab to propagate the change throughout your project.<br>
+<br>Select the Tile that is different
+<br>In the Inspector find the Overrides drop down
+<br>Select Apply All to change all of the Tile Prefabs to use the dirt mesh
+<br><img alt="apply-overrides-inspector.webp" src="\lib\media\apply-overrides-inspector.webp"><br><br>Practice editing prefabs by setting the Tile Prefab to use a different mesh using each of the methods described above<br>
+<br>Edit the Prefab directly
+<br>Edit a Tile using the Scene prefab editor
+<br>Modify a Tile then Apply the Override to all prefabs
+<br>Before continuing, update your Tile Prefab to use the tile mesh. This particular Prefab will be used as an empty tile where the player can build a structure.<br><br>In the next section, you will create several more Prefabs that you will use to build a more detailed map<br><a data-href="03 - Creating Additional Tile Prefabs" href="\lessons\03-creating-additional-tile-prefabs.html" class="internal-link" target="_self" rel="noopener nofollow">03 - Creating Additional Tile Prefabs</a>]]></description><link>lessons\02-creating-a-tile-grid.html</link><guid isPermaLink="false">Lessons/02 - Creating a Tile Grid.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Thu, 28 Nov 2024 17:34:02 GMT</pubDate><enclosure url="lib\media\extractfile.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\extractfile.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[03 - Creating Additional Tile Prefabs]]></title><description><![CDATA[ 
+ <br>Before you can design your first level, you will need to create a few more Prefabs that will be used on your Grid in place of the empty Tile.<br><br>The mini-lecture below provides a high level overview of what you'll learn in this section. Watch the video and take notes. Then, complete the lesson below to apply the concepts from the video. <br>Warning: It is not recommended to work along side the video as the content is not identical to the lesson.<br><br><br>Start by changing the Mesh of a Tile in your scene to use the tile-dirt mesh.<br>
+<br>Select a Tile in your Scene
+<br>Change the Mesh property of the selected tile to tile-dirt
+<br><img alt="set-tile-dirt-model.webp" src="\lib\media\set-tile-dirt-model.webp"><br>This Game Object will be the basis for a **Path Tile Prefab.<br>
+<br>Select the modified Tile in the Inspector
+<br>Unpack Completely so it is no longer attached to the Tile Prefab
+<br>Rename the Game Object. (I recommend calling it Path Tile)
+<br><img alt="unpack-path-tile.webp" src="\lib\media\unpack-path-tile.webp"><br>
+<br>Drag the Path Tile into your Prefabs folder to change it to a new Prefab
+<br><img alt="create-path-tile-prefab.webp" src="\lib\media\create-path-tile-prefab.webp"><br><br>Practice unpacking and creating a few more prefabs<br>
+<br>Create a Tree Tile using the tile-tree mesh
+<br>Create a Rock Tile using the tile-rock mesh
+<br>Create a Crystal Tile using the tile-crystal mesh
+<br>When you have finished, you should have 5 Tile Prefabs that look similar to the ones picture in the image below.<br><img alt="create-tiles-challenge.png" src="\lib\media\create-tiles-challenge.png"><br><br>It is possible to swap out a Prefab for another quickly in the Hierarchy by right clicking on Prefab and selecting Prefab &gt; Replace.<br>
+<br>Select a Tile you would like to change to a Path Tile
+<br>Right click on it in the Inspector
+<br>Select Prefab &gt; Replace
+<br>Search for and select the Path Tile prefab
+<br><img alt="replace-prefab.webp" src="\lib\media\replace-prefab.webp"><br>You can also replace a Prefab from the Inspector.<br>
+<br>Select a Tile you would like to be a path
+<br>In the Inspector click the circle next to the Prefab value
+<br>Search for and select the Path Tile Prefab
+<br><img alt="replace-prefab-inspector.webp" src="\lib\media\replace-prefab-inspector.webp"><br>Changing a Prefab from the Inspector is particularly useful if you would like to change several Game Objects at the same time.<br>
+<br>Select several Tiles that you would like to be a path
+
+<br>Hold Ctrl/Command while clicking in the Scene to add or remove a game object to your selection.
+
+
+<br>In the Inspector click the circle next to the Multiple value
+
+<br>Note: The Prefab word changes to Multiple if you have several objects selected
+
+
+<br>Search for and select the Path Tile Prefab
+<br><img alt="replace-multiple-prefabs.webp" src="\lib\media\replace-multiple-prefabs.webp"><br><br>With everything you've learned so far, it is now time to design a map for your first level! <br>
+<br>Your tile grid should be 15x15
+
+<br>Note: Odd length sides will result in a "center" tile
+
+
+<br>Your level should use at least 5 different types of tiles
+<br>Your level should have one continuous path from the edge of the map to an "end" location, eventually your Player's tower will be placed here. 
+<br>Bonus: Share a screenshot of your Map with a friend!
+<br>When you're finished, your map might look something like the image below:<br><img alt="Example Finished Map.png" src="\lib\media\example-finished-map.png"><br><br>With a tile grid designed for your game, you are ready to set up the player's view. In the next section, you will configure your editor's Play Mode to optimize your design experience.<br><a data-href="04 - Play Mode Settings" href="\lessons\04-play-mode-settings.html" class="internal-link" target="_self" rel="noopener nofollow">04 - Play Mode Settings</a>]]></description><link>lessons\03-creating-additional-tile-prefabs.html</link><guid isPermaLink="false">Lessons/03 - Creating Additional Tile Prefabs.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Thu, 28 Nov 2024 17:33:46 GMT</pubDate><enclosure url="lib\media\set-tile-dirt-model.webp" length="0" type="image/webp"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\set-tile-dirt-model.webp&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[04 - Play Mode Settings]]></title><description><![CDATA[ 
+ <br><br>Thus far, you have only worked within the Scene view without testing how your game will appear to a player. To enter Play Mode to see what the player's experience will be, click the Play button at the top center of the Unity Editor window.<br><img alt="enter-playmode-button.png" src="\lib\media\enter-playmode-button.png"><br>Upon entering Play Mode you'll notice a few things. First, you likely will see a loading window that will appear for a few seconds (in some cases more minutes!). Then, the editor will automatically switch the the Game view. You can tell when you're in Play Mode when the play button switches to a "stop" button and is highlighted. Additionally, the editor changes to a slightly darker tint.<br>You can see each of these changes in the video below:<br><img alt="entering-playmode.webp" src="\lib\media\entering-playmode.webp"><br><br>A common beginner mistake happens when you modify your scene while you're unintentionally in Play Mode. This can result in lost work. The moment you exit Play Mode all changes revert back to the state they were in prior to entering Play Mode<br>You can test this by moving your camera while you're in Play Mode then exiting Play Mode<br>
+<br>Enter Play Mode
+<br>While in Play Mode select your Main Camera
+<br>Move the Main Camera's Y position in the Inspector
+<br>Tilt the Main Camera down by adjusting the X rotation in the Inspector
+<br>Exit Play Mode
+<br>You'll notice as soon as you exit Play Mode the camera's Transform is restored to it's original values. <br><img alt="editing-in-playmode.webp" src="\lib\media\editing-in-playmode.webp"><br>To help prevent accidentally editing your project in Play Mode, you can change the Play Mode Tint to a more obvious color.<br><br>
+<br>First, enter Play Mode
+<br>From the top menu, select Edit &gt; Preferences (on Mac it is Unity &gt; Preferences)
+<br><img alt="preferences.png" src="\lib\media\preferences.png"><br>
+<br>In the Preferences window, use the search bar to search for playmode tint
+<br><img alt="playmode-tint.png" src="\lib\media\playmode-tint.png"><br>
+<br>Click the color bar adjacent to the Playmode tint option on the Colors tab 
+<br>Adjust the color setting. (I personally use yellow)
+
+<br>Note: If you're in Play Mode you can preview what the change will look like
+
+
+<br><img alt="changing-playmode-color.webp" src="\lib\media\changing-playmode-color.webp"><br><br>Now that you can more easily tell when you are in Play Mode you may also want to update your Play Mode setting so you can enter Play Mode more quickly. Recall, when you enter Play Mode you receive a small loading window which says it is "Reloading Domain":<br><img alt="reloading-domain.png" src="\lib\media\reloading-domain.png"><br>By default, both the Scene and Domain are reloaded every time you enter Play Mode. There are good reasons to do this, especially for users who are new to Unity. The manual states, "By default Unity reloads the domain on entering Play mode to reset the application state. Resetting state before entering Play mode is often desirable so your application starts up as it would at the beginning of a new build." <br>However, it does slow down your iteration speed. Because of this, the Unity Editor provides the option to disable it so long as you invest the effort to implement checks in your code that reset values properly when entering Play Mode. You can read more about Domain Reloading in the manual here: <a data-tooltip-position="top" aria-label="https://docs.unity3d.com/6000.0/Documentation/Manual/domain-reloading.html" rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/6000.0/Documentation/Manual/domain-reloading.html" target="_blank">Unity - Manual: Enter Play mode with domain reload disabled</a><br><br>
+<br>From the top menu, select Edit &gt; Project Settings
+
+<br>Note: this is not the same as Preferences 
+
+
+<br><img alt="project-settings.png" src="\lib\media\project-settings.png"><br>
+<br>Select Editor from the left menu
+<br>Scroll to the bottom of the Editor settings
+<br>Find When entering Play Mode
+<br>Change the drop down to Do not reload Domain or Scene
+<br><img alt="editor-playmode-settings.png" src="\lib\media\editor-playmode-settings.png"><br>
+<br>Close the Project Settings window
+<br>Enter Play Mode
+<br>You should notice entering Play Mode is now almost instantaneous.<br><img alt="instant-playmod.webp" src="\lib\media\instant-playmod.webp"><br><br>Now that you have configured Play Mode to work better for you, it is time to set up the game's isometric camera.<br><a data-href="05 - Creating an Isometric Camera" href="\lessons\05-creating-an-isometric-camera.html" class="internal-link" target="_self" rel="noopener nofollow">05 - Creating an Isometric Camera</a>]]></description><link>lessons\04-play-mode-settings.html</link><guid isPermaLink="false">Lessons/04 - Play Mode Settings.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Tue, 26 Nov 2024 18:56:50 GMT</pubDate><enclosure url="lib\media\enter-playmode-button.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\enter-playmode-button.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[05 - Creating an Isometric Camera]]></title><description><![CDATA[ 
+ <br>In this section, you will learn how to configure your Main Camera to render your game Isometrically.<br><br>An isometric camera shows a scene from a tilted angle, so you can see multiple sides of objects at the same time, like the top and two sides of a building. Unlike a regular camera, it doesn’t make things in the distance look smaller, which keeps everything the same size and gives a clean, organized look. It’s often used in games and art to create a clear and detailed view of the world.<br>By default, the Scene view is set to use an Perspective camera. This makes things that are further away appear smaller and things that are closer larger. In the top right corner of the Scene view, there is an Orientation Gizmo that allows you to switch to an Isometric view by clicking on the text  "Persp". To return to a Perspective view, you can click the text "Iso".<br><img alt="iso-camera-scene-view.webp" src="\lib\media\iso-camera-scene-view.webp"><br>
+<br>Find the Orientation Gizmo in the Scene view
+<br>Change to Isometric view
+<br>Change back to Perspective view
+<br>You may find it difficult to move the camera in Isometric view. To help navigate, you can double click on game objects in the Hierarchy to move the camera to that position. Then, rotate the Scene view camera by holding the right mouse button and dragging it.<br>
+<br>Switch to Isometric view
+<br>Double click your Grid in the Hierarchy
+
+<br>This will center the camera on the object
+
+
+<br>Hold down the right mouse button and drag in the Scene view to adjust the camera to a slight angle
+
+<br>On a track pad, Right click is often implemented with a two finger touch
+<br>On mac, you can hold the Option key while dragging to emulate a right click
+
+
+<br>Use the View Tool to adjust the camera view port
+<br>Again, Double click your Grid in the Hierarchy
+
+<br>This time, it will zoom in on that game object
+
+
+<br>Zoom out by scrolling with the mouse wheel (or track pad)
+<br><img alt="moving-iso-camera.webp" src="\lib\media\moving-iso-camera.webp"><br>It will take some practice but, as you continue to use the editor you will become more comfortable with the camera movement.<br>Another setting that is useful to be aware of is the Handle Position Pivot Toggle. This is located in the top left of the Scene View. <br><img alt="pivot-setting.png" src="\lib\media\pivot-setting.png"><br>By default, this is set to Pivot but it is often useful to set it to Center. This adjusts the "pivot" point when interacting with an object. This can be useful when you want to move an object by its center point (or find an object's center point).<br><img alt="pivot-setting.webp" src="\lib\media\pivot-setting.webp"><br><br>Next, you will set up your game's Main Camera to render in an Isometric view.<br>To help configure the Main Camera's view, you can enable a Camera preview in the Scene view. You can find the Cameras toggle on menu that is docked in the bottom left of the Scene View.<br>
+<br>Locate the Cameras toggle and enable it
+<br><img alt="camera-preview-setting.png" src="\lib\media\camera-preview-setting.png"><br>If all went well, you should now see a Cameras window that shows the Main Camera's current view (by default, this appears in the bottom right of the Scene view).<br><img alt="camera-preview-setting-2.png" src="\lib\media\camera-preview-setting-2.png"><br>Currently, your main camera is likely aimed directly across your map (or your map may not be visible at all). To help with this, you will center your grid in your game world.<br>
+<br>Set your Tile Grid's Transform Position to (0, 0, 0)
+<br><img alt="center-grid.webp" src="\lib\media\center-grid.webp"><br>Next, adjust your Camera to be centered in your game world slightly above your Grid.<br>
+<br>Set your Main Camera's Transform Position to (0, 1, 0)
+<br><img alt="center-camera.webp" src="\lib\media\center-camera.webp"><br>You may have noticed a few things that feel a bit off:<br>
+<br>The camera is showing in a Perspective View rather than an Isometric view
+<br>The camera is positioned above the corner of your map rather than the center
+<br><br>To achieve an Isometric feel within a 3D game, you can set the Projection mode of your camera to Orthographic.<br>
+<br>Select your Main Camera in the Hierarchy 
+<br>In the Inspector find the Camera Component
+<br>Within the Camera Component expand the Projection settings
+<br>Set the Perspective to Orthographic
+<br><img alt="camera-orthographic-projection.webp" src="\lib\media\camera-orthographic-projection.webp"><br>You'll notice after you change to an Orthographic projection, that the camera preview in the Scene view changes from a pyramid shape to a rectangular view port. You can adjust the size of the rectangle by changing the Size property in the Projection settings.<br>
+<br>Set the Size of the Orthographic Projection to 8
+<br><img alt="orthographic-size.webp" src="\lib\media\orthographic-size.webp"><br>This property represents the height of the view port for this camera's projection. More specifically, how many units from the center of the rectangle to the top and bottom edge. That is to say, with a size of 8, the view port has a height of 16. This size will allow your 15x15 tile grid to fit centered on the screen.<br>To achieve 2.5D isometric feel, you can adjust the camera's position to center on the grid and rotation of your camera to be at an angle<br>
+<br>Set your Main Camera's Transform Position to (0, 0, 0)
+<br>Set your Main Camera's Transform Rotation to (22.5, 45, 0)
+
+<br>Other good options are (30, 45, 0) and (37.5, 45, 0)
+
+
+<br><img alt="rotate-camera.webp" src="\lib\media\rotate-camera.webp"><br>It is hard to see in the Main Camera preview, but the camera is still centered on the corner of your map that is positioned at (0, 0, 0). Additionally, a small portion of that corner is now missing in the camera view!<br>If you switch to the Game view, it is much more obvious<br>
+<br>Switch to the Game View tab
+<br><img alt="missing-corner.png" src="\lib\media\missing-corner.png"><br><br>Currently, your Grid's Transform is set to (0, 0, 0). However, if you set the Handle Position Toggle to the Pivot, you will notice that the Tile objects within are positioned from (0 to 14) in both the X and Z directions. This is useful for quickly identifying their location within the Grid.<br>At this point, it would be difficult to reposition all of the children objects directly. However, you can create a new "Position Pivot" object that will help you reposition all of the tiles.<br>
+<br>Create a new Game Object that is a child of the Grid
+<br>Name the new Game Object "Position Pivot"
+<br><img alt="position-pivot.png" src="\lib\media\position-pivot.png"><br>Next, move the "Position Pivot" so it is in the center of the Grid. Because you know the grid is 15x15, you can set the X position to 15/2 and the Z position to 15/2.<br>
+<br>Set the Position Pivot Transform Position to (15/2, 0, 15/2)
+
+<br>You'll notice that the math expression is evaluated resulting in the position (7.5, 0, 7.5)
+
+
+<br><img alt="set-position-pivot.webp" src="\lib\media\set-position-pivot.webp"><br>By reparenting all of the tiles within the "Position Pivot", their positions will now be relative to the "Position Pivot" which is centered. This allows you to move them relative to their center.<br>
+<br>Move all of the rows to be children of the "Position Pivot"
+<br>Set the Position Pivot's Transform Position to (0.5, 0, 0.5)
+
+<br>This will move the center tile to the middle of your world. The 0.5 accounts for the size of the tile being 1 unit in size on both the X and Z axis.
+
+
+<br><img alt="center-all-tiles-with-pivot.webp" src="\lib\media\center-all-tiles-with-pivot.webp"><br>You can verify that the tiles are now centered within the Grid by switching the Tool Handle Position to Pivot and double clicking the Grid. The camera will move to the center of your map.<br><br>Now that you have centered your grid in your world view, it may be more obvious why only part of your tile grid is being displayed in the Main Camera. In this case, you can only see the top half of the grid!<br>If you select the Main Camera in the Scene View, you'll see the issue more clearly.<br>
+<br>Select the Main Camera in the Hierarchy while in the Scene View
+<br>Notice, the rectangle view port of the camera preview is bisecting your grid. This is related to centering the camera directly on your tile grid. By default, an Orthographic Projection will only display elements in front of it. This is called the Near Clipping Plane. You can adjust this setting to change the size of the Clipping Plane to start behind the camera in the Projection settings.<br>
+<br>In the inspector, find the Clipping Planes setting in the Projection settings of your Camera
+<br>Set the Near Clipping Plane to -50
+<br>Set the Far Clipping Plane to 50
+<br><img alt="adjust-clipping-plane.webp" src="\lib\media\adjust-clipping-plane.webp"><br>The Clipping Plane is used to specify how far in the game world this camera searches for game objects to be rendered. When the Near Clipping Plane was set to 3, the camera was not rendering anything that was behind the position of the camera.<br><br>You may have noticed that within the Game View your game looks pixelated. This is likely caused by the Game View scaling to 1.3x (or higher). You may have also noticed that you cannot adjust the scale below 1.3x! This is due to a setting that is enabled for "Low Resolution Aspect Ratios". You can disable this setting in the Aspect drop down of the Game View.<br>
+<br>Switch to the Game View tab
+<br>Select the Aspect drop down (by default this says Free Aspect)
+<br>Disable the "Low Resolution Aspect Ratios" setting
+<br><img alt="disable-low-aspect-ratios.webp" src="\lib\media\disable-low-aspect-ratios.webp"><br>You should now be able to set the Scale to 1x.<br><br>Aspect ratio refers to the proportional relationship between the width and height of a display or image, expressed as a ratio like 16:9 or 4:3. In Unity, aspect ratio is important because it determines how your game looks on different devices, ensuring that graphics and UI elements aren't stretched or cropped.<br>By default, Unity starts in Free Aspect this means your camera's resolution is the size of your Game View tab's view. You can also enforce an Aspect Ratio or specific resolution by changing the Aspect in the Game View.<br>
+<br>Select the Game View tab
+<br>Set the Aspect to "Full HD (1920x1080)"
+<br>Resize the Game View tab
+<br><img alt="set-hd-resolution.webp" src="\lib\media\set-hd-resolution.webp"><br>
+You'll now notice that the elements within the Game View will begin to scale with the size of the view port. This is because the game camera will now force the specified resolution / aspect ratio.<br>The majority of desktop and TV screens use a 16:9 aspect ratio. If you are developing for mobile devices, you will need to take more care to ensure the game functions properly for more aspect ratios. For this project, we will use a 16:9 ratio.<br>
+<br>Set the Aspect to 16:9
+<br><br>Whew! That was a lot of work. The best way to learn and retain something is to practice it. Before continuing to the next lesson, why not see if you can set up an Isometric Camera again in the <a data-href="Isometric Camera Challenge" href="\challenges\01-isometric-camera-challenge\isometric-camera-challenge.html" class="internal-link" target="_self" rel="noopener nofollow">Isometric Camera Challenge</a>?<br>If you get stuck or need help, you can refer back to this lesson. Best of luck!<br><br>With your Game Camera set up, you are ready it is time to create your game's mechanics. In the next lesson, you will learn how to create a simple enemy that moves within your world.<br><a data-href="06 - Adding an Enemy" href="\lessons\06-adding-an-enemy.html" class="internal-link" target="_self" rel="noopener nofollow">06 - Adding an Enemy</a>]]></description><link>lessons\05-creating-an-isometric-camera.html</link><guid isPermaLink="false">Lessons/05 - Creating an Isometric Camera.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Wed, 27 Nov 2024 01:44:49 GMT</pubDate><enclosure url="lib\media\iso-camera-scene-view.webp" length="0" type="image/webp"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\iso-camera-scene-view.webp&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[06 - Adding an Enemy]]></title><description><![CDATA[ 
+ <br>In this section, you will create a simple enemy that can move around the map.<br><br>Kenney provides hundreds of free assets to the public domain that can be used to help in your prototypes (and even commercial projects). In this section, you will use the Graveyard Kit to create an enemy using one of the 5 provided models and animations.<br>Before starting, you should import the FBX Models from this asset pack: <a data-tooltip-position="top" aria-label="https://kenney.nl/assets/graveyard-kit" rel="noopener nofollow" class="external-link" href="https://kenney.nl/assets/graveyard-kit" target="_blank">Graveyard Kit · Kenney</a><br>If you need help importing the models, you can refer to the Importing Asset section of <a data-href="02 - Creating a Tile Grid#Importing Assets" href="\lessons\02-creating-a-tile-grid.html#Importing_Assets" class="internal-link" target="_self" rel="noopener nofollow">02 - Creating a Tile Grid &gt; Importing Assets</a><br>Here is a quick check list to help you:<br>
+<br>Download the Asset Pack
+<br>Extract the ZIP archive
+<br>Find the FBX Model folder
+<br>Import the FBX Models into your Assets
+<br>Rename the folder (I recommend Kenny Graveyard Kit)
+<br><br>Start by creating an Empty Game Object in your Hierarchy that will act as the base for your Enemy.<br>
+<br>Right click in the Hierarchy
+<br>Select Create Empty
+<br>Rename the Game Object. (I recommend calling it Enemy)
+<br><img alt="create-empty.png" src="\lib\media\create-empty.png"><br>Note: Double check that the new Game Object is not a child of any other object.<br><img alt="ensure-top-level-enemy.png" src="\lib\media\ensure-top-level-enemy.png"><br>In the Kenney Graveyard Kit you will find 5 character models that can be used as a model for your Enemy:<br>
+<br>character-digger
+<br>character-ghost
+<br>character-skeleton
+<br>character-vampire
+<br>character-zombie
+<br>In the Project tab, if you search for character-, you should see the 5 models:<br>You can search your assets for a specific file by using the search bar at the top of the Project explorer tab.<br><img alt="kenney-character-models.png" src="\lib\media\kenney-character-models.png"><br>
+<br>Drag one of the character models onto your Enemy game object to make it a child object.
+
+<br>Note: For this part of the project, I will be using the character-zombie model. However, feel free to use any of the models.
+
+
+<br><img alt="add-model-to-enemy.webp" src="\lib\media\add-model-to-enemy.webp"><br><br>Can you remember how to unpack a prefab? Notice, the character-xyz model you have selected is a Prefab in the Hierarchy. Can you unpack it?<br>
+<br>Unpack the enemy-ufo- model in your Hierarchy
+<br>Rename the game object to be model
+<br>When you have finished, your Hierarchy should look similar to the image below:<br><img alt="practice-renaming-unpacking.png" src="\lib\media\practice-renaming-unpacking.png"><br><br>Now that you have an Enemy game object, turn it into a Prefab. At this point, you now have multiple types of Prefabs (tiles and enemies). Create a folder for each within your Prefabs folder to help organize them.<br>
+<br>Create a folder for your Enemy prefabs
+<br>Create a folder for your Tile prefabs
+<br>Move all of your prefabs to the appropriate folder
+<br>When you have finished, your Prefabs folder should look similar to the folders below:<br><img alt="create-prefabs-folders.webp" src="\lib\media\create-prefabs-folders.webp"><br><br>To make your Enemy move, you will need to create a MonoBehaviour. A MonoBehaviour is a scripted component that provides methods for managing the behaviour of your Game Objects while the game is running.<br>Create a MonoBehaviour script for your enemies movement called EnemyMovement<br>
+<br>In the Project tab, create a Folder called Scripts
+<br><img alt="create-scripts-folder.webp" src="\lib\media\create-scripts-folder.webp"><br>
+<br>Right click inside the Scripts folder
+<br>Select Create &gt; Scripting &gt; MonoBehaviour Script
+<br><img alt="create-mono-behaviour-script.png" src="\lib\media\create-mono-behaviour-script.png"><br>
+<br>Name the script EnemyMovement
+
+<br>Note: You should not use spaces and you should use CameCasing when naming Scripts
+
+
+<br>Double click to open the EnemyMovement script
+<br>After the script loads, verify that the class name is EnemyMovement. If you did not rename the script immediately upon creation in Unity, the template will set the name to be NewMonoBehaviourScript. It is important to rename this when you open the file for the first time.<br><img alt="common-mistake.png" src="\lib\media\common-mistake.png"><br>When named correctly, it should match the name of the file. For example, in VS Code:<br><img alt="verify-name.png" src="\lib\media\verify-name.png"><br><br>Now that you have a EnemyMovement script, you can attach it to your Enemy Game Object<br>
+<br>Select your Enemy from the Hierarchy
+<br>In the Inspector select Add Component
+<br>Search for EnemyMovement and Select it
+<br>If all went well, you should now see an Enemy Movement component in the Inspector<br><img alt="add-enemy-movement.webp" src="\lib\media\add-enemy-movement.webp"><br>You may have noticed that the Enemy Movement component in your inspector has a small green plus icon next to it. This means that the component you added only exists on this instance of your Enemy and not your Enemy Prefab.<br><img alt="enemy-movement-prefab-overrid.png" src="\lib\media\enemy-movement-prefab-overrid.png"><br><br>Can you remember how to apply Overrides to your Prefab?<br>
+<br>Apply the override to your Enemy Prefab to make the Enemy Movement script part of the Prefab
+<br>When you are done, the green plus icon should no longer be visible on the Enemy Movement component in the inspector.<br><img alt="enemy-movement-override-applied.png" src="\lib\media\enemy-movement-override-applied.png"><br><br>One of the most useful methods that are provided by a MonoBehaviour is the Update method. This method is called by the Unity Engine each frame your game is running. This can be used to update the Transform Position of a GameObject each frame to make it move in the game world.<br>Change your EnemyMovement script's Update method to increase the enemy's transform.position on the X axis each frame.<br><img alt="increment-transform-enemy-movement.png" src="\lib\media\increment-transform-enemy-movement.png"><br>Be sure to save your work. Then, return to the Unity Editor and enter Play Mode. If all went well, you should see your Enemy moving along the x-axis of your game world. You can verify this in the Inspector.<br>
+<br>Enter Play Mode
+<br>Verify your Enemy Movement script is updating the Transform's Position in the Inspector
+<br><img alt="playmode-move-enemy.webp" src="\lib\media\playmode-move-enemy.webp"><br><br>You may have noticed the Enemy is not moving at a consistent rate. This is because, the Enemy Movement scripts Update method is being called each frame. This makes the movement of the Enemy dependent on the Frame Rate of the game.<br>To help with this, you can scale the movement using the amount of time that has passed between frames. In Unity, this value can be accessed using the Time.deltaTime property.<br>
+<br>Update your movement to be scaled with Time.deltaTime
+<br><img alt="scale-movement-with-delta-time.png" src="\lib\media\scale-movement-with-delta-time.png"><br>
+Once again, enter Play Mode and verify your Enemy's Transform Position is updating. You will notice your Enemy moves much slower than it did before. This is because it is now moving at 0.1 units per second. You can think of the expression * Time.deltaTime as "per second". For example, if you want an object to move 5 units per second, you would use 5 * Time.deltaTime.<br><img alt="playmode-move-enemy-deltaTime.webp" src="\lib\media\playmode-move-enemy-deltatime.webp"><br><br>Different Enemies will move at different speeds. To help accommodate this, add a Speed property to your EnemyMovement script. <br>
+<br>Add a float Speed property to your EnemyMovement class
+
+<br>Following "good" programming practices, create a public getter and a private setter
+
+
+<br>Set the default value of Speed to 1f
+<br><img alt="add-speed-to-enemy-movement.png" src="\lib\media\add-speed-to-enemy-movement.png"><br>
+<br>In your Update method, use the Speed property rather than the float literal 0.1.
+<br><img alt="update-method-with-speed-property.png" src="\lib\media\update-method-with-speed-property.png"><br>
+Once again, enter Play Mode and verify that your Enemy moves at 1 unity per second.<br><img alt="playmode-move-at-1unit-per-second.webp" src="\lib\media\playmode-move-at-1unit-per-second.webp"><br><br>It is useful to be able to modify a property from the Unity Inspector. To do this, you must Serialize your property by adding the [field: SerializeField] attribute to the property that you would like to see in the inspector. <br>
+<br>Add the [field: SerializeField] to your Speed property
+<br><img alt="serialize-speed-property.png" src="\lib\media\serialize-speed-property.png"><br>Now, when you select your Enemy, you will see the Speed property in the Enemy Movement component in the Inspector. You can adjust this value directly in the Inspector to change the speed of your Enemy. You can even do this while in Play Mode! However, be aware that when you exit Play Mode any changes you made will be reset to their original values.<br>
+<br>Modify the Enemy's Speed directly in the inspector setting it to 2
+<br>Enter Play Mode
+<br>While in Play Mode, adjust the Speed
+<br>Exit Play Mode
+<br>Notice, that the Speed resets to the original value: 2
+<br><img alt="adjusting-speed-in-inspector.webp" src="\lib\media\adjusting-speed-in-inspector.webp"><br><br>Using what you've learned in this lesson, create a new MonoBehaviour Script called "EnemyRotation" that allows you to specify how quickly an Enemy rotates on the Y axis.<br>
+<br>Read the Friendly Manul: <a data-tooltip-position="top" aria-label="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Transform.Rotate.html" rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Transform.Rotate.html" target="_blank">Unity - Scripting API: Transform.Rotate</a>
+
+<br>This method allows you to rotate a Game Object
+
+
+<br>Create a EnemyRotation script
+<br>In Update, rotate the enemy on the Y-axis
+<br>Add a RotationSpeed property to the script
+
+<br>Initialize the default value to 90f (e.g. 90 degrees per second)
+
+
+<br>The script should serialize a RotationSpeed property so the value can be modified in the Inspector
+
+<br>Follow good programming practices an use a private setter
+
+
+<br>Be sure to scale the rotation speed using Time.deltaTime
+<br>When you have successfully implemented the EnemyRotation script, it should work similar to the image below:<br><img alt="rotation-challenge-complete.webp" src="\lib\media\rotation-challenge-complete.webp"><br><br>In the next section you will create a Waypoint component that you can use to specify the path your enemies will take.<br><a data-href="07 - Waypoints" href="\lessons\07-waypoints.html" class="internal-link" target="_self" rel="noopener nofollow">07 - Waypoints</a>]]></description><link>lessons\06-adding-an-enemy.html</link><guid isPermaLink="false">Lessons/06 - Adding an Enemy.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Wed, 27 Nov 2024 22:15:45 GMT</pubDate><enclosure url="lib\media\create-empty.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\create-empty.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[07 - Waypoints]]></title><description><![CDATA[ 
+ <br>In this section, you will create a Waypoint script that you will use to define positions in your world for your enemies to move between.<br><br>It is possible to create a Prefab directly in the Project explorer.<br>
+<br>Navigate to your Prefabs folder
+<br>Right Click
+<br>Select Create &gt; Scene &gt; Prefab
+<br>Name the Prefab "Waypoint"
+<br><img alt="create-prefab-in-project.png" src="\lib\media\create-prefab-in-project.png"><br><img alt="waypoint-prefab.png" src="\lib\media\waypoint-prefab.png"><br>
+<br>Double click the Waypoint prefab to open it
+<br>If all went well, you should be in the Scenes | Prefab editor with an Empty Game Object named "Waypoint":<br><img alt="waypoint-scene.png" src="\lib\media\waypoint-scene.png"><br>To make it easy to know where the Waypoint is when you add it to a Scene, you can add a 3D Sphere (or another shape if you prefer).<br>
+<br>In the Waypoint's Hierarchy, Right Click
+<br>Select 3D Object &gt; Sphere
+<br><img alt="create-sphere.png" src="\lib\media\create-sphere.png"><br>This will add a child object to the Waypoint called Sphere that is positioned at the center of the Waypoint. You can verify this by ensuring the Transform's position is (0, 0, 0)<br><img alt="verify-sphere.png" src="\lib\media\verify-sphere.png"><br>You may have also noticed that the defaults Sphere generated comes with 3 additional components that are visible in the Inspector.<br>
+<br>Mesh Filter - Used to specify the mesh of this object
+<br>Mesh Renderer - Used to specify how the mesh is rendered
+<br>Sphere Collider - Used by Unity's 3D Physics system to detect collisions
+<br>Because the Waypoint does not need to collide with other objects, you can safely remove this component.<br>
+<br>Locate the Sphere Collider component in the Inspector
+<br>Click the 3 dots on the top right of the component
+<br>Select Remove Component
+<br><img alt="remove-sphere-collider.png" src="\lib\media\remove-sphere-collider.png"><br>Another way you can exit the Prefab editor is by clicking the Scenes text that appears in the top left of the Scene view.<br><img alt="exit-prefab-editor.webp" src="\lib\media\exit-prefab-editor.webp"><br>
+<br>Exit the Prefab editor and return to your Scene
+<br><br>You can add a Prefab directly into your Scene by dragging it into the Scene view.<br>
+<br>Add a Waypoint at the starting point of your path
+<br>Add a Waypoint at each corner of your path
+<br>Add a Waypoint at the end of your path
+<br><img alt="add-waypoints.webp" src="\lib\media\add-waypoints.webp"><br><br>Once again, you might find it difficult to precisely place the objects in the Scene view. To help with placement, you can enable Grid Snapping.<br>
+<br>In the Scene view, enable the Grid and Snapping settings from the Overlay Menu
+<br><img alt="grid-and-snapping.png" src="\lib\media\grid-and-snapping.png"><br>Clicking this button will show the Grid and Snap settings at the top of the Scene View<br><img alt="show-grid-and-snap-settings.webp" src="\lib\media\show-grid-and-snap-settings.webp"><br>This menu allows you to specify the size of the Grid and allows you to turn on Snapping. <br>
+<br>Set your Grid Size to 0.5
+<br><img alt="set-grid-snap-size.png" src="\lib\media\set-grid-snap-size.png"><br>
+<br>Enable Grid Snapping
+<br><img alt="enable-grid-snapping.png" src="\lib\media\enable-grid-snapping.png"><br>
+<br>Ensure that you have your Tool Handle settings are set to Pivot and Global
+<br><img alt="pivot-position.png" src="\lib\media\pivot-position.png"><br>With Grid Snapping enabled, you should now be able to place your waypoints more precisely on your tile map using the Move Tool.<br><img alt="move-tool.png" src="\lib\media\move-tool.png"><br>
+<br>With Grid Snapping enabled, use the Move Tool position your Waypoints
+<br><img alt="demonstrate-snap-movement.webp" src="\lib\media\demonstrate-snap-movement.webp"><br>If you're having trouble selecting your Waypoints, you can disable the ability to click your Tile Grid elements by hovering to the left of the Grid Game Object in the Hierarchy and clicking the finger icon.<br><img alt="disable-grid-clicking.png" src="\lib\media\disable-grid-clicking.png"><br>This will disable your ability to click on that Game Object in the Scene View. You can re-enable interactions by clicking the finger icon again.<br><img alt="disable-grid-clicking.webp" src="\lib\media\disable-grid-clicking.webp"><br><br>Currently, your Waypoints are visible in your Game View which means your player will see them during game play. You can test this by Entering Play Mode.<br><img alt="playmode-shows-waypoints.png" src="\lib\media\playmode-shows-waypoints.png"><br>One way you could hide the Waypoints would be to disable the Mesh Renderer. (Don't do this)<br><img alt="disable-mesh-renderer.webp" src="\lib\media\disable-mesh-renderer.webp"><br>However, it is very convenient to be able to see the Waypoints in the Scene view so we can adjust them.<br>Another option is to tell our Main Camera to ignore rendering them. This can be done by setting adding the Waypoints to a special rendering layer and then updating the Main Camera's Culling Mask to ignore that layer.<br><br>
+<br>Open your Project Settings
+
+<br>From the top menu Edit &gt; Project Settings
+
+
+<br>Select the Tags and Layers tab on the left
+<br><img alt="tags-and-layers.png" src="\lib\media\tags-and-layers.png"><br>
+<br>Verify you're editing the Layers drop down
+<br>Select Layer 6
+<br>Enter the name "Waypoint"
+<br><img alt="specify-waypoint-layer.png" src="\lib\media\specify-waypoint-layer.png"><br>
+<br>Close the Project Settings Window
+<br><br>In the Inspector you can see and modify the layer of a Game Object.<br><img alt="where-is-layer.png" src="\lib\media\where-is-layer.png"><br>
+<br>Select a Waypoint from your Hierarchy
+
+<br>Alternatively you could open it in Prefab mode
+
+
+<br>Set the Layer to Waypoint 
+<br>When prompted select "Yes, Change Children"
+
+<br>This will set the layer of all children objects to the selected layer
+
+
+<br><img alt="change-children.png" src="\lib\media\change-children.png"><br>
+<br>If you are not editing in Prefab mode, don't forget to apply the Override
+<br><br>Culling refers to the process of determining which objects in a scene are not visible to the camera and excluding them from rendering to improve performance. Next, you will update the Main Camera's Culling Mask to exclude the Waypoint layer.<br>
+<br>Select the Main Camera
+<br>In the Inspector locate the Camera components Rendering settings
+<br><img alt="culling-mask-settings.png" src="\lib\media\culling-mask-settings.png"><br>By default, the camera's Culling Mask will render everything. <br>
+<br>Select the Drop Down and unselect the Waypoint layer
+<br>You can verify that the camera is no longer rendering your Waypoints by entering the Game View.<br><img alt="verify-waypoints-hidden.webp" src="\lib\media\verify-waypoints-hidden.webp"><br><br>With your Waypoints placed on your map, it is now time to make them aware of their order. You can accomplish this by creating a Waypoint component that knows which Waypoint comes next in the sequence.<br>
+<br>Create a Waypoint MonoBehaviour
+<br>Delete the Start and Update methods from the template, you won't need them
+<br>Add a Waypoint property called Next
+
+<br>Remember to use good programming practices and us a private set
+
+
+<br>Serialize the Next property using the [field: SerializeField] attribute
+<br><img alt="waypoint-component.png" src="\lib\media\waypoint-component.png"><br><br>Can you remember how to add your new component to your Waypoint prefab? If you're having trouble, you can review how you added the EnemyMovement component in <a data-href="06 - Adding an Enemy" href="\lessons\06-adding-an-enemy.html" class="internal-link" target="_self" rel="noopener nofollow">06 - Adding an Enemy</a><br>
+<br>Add the Waypoint component to your Waypoint Prefab
+<br>Verify that each Waypoint object in your scene has the component
+<br><img alt="verify-waypoints.webp" src="\lib\media\verify-waypoints.webp"><br><br>By creating a Next property that has the type Waypoint , you have made it possible to specify the Next property of each Waypoint in the Inspector.<br>
+<br>Select your starting Waypoint Game Object from the Hierarchy
+<br>In the Inspector click the small circle next to the Next property
+<br>Select the second Waypoint Game Object from the list
+<br>Note: If you click the object in the Next field, it will highlight in the Hierarchy. If you double-click the object in the Next field, it will select that object.<br><img alt="set-next-on-first-waypoint.webp" src="\lib\media\set-next-on-first-waypoint.webp"><br>You can also set the an object property in the Inspector by dragging a game object into the property field.<br><img alt="set-waypoint-dragging.webp" src="\lib\media\set-waypoint-dragging.webp"><br>Sometimes this can be challenging to do because you can accidentally click the object you're trying to drag, changing the selected object in the Inspector. To help with this, you can open a new inspector window for a specific game object by Right Clicking on it and select Properties.<br><img alt="properties-window.webp" src="\lib\media\properties-window.webp"><br><br>Test out each of the methods for setting the Next for each of your Waypoints property to figure out which one works best for you. You should leave the final Waypoint's Next property as None. You will use this to signal to the Enemy that it has reached the end of the path.<br><br>Depending on the number of Waypoints you have created, your Hierarchy might be feeling a bit crowded. To help with this, create an Empty Parent that contains all of the Waypoints as children object.<br>When you're finished, your Hierarchy should look similar to the image below:<br><img alt="organize-waypoints.png" src="\lib\media\organize-waypoints.png"><br><br>While setting each of the Next properties, you may have sensed that this process could be error prone. That is, it is easy to set the wrong Waypoint. To help with this, you can use the OnDrawGizmos and OnDrawGizmosSelected methods to draw additional information in the Scene View.<br><br>The OnDrawGizmosSelect method is used to draw information in the Scene View when a Game Object is selected. <br>
+<br>Read the Friendly Manual
+
+<br><a data-tooltip-position="top" aria-label="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MonoBehaviour.OnDrawGizmosSelected.html" rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MonoBehaviour.OnDrawGizmosSelected.html" target="_blank">Unity - Scripting API: MonoBehaviour.OnDrawGizmosSelected()</a>
+<br><a data-tooltip-position="top" aria-label="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Handles.html" rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Handles.html" target="_blank">Unity - Scripting API: Handles</a>
+
+
+<br>Add using UnityEditor; to your using statements
+
+<br>Note: This will allow you to access the Handles API
+
+
+<br>Add the void OnDrawGizmosSelected() to your Waypoint script
+
+<br>Note: Spelling and casing must match exactly
+
+
+<br>Set the Handles.color property to Color.red
+<br>Use the Handles.DrawLine method to draw a line between the Waypoint and its Next
+<br><img alt="drawing-red-line-on-selected.png" src="\lib\media\drawing-red-line-on-selected.png"><br>
+With your new gizmo in place, you can now more easily verify that your Waypoints are connected properly:<br><img alt="view-gizmo-line.webp" src="\lib\media\view-gizmo-line.webp"><br><br>You most likely encountered NullReferenceException when you selected your final Waypoint. This is because the Next property is set to None. For class objects, this is the equivalent to a null value. To prevent this, you should add a null check to your code that exists your method early if Next == null.<br><img alt="null-check.png" src="\lib\media\null-check.png"><br><br>If you prefer, you can also use the OnDrawGizmos method which is executed in the Scene View even when the Game Object is not selected.<br>
+<br>Rename your OnDrawGizmosSelected method to OnDrawGizmos
+<br><img alt="on-draw-gizmos.png" src="\lib\media\on-draw-gizmos.png"><br>In the Scene View verify your path is correct<br><img alt="view-all-gizmo-lines.webp" src="\lib\media\view-all-gizmo-lines.webp"><br><br>It is important to review what you've learned in this lesson and apply it in a new context. Before continuing, I encourage you to attempt the <a data-href="Binary Waypoint Challenge" href="\challenges\02-binary-waypoint-challenge\binary-waypoint-challenge.html" class="internal-link" target="_self" rel="noopener nofollow">Binary Waypoint Challenge</a> in which you will be challenged to create a new script to accommodate splitting paths.<br><img alt="binary-waypoint-connections.png" src="\lib\media\binary-waypoint-connections.png"><br><br>With your Waypoints set up, it is now time to update your Enemy Movement script to move between each Waypoint.]]></description><link>lessons\07-waypoints.html</link><guid isPermaLink="false">Lessons/07 - Waypoints.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Thu, 28 Nov 2024 15:19:39 GMT</pubDate><enclosure url="lib\media\create-prefab-in-project.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\create-prefab-in-project.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[08 - Waypoint Traveler]]></title><description><![CDATA[ 
+ <br>With your Waypoints set up, it is time to update your Enemy to follow your Waypoints.<br><br>
+<br>Enemy has a Target Waypoint that they move toward
+<br>When the Enemy reaches their Target they query the Waypoint for the Next Waypoint  and update their Target Waypoint
+<br>If there is no Next, the Enemy stops moving
+<br><br>You can utilize Unity's built in method Vector3.MoveTowards to do most of the heavy lifting for the Enemy's movement.<br>
+<br>Read the Friendly Manual: <a data-tooltip-position="top" aria-label="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Vector3.MoveTowards.html" rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Vector3.MoveTowards.html" target="_blank">Unity - Scripting API: Vector3.MoveTowards</a>
+<br>Add a Target Waypoint property to your Enemy Movement script
+<br>Be sure to Serialize the property so it can be accessed in the Inspector
+<br><img alt="add-waypoint-target.png" src="\lib\media\add-waypoint-target.png"><br>
+<br>In the Update method, call Vector3.MoveTowards to update the Enemy's position
+
+<br>Note: Use Time.deltaTime*Speed as the maxDistanceDelta
+
+
+<br><img alt="use-vector3-move-towards.png" src="\lib\media\use-vector3-move-towards.png"><br>
+<br>In the Inspector, set the enemy's Target Waypoint to your first waypoint
+<br><img alt="set-first-waypoint.png" src="\lib\media\set-first-waypoint.png"><br>
+<br>Enter Play Mode and verify that your Enemy moves to the specified Waypoint
+<br><img alt="move-to-waypoint.webp" src="\lib\media\move-to-waypoint.webp"><br>While you are in Play Mode you can even switch the Waypoint to test that when the Waypoint is changed, the Enemy will move to the new Target<br><img alt="change-waypoint-in-playmode.webp" src="\lib\media\change-waypoint-in-playmode.webp"><br><br>You need a way to determine how close the Enemy is to their Target Waypoint. This can be done using Vector3.Distance.<br>
+<br>Read the Friendly Manual: <a data-tooltip-position="top" aria-label="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Vector3.Distance.html" rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Vector3.Distance.html" target="_blank">Unity - Scripting API: Vector3.Distance</a>
+<br>After the Enemy has moved, calculate their distance from the Target Waypoint
+<br>If the distance is sufficiently close to 0, the Enemy's Target updates to the next Waypoint
+<br><img alt="calculate-distance.png" src="\lib\media\calculate-distance.png"><br>
+<br>Enter Play Mode to verify your Enemy moves between each Waypoint
+<br><img alt="verify-waypoint-traveler.webp" src="\lib\media\verify-waypoint-traveler.webp"><br>You may have noticed the odd expressions distance &lt;= 0 and might be asking yourself, "Why are we checking if the distance is less than or equal to 0 and not just equal to 0?". Great question! I'm so glad you asked! As you may already be aware, floating point numbers are approximated values, that is they should not be used for precise calculations (See: <a data-tooltip-position="top" aria-label="https://stackoverflow.com/questions/588004/is-floating-point-math-broken" rel="noopener nofollow" class="external-link" href="https://stackoverflow.com/questions/588004/is-floating-point-math-broken" target="_blank">Is floating-point math broken? - Stack Overflow</a>for greater detail).<br>In our case, it is possible that we may not actually get a value of 0, and instead we want to check if the distance is sufficiently close to 0. In Unity, this often done using Mathf.Epsilon (which happens to be approximately 0.00001f).<br>
+<br>Update your code to use Mathf.Epsilon in place of 0
+<br><img alt="use-mathf-epsilon.png" src="\lib\media\use-mathf-epsilon.png"><br><br>You may have noticed, when your Enemy reaches the final Waypoint an error message appears in the Unity Console.<br>
+<br>Fix the NullReferenceException
+<br><img alt="nullreference-exception.png" src="\lib\media\nullreference-exception.png"><br><br>Currently, your Enemy begins its journey by moving to your first Waypoint. You may have already moved the Enemy to start at that position when you enter Play Mode. However, it is not guaranteed. One way to fix this, is to use the Start() method to move the Enemy to their first Target before the first game frame.<br>
+<br>Update your Start() method to set the Enemy's initial position to the Target's position.
+<br><img alt="set-enemys-initial-position.png" src="\lib\media\set-enemys-initial-position.png"><br><br>Unity provides a method called Transform.LookAt that can be used to make a Game Object rotate toward another Game Object. You can utilize this, to make your Enemy face their Target Waypoint.<br>
+<br>Read the Friendly Manual: <a data-tooltip-position="top" aria-label="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Transform.LookAt.html" rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Transform.LookAt.html" target="_blank">Unity - Scripting API: Transform.LookAt</a>
+<br>Remove the Enemy Rotation component from your Enemy
+<br>When the Enemy changes Targets, call the Transform.LookAt method to rotate the Enemy to face the next Waypoint
+<br>Fix any NullReferenceExceptions that occur
+<br>When you have successfully completed this challenge, your Enemy should look similar to the one in the video below.<br><img alt="challenge-complete.webp" src="\lib\media\challenge-complete.webp"><br><br>With your Enemy's moving, it is time to create an Enemy Spawner that will generate additional enemies during game play.]]></description><link>lessons\08-waypoint-traveler.html</link><guid isPermaLink="false">Lessons/08 - Waypoint Traveler.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Thu, 28 Nov 2024 15:51:20 GMT</pubDate><enclosure url="lib\media\add-waypoint-target.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\add-waypoint-target.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Unity Workshop - 3D Tower Defense]]></title><description><![CDATA[ 
+ <br><br>Take your Unity and C# skills to the next level with this hands-on workshop, designed for aspiring game developers who want to create their own 3D Tower Defense game. This course builds on your foundational knowledge of Unity and programming, focusing on practical application, advanced Unity concepts, and user-centric game design.<br><br>
+<br>Completion of at least one introductory Unity course.
+<br>Completion of at least one C# course or willingness to complete a programming proficiency project before the second week  of class.
+<br><br>
+<br>Unity's Script Lifecycle: Gain understanding of Unity’s foundational structure by leveraging key lifecycle methods like Awake, OnEnable, Start, OnMouseEvents, Update, OnDisable, and OnDestroy.
+<br>MonoBehaviour, ScriptableObject, and Prefabs: Understand and utilize these core Unity elements to create flexible, reusable, and scalable game architecture. 
+<br>Custom Editor Extensions: Learn to create custom Gizmos and Editor drawers to enhance your game development workflow.
+<br>User Experience Design: Explore strategies for crafting player-friendly experiences, ensuring your game is both engaging and easy to learn.
+<br><br>
+<br><a data-href="00 - Install Unity 6" href="\lessons\00-install-unity-6.html" class="internal-link" target="_self" rel="noopener nofollow">00 - Install Unity 6</a> 
+<br><a data-href="01 - Creating the Project" href="\lessons\01-creating-the-project.html" class="internal-link" target="_self" rel="noopener nofollow">01 - Creating the Project</a>
+<br><a data-href="02 - Creating a Tile Grid" href="\lessons\02-creating-a-tile-grid.html" class="internal-link" target="_self" rel="noopener nofollow">02 - Creating a Tile Grid</a>
+<br><a data-href="03 - Creating Additional Tile Prefabs" href="\lessons\03-creating-additional-tile-prefabs.html" class="internal-link" target="_self" rel="noopener nofollow">03 - Creating Additional Tile Prefabs</a>
+<br><a data-href="04 - Play Mode Settings" href="\lessons\04-play-mode-settings.html" class="internal-link" target="_self" rel="noopener nofollow">04 - Play Mode Settings</a>
+<br><a data-href="05 - Creating an Isometric Camera" href="\lessons\05-creating-an-isometric-camera.html" class="internal-link" target="_self" rel="noopener nofollow">05 - Creating an Isometric Camera</a>
+<br><a data-href="06 - Adding an Enemy" href="\lessons\06-adding-an-enemy.html" class="internal-link" target="_self" rel="noopener nofollow">06 - Adding an Enemy</a>
+<br><a data-href="07 - Waypoints" href="\lessons\07-waypoints.html" class="internal-link" target="_self" rel="noopener nofollow">07 - Waypoints</a>
+<br><a data-href="08 - Waypoint Traveler" href="\lessons\08-waypoint-traveler.html" class="internal-link" target="_self" rel="noopener nofollow">08 - Waypoint Traveler</a>
+<br>
+]]></description><link>index.html</link><guid isPermaLink="false">Index.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Thu, 28 Nov 2024 15:51:31 GMT</pubDate></item></channel></rss>
