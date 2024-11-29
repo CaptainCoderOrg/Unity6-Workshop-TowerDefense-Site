@@ -20,8 +20,29 @@
               "icon": "lucide-file",
               "title": "09 - Enemy Spawner"
             }
+          },
+          {
+            "id": "f82af067d1a69471",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "To Do (Kanban).md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false
+                  ]
+                }
+              },
+              "icon": "lucide-trello",
+              "title": "To Do (Kanban)"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -166,13 +187,15 @@
       "media-extended:Open media": false
     }
   },
-  "active": "ee658afd0b2b2187",
+  "active": "f82af067d1a69471",
   "lastOpenFiles": [
-    "Index.md",
+    "Proof Reading Notes.md",
     "Lessons/09 - Enemy Spawner.md",
     "Lessons/08 - Waypoint Traveler.md",
-    "Lessons/07 - Waypoints.md",
+    "Assets/08 - Waypoint Traveler/adjust-model-y-position.png",
     "Lessons/06 - Adding an Enemy.md",
+    "Index.md",
+    "Lessons/07 - Waypoints.md",
     "Lessons/05 - Creating an Isometric Camera.md",
     "Lessons/04 - Play Mode Settings.md",
     "Lessons/03 - Creating Additional Tile Prefabs.md",
@@ -190,7 +213,6 @@
     "Assets/09 - Enemy Spawner/verify-spawn-method.webp",
     "Assets/09 - Enemy Spawner/set-enemy-with-prefab.png",
     "Assets/09 - Enemy Spawner/set-starting-waypoint.png",
-    "Assets/09 - Enemy Spawner/call-spawn-in-start.png",
     "To Do (Kanban).md",
     "Community.md",
     "Untitled Kanban.md",

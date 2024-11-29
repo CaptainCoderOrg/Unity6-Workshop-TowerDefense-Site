@@ -67,6 +67,16 @@ Currently, your Enemy begins its journey by moving to your first **Waypoint**. Y
 - [ ] Update your `Start()` method to set the **Enemy**'s initial position to the **Target**'s position.
 
 ![[set-enemys-initial-position.png]]
+## Adjusting the Model's Y Position
+If you placed your **Waypoints** such that their Y position is at 0 (level with your grid), you might have noticed that when your **Enemy**'s model is slightly below the ground. You might be tempted to move your **Waypoint**'s such that they are slightly above the ground. This would solve this issue. However, you can instead adjust your **Enemy Prefab** to such that the inner model is slightly elevated relative to the parent object.
+
+- [ ] Open the **Enemy Prefab**
+- [ ] Select the **model** in the **Hierarchy**
+- [ ] Set the Y position to (0.101)
+	- The **dirt** tile is 0.1 units thick. Setting the Y position to be slightly above will make your enemy model appear on top of the tile.
+
+![[adjust-model-y-position.png]]
+
 ## Challenge: Rotate the Enemy to Face their Target Waypoint
 Unity provides a method called `Transform.LookAt` that can be used to make a **Game Object** rotate toward another **Game Object**. You can utilize this, to make your **Enemy** face their **Target Waypoint**.
 

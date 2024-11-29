@@ -178,7 +178,6 @@ Now, when you select your **Enemy**, you will see the **Speed** property in the 
 - [ ] Notice, that the **Speed** resets to the original value: 2
 
 ![[adjusting-speed-in-inspector.webp]]
-
 ## Challenge: EnemyRotation Script
 Using what you've learned in this lesson, create a new MonoBehaviour Script called "EnemyRotation" that allows you to specify how quickly an Enemy rotates on the Y axis.
 

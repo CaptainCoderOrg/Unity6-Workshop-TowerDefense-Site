@@ -6,7 +6,6 @@ kanban-plugin: board
 
 ## To Do
 
-- [ ] In Adding an Enemy, mention that you can adjust the Y position of the child model to be above the ground (roughly 0.1).
 - [ ] Add discussion board to each page? Or alternatively link to a discussion board.
 - [ ] Add Unity Hub version (3.10.0) to Install Unity
 
@@ -24,6 +23,7 @@ kanban-plugin: board
 - [ ] In Waypoints lesson, have students create a parent object for all of the Waypoints
 - [ ] In first lesson, students should rename SampleScene to Sample Level (or other name)
 - [ ] Try to find a way to embed YouTube videos
+- [ ] In Adding an Enemy, mention that you can adjust the Y position of the child model to be above the ground (roughly 0.1).
 
 
 
