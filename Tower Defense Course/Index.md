@@ -12,6 +12,7 @@ Take your Unity and C# skills to the next level with this hands-on workshop, des
 - **Custom Editor Extensions:** Learn to create custom Gizmos and Editor drawers to enhance your game development workflow.
 - **User Experience Design:** Explore strategies for crafting player-friendly experiences, ensuring your game is both engaging and easy to learn.
 
+## 
 ## Lessons
 
 * [[00 - Install Unity 6]] 
@@ -23,4 +24,6 @@ Take your Unity and C# skills to the next level with this hands-on workshop, des
 * [[06 - Adding an Enemy]]
 * [[07 - Waypoints]]
 * [[08 - Waypoint Traveler]]
+* [[09 - Enemy Spawner]]
 * 
+
