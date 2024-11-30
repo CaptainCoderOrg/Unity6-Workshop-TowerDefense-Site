@@ -123,4 +123,4 @@ When implemented correctly, your game should act similar to the video below:
 ![[verify-onenable.webp]]
 
 ## What's Next
-Now that you are able to spawn enemies into you game. It is time to design a turret that can be used to destroy the enemies.
+Now that you are able to spawn enemies into you game. It is time to design a turret that rotates to follow nearby enemies: [[10 - Rotating Turret]]

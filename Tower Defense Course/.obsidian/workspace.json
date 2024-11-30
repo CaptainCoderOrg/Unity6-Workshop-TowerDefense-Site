@@ -25,20 +25,14 @@
             "id": "f82af067d1a69471",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "To Do (Kanban).md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false
-                  ]
-                }
+                "file": "Lessons/09 - Enemy Spawner.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-trello",
-              "title": "To Do (Kanban)"
+              "icon": "lucide-file",
+              "title": "09 - Enemy Spawner"
             }
           }
         ],
@@ -187,15 +181,53 @@
       "media-extended:Open media": false
     }
   },
+  "floating": {
+    "id": "6abf1e1d647a6f63",
+    "type": "floating",
+    "children": [
+      {
+        "id": "c71f58e0947b54e2",
+        "type": "window",
+        "children": [
+          {
+            "id": "e0d48e025fa32a5c",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "680ff5892148873c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Lessons/10 - Rotating Turret.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "10 - Rotating Turret"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1434,
+        "y": 166,
+        "width": 1072,
+        "height": 1145,
+        "maximize": false,
+        "zoom": 1
+      }
+    ]
+  },
   "active": "f82af067d1a69471",
   "lastOpenFiles": [
-    "Proof Reading Notes.md",
+    "Index.md",
+    "Lessons/10 - Rotating Turret.md",
     "Lessons/09 - Enemy Spawner.md",
     "Lessons/08 - Waypoint Traveler.md",
-    "Assets/08 - Waypoint Traveler/adjust-model-y-position.png",
-    "Lessons/06 - Adding an Enemy.md",
-    "Index.md",
     "Lessons/07 - Waypoints.md",
+    "Lessons/06 - Adding an Enemy.md",
     "Lessons/05 - Creating an Isometric Camera.md",
     "Lessons/04 - Play Mode Settings.md",
     "Lessons/03 - Creating Additional Tile Prefabs.md",
@@ -204,16 +236,19 @@
     "Lessons/00 - Install Unity 6.md",
     "Challenges/02 - Binary Waypoint Challenge/Binary Waypoint Challenge.md",
     "Challenges/01 - Isometric Camera Challenge/Isometric Camera Challenge.md",
-    "Assets/09 - Enemy Spawner/verify-ondisable.webp",
-    "Assets/09 - Enemy Spawner/verify-onenable.webp",
-    "Assets/09 - Enemy Spawner/ondisable-cancelinvoke.png",
-    "Assets/09 - Enemy Spawner/verify-repeating-spawn 1.webp",
-    "Assets/09 - Enemy Spawner/verify-repeating-spawn.webp",
-    "Assets/09 - Enemy Spawner/invoke-repeating.png",
-    "Assets/09 - Enemy Spawner/verify-spawn-method.webp",
-    "Assets/09 - Enemy Spawner/set-enemy-with-prefab.png",
-    "Assets/09 - Enemy Spawner/set-starting-waypoint.png",
+    "Assets/10 - Turret/rotate-challenge-complete.webp",
+    "Assets/10 - Turret/set-aoe-model-inspector.png",
+    "Assets/10 - Turret/verify-targets-added.webp",
+    "Assets/10 - Turret/turret-target-aoe-model.png",
+    "on-trigger-find-nearest.png",
+    "Assets/10 - Turret/metalic-map-smoothness-0.webp",
+    "Assets/10 - Turret/find-nearest-target-foreach.png",
+    "Assets/10 - Turret/challenge-remove-transforms.webp",
+    "Assets/10 - Turret/add-targets.png",
+    "Assets/10 - Turret/verify-trigger-working.webp",
     "To Do (Kanban).md",
+    "Assets/10 - Turret",
+    "Proof Reading Notes.md",
     "Community.md",
     "Untitled Kanban.md",
     "To Do.md",
@@ -229,13 +264,10 @@
     "Assets/Challenges/Isometric Camera Challenge",
     "Assets/Challenges",
     "Challenges/01 - Isometric Camera Challenge/IsometricCameraChallenge v1.0.0.unitypackage",
-    "Challenges/Isometric Camera Challenge/IsometricCameraChallenge.unitypackage",
     "TODO Kanban.md",
     "2024-11-25.md",
     "Lessons/03 - Design a Level.md",
     "Untitled.canvas",
-    "Untitled 1.canvas",
-    "TO DO.md",
-    "Turrets.md"
+    "Untitled 1.canvas"
   ]
 }
