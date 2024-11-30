@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "09 - Enemy Spawner"
             }
+          },
+          {
+            "id": "9c68357ef4cbab46",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "11 - Projectile.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "11 - Projectile"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -217,15 +231,83 @@
         "height": 1145,
         "maximize": false,
         "zoom": 1
+      },
+      {
+        "id": "1a4f5fc9e29e774e",
+        "type": "window",
+        "children": [
+          {
+            "id": "f66622d333979e93",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "0b28ca8dff63dec5",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Lessons/10 - Rotating Turret.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "10 - Rotating Turret"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 2560,
+        "y": 0,
+        "width": 1540,
+        "height": 1043,
+        "maximize": false,
+        "zoom": 1
+      },
+      {
+        "id": "78131e3f67073a21",
+        "type": "window",
+        "children": [
+          {
+            "id": "eeb1394b2f8403b2",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "925eb12d62cd7949",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "11 - Projectile.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "11 - Projectile"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 768,
+        "y": 300,
+        "width": 1024,
+        "height": 800,
+        "maximize": false,
+        "zoom": 1
       }
     ]
   },
-  "active": "f82af067d1a69471",
+  "active": "925eb12d62cd7949",
   "lastOpenFiles": [
-    "Index.md",
     "Lessons/10 - Rotating Turret.md",
-    "Lessons/09 - Enemy Spawner.md",
+    "To Do (Kanban).md",
     "Lessons/08 - Waypoint Traveler.md",
+    "11 - Projectile.md",
+    "Lessons/09 - Enemy Spawner.md",
+    "Index.md",
     "Lessons/07 - Waypoints.md",
     "Lessons/06 - Adding an Enemy.md",
     "Lessons/05 - Creating an Isometric Camera.md",
@@ -246,7 +328,6 @@
     "Assets/10 - Turret/challenge-remove-transforms.webp",
     "Assets/10 - Turret/add-targets.png",
     "Assets/10 - Turret/verify-trigger-working.webp",
-    "To Do (Kanban).md",
     "Assets/10 - Turret",
     "Proof Reading Notes.md",
     "Community.md",

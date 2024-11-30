@@ -1,6 +1,6 @@
 {
   "vaultName": "Tower Defense Course",
-  "lastExport": 1732928348495,
+  "lastExport": 1733004734339,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
   "useCustomHeadContent": false,
@@ -192,6 +192,21 @@
     "Assets/10 - Turret/verify-collider-size.webp",
     "Assets/10 - Turret/verify-targets-added.webp",
     "Assets/10 - Turret/verify-trigger-working.webp",
+    "Assets/11 - Projectile/add-health-to-enemy.png",
+    "Assets/11 - Projectile/apply-hit-damage.png",
+    "Assets/11 - Projectile/create-scene-scene.png",
+    "Assets/11 - Projectile/destroy-gameobject-1.png",
+    "Assets/11 - Projectile/get-health-apply-hit.png",
+    "Assets/11 - Projectile/health-script-base.png",
+    "Assets/11 - Projectile/missing-target.webp",
+    "Assets/11 - Projectile/projectile-challenge-complete.webp",
+    "Assets/11 - Projectile/projectile-challenge-completed.webp",
+    "Assets/11 - Projectile/projectile-completed.png",
+    "Assets/11 - Projectile/projectile-speed-damage-target.png",
+    "Assets/11 - Projectile/projectile-test-scene-setup.webp",
+    "Assets/11 - Projectile/verify-damage-is-updating.webp",
+    "Assets/11 - Projectile/verify-enemy-is-destroyed.webp",
+    "Assets/11 - Projectile/verify-projectiles-removed.webp",
     "Assets/Challenges/Binary Waypoint Challenge/binary-waypoint-connections.png",
     "Assets/Challenges/Binary Waypoint Challenge/no-waypoints-visible.png",
     "Assets/Challenges/Isometric Camera Challenge/import-challenge.webp",
@@ -211,6 +226,7 @@
     "Lessons/08 - Waypoint Traveler.md",
     "Lessons/09 - Enemy Spawner.md",
     "Lessons/10 - Rotating Turret.md",
+    "Lessons/11 - Projectile.md",
     "Community.md",
     "Index.md",
     "lib/media/import-challenge.webp",
@@ -397,6 +413,21 @@
     "lib/media/turret-target-aoe-model.png",
     "lib/media/set-aoe-model-inspector.png",
     "lib/media/rotate-challenge-complete.webp",
+    "lib/media/projectile-completed.png",
+    "lib/media/create-scene-scene.png",
+    "lib/media/health-script-base.png",
+    "lib/media/add-health-to-enemy.png",
+    "lib/media/projectile-speed-damage-target.png",
+    "lib/media/projectile-test-scene-setup.webp",
+    "lib/media/projectile-challenge-completed.webp",
+    "lib/media/destroy-gameobject-1.png",
+    "lib/media/verify-projectiles-removed.webp",
+    "lib/media/apply-hit-damage.png",
+    "lib/media/get-health-apply-hit.png",
+    "lib/media/verify-damage-is-updating.webp",
+    "lib/media/verify-enemy-is-destroyed.webp",
+    "lib/media/missing-target.webp",
+    "lib/media/projectile-challenge-complete.webp",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
     "lib/fonts/2d5198822ab091ce4305.woff2",
@@ -444,901 +475,901 @@
   ],
   "fileInfo": {
     "Assets/00 - CreatingTheProject/create-scene.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 46961,
       "exportedPath": "assets/00-creatingtheproject/create-scene.png",
       "dependencies": []
     },
     "Assets/00 - CreatingTheProject/DefaultProjectInitialized.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 185435,
       "exportedPath": "assets/00-creatingtheproject/defaultprojectinitialized.png",
       "dependencies": []
     },
     "Assets/00 - CreatingTheProject/delete-sample-scene.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 8500,
       "exportedPath": "assets/00-creatingtheproject/delete-sample-scene.png",
       "dependencies": []
     },
     "Assets/00 - CreatingTheProject/open-scenes-folder.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 93448,
       "exportedPath": "assets/00-creatingtheproject/open-scenes-folder.png",
       "dependencies": []
     },
     "Assets/00 - CreatingTheProject/UnityEngineInitializing.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 822471,
       "exportedPath": "assets/00-creatingtheproject/unityengineinitializing.png",
       "dependencies": []
     },
     "Assets/00 - CreatingTheProject/UnityHubProjectSettings.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 99247,
       "exportedPath": "assets/00-creatingtheproject/unityhubprojectsettings.png",
       "dependencies": []
     },
     "Assets/00 - CreatingTheProject/UnitySetDefaultLayout.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 43910,
       "exportedPath": "assets/00-creatingtheproject/unitysetdefaultlayout.png",
       "dependencies": []
     },
     "Assets/01 - Unity Install/rename-scene.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 13881,
       "exportedPath": "assets/01-unity-install/rename-scene.png",
       "dependencies": []
     },
     "Assets/01 - Unity Install/SelectUnity6000.0.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 45858,
       "exportedPath": "assets/01-unity-install/selectunity6000.0.png",
       "dependencies": []
     },
     "Assets/01 - Unity Install/Unity6DownloadComplete.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 39488,
       "exportedPath": "assets/01-unity-install/unity6downloadcomplete.png",
       "dependencies": []
     },
     "Assets/01 - Unity Install/Unity6DownloadInProgress.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 40324,
       "exportedPath": "assets/01-unity-install/unity6downloadinprogress.png",
       "dependencies": []
     },
     "Assets/01 - Unity Install/Unity6InstallWebGLBuildSupport.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 62757,
       "exportedPath": "assets/01-unity-install/unity6installwebglbuildsupport.png",
       "dependencies": []
     },
     "Assets/01 - Unity Install/UnityHubInstalls.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 40259,
       "exportedPath": "assets/01-unity-install/unityhubinstalls.png",
       "dependencies": []
     },
     "Assets/02 - Creating a Tile Grid/add-tile-fbx-to-scene.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 366552,
       "exportedPath": "assets/02-creating-a-tile-grid/add-tile-fbx-to-scene.webp",
       "dependencies": []
     },
     "Assets/02 - Creating a Tile Grid/apply-overrides-inspector.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 194770,
       "exportedPath": "assets/02-creating-a-tile-grid/apply-overrides-inspector.webp",
       "dependencies": []
     },
     "Assets/02 - Creating a Tile Grid/challenge1-solution.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 95464,
       "exportedPath": "assets/02-creating-a-tile-grid/challenge1-solution.png",
       "dependencies": []
     },
     "Assets/02 - Creating a Tile Grid/change-to-snow-tile.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 686142,
       "exportedPath": "assets/02-creating-a-tile-grid/change-to-snow-tile.webp",
       "dependencies": []
     },
     "Assets/02 - Creating a Tile Grid/create-parent.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 195162,
       "exportedPath": "assets/02-creating-a-tile-grid/create-parent.webp",
       "dependencies": []
     },
     "Assets/02 - Creating a Tile Grid/create-prefab.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 184338,
       "exportedPath": "assets/02-creating-a-tile-grid/create-prefab.webp",
       "dependencies": []
     },
     "Assets/02 - Creating a Tile Grid/create-prefabs-folder.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 203570,
       "exportedPath": "assets/02-creating-a-tile-grid/create-prefabs-folder.webp",
       "dependencies": []
     },
     "Assets/02 - Creating a Tile Grid/enter-prefab-scene-editor.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 270616,
       "exportedPath": "assets/02-creating-a-tile-grid/enter-prefab-scene-editor.webp",
       "dependencies": []
     },
     "Assets/02 - Creating a Tile Grid/ExecutionOrder.svg": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 183727,
       "exportedPath": "assets/02-creating-a-tile-grid/executionorder.svg",
       "dependencies": []
     },
     "Assets/02 - Creating a Tile Grid/ExtractFile.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 35986,
       "exportedPath": "assets/02-creating-a-tile-grid/extractfile.png",
       "dependencies": []
     },
     "Assets/02 - Creating a Tile Grid/find-models.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 146236,
       "exportedPath": "assets/02-creating-a-tile-grid/find-models.webp",
       "dependencies": []
     },
     "Assets/02 - Creating a Tile Grid/import-fbx-format.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 514892,
       "exportedPath": "assets/02-creating-a-tile-grid/import-fbx-format.webp",
       "dependencies": []
     },
     "Assets/02 - Creating a Tile Grid/linear-on-10-objects.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 909584,
       "exportedPath": "assets/02-creating-a-tile-grid/linear-on-10-objects.webp",
       "dependencies": []
     },
     "Assets/02 - Creating a Tile Grid/linear-on-z-axis.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 1085544,
       "exportedPath": "assets/02-creating-a-tile-grid/linear-on-z-axis.webp",
       "dependencies": []
     },
     "Assets/02 - Creating a Tile Grid/notice-prefab.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 40114,
       "exportedPath": "assets/02-creating-a-tile-grid/notice-prefab.png",
       "dependencies": []
     },
     "Assets/02 - Creating a Tile Grid/open-prefab-editor.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 258314,
       "exportedPath": "assets/02-creating-a-tile-grid/open-prefab-editor.webp",
       "dependencies": []
     },
     "Assets/02 - Creating a Tile Grid/perfect-alignment-with-inspector.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 175522,
       "exportedPath": "assets/02-creating-a-tile-grid/perfect-alignment-with-inspector.webp",
       "dependencies": []
     },
     "Assets/02 - Creating a Tile Grid/rename-folder.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 74212,
       "exportedPath": "assets/02-creating-a-tile-grid/rename-folder.webp",
       "dependencies": []
     },
     "Assets/02 - Creating a Tile Grid/resize-project-preview-size.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 1633164,
       "exportedPath": "assets/02-creating-a-tile-grid/resize-project-preview-size.webp",
       "dependencies": []
     },
     "Assets/02 - Creating a Tile Grid/set-tile-dirt-model.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 906138,
       "exportedPath": "assets/02-creating-a-tile-grid/set-tile-dirt-model.webp",
       "dependencies": []
     },
     "Assets/02 - Creating a Tile Grid/try-to-align.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 3783776,
       "exportedPath": "assets/02-creating-a-tile-grid/try-to-align.webp",
       "dependencies": []
     },
     "Assets/02 - Creating a Tile Grid/unpack-tile-model.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 281044,
       "exportedPath": "assets/02-creating-a-tile-grid/unpack-tile-model.webp",
       "dependencies": []
     },
     "Assets/02 - Creating a Tile Grid/verify-prefab-update.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 245840,
       "exportedPath": "assets/02-creating-a-tile-grid/verify-prefab-update.webp",
       "dependencies": []
     },
     "Assets/03 - Creating Path and Obstacle Tiles/create-path-tile-prefab.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 184824,
       "exportedPath": "assets/03-creating-path-and-obstacle-tiles/create-path-tile-prefab.webp",
       "dependencies": []
     },
     "Assets/03 - Creating Path and Obstacle Tiles/create-tiles-challenge.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 68701,
       "exportedPath": "assets/03-creating-path-and-obstacle-tiles/create-tiles-challenge.png",
       "dependencies": []
     },
     "Assets/03 - Creating Path and Obstacle Tiles/Example Finished Map.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 541647,
       "exportedPath": "assets/03-creating-path-and-obstacle-tiles/example-finished-map.png",
       "dependencies": []
     },
     "Assets/03 - Creating Path and Obstacle Tiles/replace-multiple-prefabs.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 394104,
       "exportedPath": "assets/03-creating-path-and-obstacle-tiles/replace-multiple-prefabs.webp",
       "dependencies": []
     },
     "Assets/03 - Creating Path and Obstacle Tiles/replace-prefab.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 501630,
       "exportedPath": "assets/03-creating-path-and-obstacle-tiles/replace-prefab.webp",
       "dependencies": []
     },
     "Assets/03 - Creating Path and Obstacle Tiles/replace-prefab-inspector.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 374004,
       "exportedPath": "assets/03-creating-path-and-obstacle-tiles/replace-prefab-inspector.webp",
       "dependencies": []
     },
     "Assets/03 - Creating Path and Obstacle Tiles/unpack-path-tile.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 334954,
       "exportedPath": "assets/03-creating-path-and-obstacle-tiles/unpack-path-tile.webp",
       "dependencies": []
     },
     "Assets/04 - Play Mode Settings/editor-playmode-settings.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 122314,
       "exportedPath": "assets/04-play-mode-settings/editor-playmode-settings.png",
       "dependencies": []
     },
     "Assets/04 - Play Mode Settings/enter-playmode-button.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 235919,
       "exportedPath": "assets/04-play-mode-settings/enter-playmode-button.png",
       "dependencies": []
     },
     "Assets/04 - Play Mode Settings/entering-playmode.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 541806,
       "exportedPath": "assets/04-play-mode-settings/entering-playmode.webp",
       "dependencies": []
     },
     "Assets/04 - Play Mode Settings/instant-playmod.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 969322,
       "exportedPath": "assets/04-play-mode-settings/instant-playmod.webp",
       "dependencies": []
     },
     "Assets/04 - Play Mode Settings/playmode-tint.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 88562,
       "exportedPath": "assets/04-play-mode-settings/playmode-tint.png",
       "dependencies": []
     },
     "Assets/04 - Play Mode Settings/preferences.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 53624,
       "exportedPath": "assets/04-play-mode-settings/preferences.png",
       "dependencies": []
     },
     "Assets/04 - Play Mode Settings/project-settings.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 37588,
       "exportedPath": "assets/04-play-mode-settings/project-settings.png",
       "dependencies": []
     },
     "Assets/04 - Play Mode Settings/reloading-domain.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 5408,
       "exportedPath": "assets/04-play-mode-settings/reloading-domain.png",
       "dependencies": []
     },
     "Assets/05 - Isometric Camera/adjust-angle.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 1110210,
       "exportedPath": "assets/05-isometric-camera/adjust-angle.webp",
       "dependencies": []
     },
     "Assets/05 - Isometric Camera/adjust-camera-position-angle.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 361808,
       "exportedPath": "assets/05-isometric-camera/adjust-camera-position-angle.webp",
       "dependencies": []
     },
     "Assets/05 - Isometric Camera/adjust-clipping-plane.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 1255384,
       "exportedPath": "assets/05-isometric-camera/adjust-clipping-plane.webp",
       "dependencies": []
     },
     "Assets/05 - Isometric Camera/camera-orthographic-projection.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 317716,
       "exportedPath": "assets/05-isometric-camera/camera-orthographic-projection.webp",
       "dependencies": []
     },
     "Assets/05 - Isometric Camera/camera-preview-setting.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 189269,
       "exportedPath": "assets/05-isometric-camera/camera-preview-setting.png",
       "dependencies": []
     },
     "Assets/05 - Isometric Camera/camera-preview-setting-2.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 139614,
       "exportedPath": "assets/05-isometric-camera/camera-preview-setting-2.png",
       "dependencies": []
     },
     "Assets/05 - Isometric Camera/center-all-tiles-with-pivot.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 2065706,
       "exportedPath": "assets/05-isometric-camera/center-all-tiles-with-pivot.webp",
       "dependencies": []
     },
     "Assets/05 - Isometric Camera/center-camera.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 210150,
       "exportedPath": "assets/05-isometric-camera/center-camera.webp",
       "dependencies": []
     },
     "Assets/05 - Isometric Camera/center-grid.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 186938,
       "exportedPath": "assets/05-isometric-camera/center-grid.webp",
       "dependencies": []
     },
     "Assets/05 - Isometric Camera/changing-playmode-color.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 2846764,
       "exportedPath": "assets/05-isometric-camera/changing-playmode-color.webp",
       "dependencies": []
     },
     "Assets/05 - Isometric Camera/disable-low-aspect-ratios.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 3001206,
       "exportedPath": "assets/05-isometric-camera/disable-low-aspect-ratios.webp",
       "dependencies": []
     },
     "Assets/05 - Isometric Camera/disable-low-resolution-aspect-ration.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 2261256,
       "exportedPath": "assets/05-isometric-camera/disable-low-resolution-aspect-ration.webp",
       "dependencies": []
     },
     "Assets/05 - Isometric Camera/editing-in-playmode.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 4006006,
       "exportedPath": "assets/05-isometric-camera/editing-in-playmode.webp",
       "dependencies": []
     },
     "Assets/05 - Isometric Camera/iso-camera-scene-view.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 7850026,
       "exportedPath": "assets/05-isometric-camera/iso-camera-scene-view.webp",
       "dependencies": []
     },
     "Assets/05 - Isometric Camera/missing-corner.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 141385,
       "exportedPath": "assets/05-isometric-camera/missing-corner.png",
       "dependencies": []
     },
     "Assets/05 - Isometric Camera/moving-iso-camera.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 8367512,
       "exportedPath": "assets/05-isometric-camera/moving-iso-camera.webp",
       "dependencies": []
     },
     "Assets/05 - Isometric Camera/ortho-graphic-projection.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 437846,
       "exportedPath": "assets/05-isometric-camera/ortho-graphic-projection.webp",
       "dependencies": []
     },
     "Assets/05 - Isometric Camera/orthographic-size.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 640414,
       "exportedPath": "assets/05-isometric-camera/orthographic-size.webp",
       "dependencies": []
     },
     "Assets/05 - Isometric Camera/pivot-setting.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 7976456,
       "exportedPath": "assets/05-isometric-camera/pivot-setting.webp",
       "dependencies": []
     },
     "Assets/05 - Isometric Camera/pivot-setting.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 188689,
       "exportedPath": "assets/05-isometric-camera/pivot-setting.png",
       "dependencies": []
     },
     "Assets/05 - Isometric Camera/position-pivot.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 30124,
       "exportedPath": "assets/05-isometric-camera/position-pivot.png",
       "dependencies": []
     },
     "Assets/05 - Isometric Camera/rotate-camera.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 323430,
       "exportedPath": "assets/05-isometric-camera/rotate-camera.webp",
       "dependencies": []
     },
     "Assets/05 - Isometric Camera/set-hd-resolution.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 8779272,
       "exportedPath": "assets/05-isometric-camera/set-hd-resolution.webp",
       "dependencies": []
     },
     "Assets/05 - Isometric Camera/set-position-pivot.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 2306470,
       "exportedPath": "assets/05-isometric-camera/set-position-pivot.webp",
       "dependencies": []
     },
     "Assets/06 - Adding an Enemy/add-enemy-movement.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 283776,
       "exportedPath": "assets/06-adding-an-enemy/add-enemy-movement.webp",
       "dependencies": []
     },
     "Assets/06 - Adding an Enemy/add-model-to-enemy.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 361400,
       "exportedPath": "assets/06-adding-an-enemy/add-model-to-enemy.webp",
       "dependencies": []
     },
     "Assets/06 - Adding an Enemy/add-speed-to-enemy-movement.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 12900,
       "exportedPath": "assets/06-adding-an-enemy/add-speed-to-enemy-movement.png",
       "dependencies": []
     },
     "Assets/06 - Adding an Enemy/adjusting-speed-in-inspector.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 1198282,
       "exportedPath": "assets/06-adding-an-enemy/adjusting-speed-in-inspector.webp",
       "dependencies": []
     },
     "Assets/06 - Adding an Enemy/common-mistake.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 29645,
       "exportedPath": "assets/06-adding-an-enemy/common-mistake.png",
       "dependencies": []
     },
     "Assets/06 - Adding an Enemy/create-empty.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 29527,
       "exportedPath": "assets/06-adding-an-enemy/create-empty.png",
       "dependencies": []
     },
     "Assets/06 - Adding an Enemy/create-mono-behaviour-script.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 39068,
       "exportedPath": "assets/06-adding-an-enemy/create-mono-behaviour-script.png",
       "dependencies": []
     },
     "Assets/06 - Adding an Enemy/create-prefabs-folders.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 128324,
       "exportedPath": "assets/06-adding-an-enemy/create-prefabs-folders.webp",
       "dependencies": []
     },
     "Assets/06 - Adding an Enemy/create-scripts-folder.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 93822,
       "exportedPath": "assets/06-adding-an-enemy/create-scripts-folder.webp",
       "dependencies": []
     },
     "Assets/06 - Adding an Enemy/enemy-movement-override-applied.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 9201,
       "exportedPath": "assets/06-adding-an-enemy/enemy-movement-override-applied.png",
       "dependencies": []
     },
     "Assets/06 - Adding an Enemy/enemy-movement-prefab-overrid.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 22749,
       "exportedPath": "assets/06-adding-an-enemy/enemy-movement-prefab-overrid.png",
       "dependencies": []
     },
     "Assets/06 - Adding an Enemy/ensure-top-level-enemy.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 26907,
       "exportedPath": "assets/06-adding-an-enemy/ensure-top-level-enemy.png",
       "dependencies": []
     },
     "Assets/06 - Adding an Enemy/increment-transform-enemy-movement.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 22668,
       "exportedPath": "assets/06-adding-an-enemy/increment-transform-enemy-movement.png",
       "dependencies": []
     },
     "Assets/06 - Adding an Enemy/kenney-character-models.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 76076,
       "exportedPath": "assets/06-adding-an-enemy/kenney-character-models.png",
       "dependencies": []
     },
     "Assets/06 - Adding an Enemy/playmode-move-at-1unit-per-second.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 621368,
       "exportedPath": "assets/06-adding-an-enemy/playmode-move-at-1unit-per-second.webp",
       "dependencies": []
     },
     "Assets/06 - Adding an Enemy/playmode-move-enemy.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 418174,
       "exportedPath": "assets/06-adding-an-enemy/playmode-move-enemy.webp",
       "dependencies": []
     },
     "Assets/06 - Adding an Enemy/playmode-move-enemy-deltaTime.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 563658,
       "exportedPath": "assets/06-adding-an-enemy/playmode-move-enemy-deltatime.webp",
       "dependencies": []
     },
     "Assets/06 - Adding an Enemy/practice-renaming-unpacking.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 17153,
       "exportedPath": "assets/06-adding-an-enemy/practice-renaming-unpacking.png",
       "dependencies": []
     },
     "Assets/06 - Adding an Enemy/rotation-challenge-complete.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 861126,
       "exportedPath": "assets/06-adding-an-enemy/rotation-challenge-complete.webp",
       "dependencies": []
     },
     "Assets/06 - Adding an Enemy/scale-movement-with-delta-time.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 12096,
       "exportedPath": "assets/06-adding-an-enemy/scale-movement-with-delta-time.png",
       "dependencies": []
     },
     "Assets/06 - Adding an Enemy/serialize-speed-property.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 9255,
       "exportedPath": "assets/06-adding-an-enemy/serialize-speed-property.png",
       "dependencies": []
     },
     "Assets/06 - Adding an Enemy/update-method-with-speed-property.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 5288,
       "exportedPath": "assets/06-adding-an-enemy/update-method-with-speed-property.png",
       "dependencies": []
     },
     "Assets/06 - Adding an Enemy/verify-name.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 50440,
       "exportedPath": "assets/06-adding-an-enemy/verify-name.png",
       "dependencies": []
     },
     "Assets/07 - Waypoints/add-waypoints.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 594482,
       "exportedPath": "assets/07-waypoints/add-waypoints.webp",
       "dependencies": []
     },
     "Assets/07 - Waypoints/change-children.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 12039,
       "exportedPath": "assets/07-waypoints/change-children.png",
       "dependencies": []
     },
     "Assets/07 - Waypoints/create-prefab-in-project.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 47977,
       "exportedPath": "assets/07-waypoints/create-prefab-in-project.png",
       "dependencies": []
     },
     "Assets/07 - Waypoints/create-sphere.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 57663,
       "exportedPath": "assets/07-waypoints/create-sphere.png",
       "dependencies": []
     },
     "Assets/07 - Waypoints/culling-mask-settings.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 66966,
       "exportedPath": "assets/07-waypoints/culling-mask-settings.png",
       "dependencies": []
     },
     "Assets/07 - Waypoints/demonstrate-snap-movement.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 467108,
       "exportedPath": "assets/07-waypoints/demonstrate-snap-movement.webp",
       "dependencies": []
     },
     "Assets/07 - Waypoints/disable-grid-clicking.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 22789,
       "exportedPath": "assets/07-waypoints/disable-grid-clicking.png",
       "dependencies": []
     },
     "Assets/07 - Waypoints/disable-grid-clicking.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 549264,
       "exportedPath": "assets/07-waypoints/disable-grid-clicking.webp",
       "dependencies": []
     },
     "Assets/07 - Waypoints/disable-mesh-renderer.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 271204,
       "exportedPath": "assets/07-waypoints/disable-mesh-renderer.webp",
       "dependencies": []
     },
     "Assets/07 - Waypoints/drawing-red-line-on-selected.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 23153,
       "exportedPath": "assets/07-waypoints/drawing-red-line-on-selected.png",
       "dependencies": []
     },
     "Assets/07 - Waypoints/enable-grid-snapping.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 39733,
       "exportedPath": "assets/07-waypoints/enable-grid-snapping.png",
       "dependencies": []
     },
     "Assets/07 - Waypoints/exit-prefab-editor.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 318730,
       "exportedPath": "assets/07-waypoints/exit-prefab-editor.webp",
       "dependencies": []
     },
     "Assets/07 - Waypoints/grid-and-snapping.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 183898,
       "exportedPath": "assets/07-waypoints/grid-and-snapping.png",
       "dependencies": []
     },
     "Assets/07 - Waypoints/move-tool.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 32707,
       "exportedPath": "assets/07-waypoints/move-tool.png",
       "dependencies": []
     },
     "Assets/07 - Waypoints/null-check.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 16337,
       "exportedPath": "assets/07-waypoints/null-check.png",
       "dependencies": []
     },
     "Assets/07 - Waypoints/on-draw-gizmos.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 7508,
       "exportedPath": "assets/07-waypoints/on-draw-gizmos.png",
       "dependencies": []
     },
     "Assets/07 - Waypoints/organize-waypoints.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 23905,
       "exportedPath": "assets/07-waypoints/organize-waypoints.png",
       "dependencies": []
     },
     "Assets/07 - Waypoints/pivot-position.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 55828,
       "exportedPath": "assets/07-waypoints/pivot-position.png",
       "dependencies": []
     },
     "Assets/07 - Waypoints/playmode-shows-waypoints.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 191977,
       "exportedPath": "assets/07-waypoints/playmode-shows-waypoints.png",
       "dependencies": []
     },
     "Assets/07 - Waypoints/properties-window.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 1151406,
       "exportedPath": "assets/07-waypoints/properties-window.webp",
       "dependencies": []
     },
     "Assets/07 - Waypoints/remove-sphere-collider.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 54914,
       "exportedPath": "assets/07-waypoints/remove-sphere-collider.png",
       "dependencies": []
     },
     "Assets/07 - Waypoints/set-grid-snap-size.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 36106,
       "exportedPath": "assets/07-waypoints/set-grid-snap-size.png",
       "dependencies": []
     },
     "Assets/07 - Waypoints/set-next-on-first-waypoint.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 558558,
       "exportedPath": "assets/07-waypoints/set-next-on-first-waypoint.webp",
       "dependencies": []
     },
     "Assets/07 - Waypoints/set-waypoint-dragging.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 379960,
       "exportedPath": "assets/07-waypoints/set-waypoint-dragging.webp",
       "dependencies": []
     },
     "Assets/07 - Waypoints/show-grid-and-snap-settings.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 174650,
       "exportedPath": "assets/07-waypoints/show-grid-and-snap-settings.webp",
       "dependencies": []
     },
     "Assets/07 - Waypoints/specify-waypoint-layer.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 26988,
       "exportedPath": "assets/07-waypoints/specify-waypoint-layer.png",
       "dependencies": []
     },
     "Assets/07 - Waypoints/tags-and-layers.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 75094,
       "exportedPath": "assets/07-waypoints/tags-and-layers.png",
       "dependencies": []
     },
     "Assets/07 - Waypoints/verify-sphere.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 120036,
       "exportedPath": "assets/07-waypoints/verify-sphere.png",
       "dependencies": []
     },
     "Assets/07 - Waypoints/verify-waypoints.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 262672,
       "exportedPath": "assets/07-waypoints/verify-waypoints.webp",
       "dependencies": []
     },
     "Assets/07 - Waypoints/verify-waypoints-hidden.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 428590,
       "exportedPath": "assets/07-waypoints/verify-waypoints-hidden.webp",
       "dependencies": []
     },
     "Assets/07 - Waypoints/view-all-gizmo-lines.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 329992,
       "exportedPath": "assets/07-waypoints/view-all-gizmo-lines.webp",
       "dependencies": []
     },
     "Assets/07 - Waypoints/view-gizmo-line.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 460732,
       "exportedPath": "assets/07-waypoints/view-gizmo-line.webp",
       "dependencies": []
     },
     "Assets/07 - Waypoints/waypoint-component.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 5588,
       "exportedPath": "assets/07-waypoints/waypoint-component.png",
       "dependencies": []
     },
     "Assets/07 - Waypoints/waypoint-prefab.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 7761,
       "exportedPath": "assets/07-waypoints/waypoint-prefab.png",
       "dependencies": []
     },
     "Assets/07 - Waypoints/waypoint-scene.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 107940,
       "exportedPath": "assets/07-waypoints/waypoint-scene.png",
       "dependencies": []
     },
     "Assets/07 - Waypoints/where-is-layer.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 64205,
       "exportedPath": "assets/07-waypoints/where-is-layer.png",
       "dependencies": []
     },
     "Assets/08 - Waypoint Traveler/add-waypoint-target.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 20377,
       "exportedPath": "assets/08-waypoint-traveler/add-waypoint-target.png",
       "dependencies": []
     },
     "Assets/08 - Waypoint Traveler/calculate-distance.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 12654,
       "exportedPath": "assets/08-waypoint-traveler/calculate-distance.png",
       "dependencies": []
     },
     "Assets/08 - Waypoint Traveler/challenge-complete.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 432604,
       "exportedPath": "assets/08-waypoint-traveler/challenge-complete.webp",
       "dependencies": []
     },
     "Assets/08 - Waypoint Traveler/change-waypoint-in-playmode.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 903856,
       "exportedPath": "assets/08-waypoint-traveler/change-waypoint-in-playmode.webp",
       "dependencies": []
     },
     "Assets/08 - Waypoint Traveler/move-to-waypoint.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 294006,
       "exportedPath": "assets/08-waypoint-traveler/move-to-waypoint.webp",
       "dependencies": []
     },
     "Assets/08 - Waypoint Traveler/nullreference-exception.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 31165,
       "exportedPath": "assets/08-waypoint-traveler/nullreference-exception.png",
       "dependencies": []
     },
     "Assets/08 - Waypoint Traveler/set-enemys-initial-position.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 3845,
       "exportedPath": "assets/08-waypoint-traveler/set-enemys-initial-position.png",
       "dependencies": []
     },
     "Assets/08 - Waypoint Traveler/set-first-waypoint.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 149029,
       "exportedPath": "assets/08-waypoint-traveler/set-first-waypoint.png",
       "dependencies": []
     },
     "Assets/08 - Waypoint Traveler/use-mathf-epsilon.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 2688,
       "exportedPath": "assets/08-waypoint-traveler/use-mathf-epsilon.png",
       "dependencies": []
     },
     "Assets/08 - Waypoint Traveler/use-vector3-move-towards.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 19799,
       "exportedPath": "assets/08-waypoint-traveler/use-vector3-move-towards.png",
       "dependencies": []
     },
     "Assets/08 - Waypoint Traveler/verify-waypoint-traveler.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 502302,
       "exportedPath": "assets/08-waypoint-traveler/verify-waypoint-traveler.webp",
       "dependencies": []
     },
     "Assets/Challenges/Binary Waypoint Challenge/binary-waypoint-connections.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 176414,
       "exportedPath": "assets/challenges/binary-waypoint-challenge/binary-waypoint-connections.png",
       "dependencies": []
     },
     "Assets/Challenges/Binary Waypoint Challenge/no-waypoints-visible.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 123469,
       "exportedPath": "assets/challenges/binary-waypoint-challenge/no-waypoints-visible.png",
       "dependencies": []
     },
     "Assets/Challenges/Isometric Camera Challenge/import-challenge.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 2985828,
       "exportedPath": "assets/challenges/isometric-camera-challenge/import-challenge.webp",
       "dependencies": []
     },
     "Assets/Challenges/Isometric Camera Challenge/isometric-camera-challenge-solution.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 372665,
       "exportedPath": "assets/challenges/isometric-camera-challenge/isometric-camera-challenge-solution.png",
       "dependencies": []
     },
     "Challenges/01 - Isometric Camera Challenge/Isometric Camera Challenge.md": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 813,
       "exportedPath": "challenges/01-isometric-camera-challenge/isometric-camera-challenge.html",
       "dependencies": [
@@ -1347,13 +1378,13 @@
       ]
     },
     "Challenges/01 - Isometric Camera Challenge/IsometricCameraChallenge v1.0.0.unitypackage": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 418521,
       "exportedPath": "challenges/01-isometric-camera-challenge/isometriccamerachallenge-v1.0.0.unitypackage",
       "dependencies": []
     },
     "Challenges/02 - Binary Waypoint Challenge/Binary Waypoint Challenge.md": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 1206,
       "exportedPath": "challenges/02-binary-waypoint-challenge/binary-waypoint-challenge.html",
       "dependencies": [
@@ -1362,13 +1393,13 @@
       ]
     },
     "Challenges/02 - Binary Waypoint Challenge/BinaryWaypointChallenge V1.0.0.unitypackage": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 1515939,
       "exportedPath": "challenges/02-binary-waypoint-challenge/binarywaypointchallenge-v1.0.0.unitypackage",
       "dependencies": []
     },
     "Lessons/00 - Install Unity 6.md": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 1984,
       "exportedPath": "lessons/00-install-unity-6.html",
       "dependencies": [
@@ -1380,7 +1411,7 @@
       ]
     },
     "Lessons/01 - Creating the Project.md": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 2213,
       "exportedPath": "lessons/01-creating-the-project.html",
       "dependencies": [
@@ -1395,7 +1426,7 @@
       ]
     },
     "Lessons/02 - Creating a Tile Grid.md": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 10603,
       "exportedPath": "lessons/02-creating-a-tile-grid.html",
       "dependencies": [
@@ -1424,7 +1455,7 @@
       ]
     },
     "Lessons/03 - Creating Additional Tile Prefabs.md": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 3953,
       "exportedPath": "lessons/03-creating-additional-tile-prefabs.html",
       "dependencies": [
@@ -1439,7 +1470,7 @@
       ]
     },
     "Lessons/04 - Play Mode Settings.md": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 4202,
       "exportedPath": "lessons/04-play-mode-settings.html",
       "dependencies": [
@@ -1456,7 +1487,7 @@
       ]
     },
     "Lessons/05 - Creating an Isometric Camera.md": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 11238,
       "exportedPath": "lessons/05-creating-an-isometric-camera.html",
       "dependencies": [
@@ -1481,7 +1512,7 @@
       ]
     },
     "Lessons/06 - Adding an Enemy.md": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 9944,
       "exportedPath": "lessons/06-adding-an-enemy.html",
       "dependencies": [
@@ -1511,7 +1542,7 @@
       ]
     },
     "Lessons/07 - Waypoints.md": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 11453,
       "exportedPath": "lessons/07-waypoints.html",
       "dependencies": [
@@ -1555,7 +1586,7 @@
       ]
     },
     "Lessons/08 - Waypoint Traveler.md": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 5466,
       "exportedPath": "lessons/08-waypoint-traveler.html",
       "dependencies": [
@@ -1574,1087 +1605,1087 @@
       ]
     },
     "Index.md": {
-      "modifiedTime": 1732928348495,
-      "sourceSize": 1738,
+      "modifiedTime": 1733004734339,
+      "sourceSize": 1760,
       "exportedPath": "index.html",
       "dependencies": []
     },
     "lib/media/import-challenge.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 2985828,
       "exportedPath": "lib/media/import-challenge.webp",
       "dependencies": []
     },
     "lib/media/isometric-camera-challenge-solution.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 372665,
       "exportedPath": "lib/media/isometric-camera-challenge-solution.png",
       "dependencies": []
     },
     "lib/media/binary-waypoint-connections.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 176414,
       "exportedPath": "lib/media/binary-waypoint-connections.png",
       "dependencies": []
     },
     "lib/media/no-waypoints-visible.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 123469,
       "exportedPath": "lib/media/no-waypoints-visible.png",
       "dependencies": []
     },
     "lib/media/unityhubinstalls.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 40259,
       "exportedPath": "lib/media/unityhubinstalls.png",
       "dependencies": []
     },
     "lib/media/selectunity6000.0.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 45858,
       "exportedPath": "lib/media/selectunity6000.0.png",
       "dependencies": []
     },
     "lib/media/unity6installwebglbuildsupport.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 62757,
       "exportedPath": "lib/media/unity6installwebglbuildsupport.png",
       "dependencies": []
     },
     "lib/media/unity6downloadinprogress.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 40324,
       "exportedPath": "lib/media/unity6downloadinprogress.png",
       "dependencies": []
     },
     "lib/media/unity6downloadcomplete.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 39488,
       "exportedPath": "lib/media/unity6downloadcomplete.png",
       "dependencies": []
     },
     "lib/media/unityhubprojectsettings.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 99247,
       "exportedPath": "lib/media/unityhubprojectsettings.png",
       "dependencies": []
     },
     "lib/media/unityengineinitializing.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 822471,
       "exportedPath": "lib/media/unityengineinitializing.png",
       "dependencies": []
     },
     "lib/media/defaultprojectinitialized.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 185435,
       "exportedPath": "lib/media/defaultprojectinitialized.png",
       "dependencies": []
     },
     "lib/media/unitysetdefaultlayout.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 43910,
       "exportedPath": "lib/media/unitysetdefaultlayout.png",
       "dependencies": []
     },
     "lib/media/open-scenes-folder.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 93448,
       "exportedPath": "lib/media/open-scenes-folder.png",
       "dependencies": []
     },
     "lib/media/create-scene.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 46961,
       "exportedPath": "lib/media/create-scene.png",
       "dependencies": []
     },
     "lib/media/rename-scene.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 13881,
       "exportedPath": "lib/media/rename-scene.png",
       "dependencies": []
     },
     "lib/media/delete-sample-scene.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 8500,
       "exportedPath": "lib/media/delete-sample-scene.png",
       "dependencies": []
     },
     "lib/media/extractfile.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 35986,
       "exportedPath": "lib/media/extractfile.png",
       "dependencies": []
     },
     "lib/media/find-models.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 146236,
       "exportedPath": "lib/media/find-models.webp",
       "dependencies": []
     },
     "lib/media/import-fbx-format.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 514892,
       "exportedPath": "lib/media/import-fbx-format.webp",
       "dependencies": []
     },
     "lib/media/rename-folder.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 74212,
       "exportedPath": "lib/media/rename-folder.webp",
       "dependencies": []
     },
     "lib/media/resize-project-preview-size.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 1633164,
       "exportedPath": "lib/media/resize-project-preview-size.webp",
       "dependencies": []
     },
     "lib/media/add-tile-fbx-to-scene.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 366552,
       "exportedPath": "lib/media/add-tile-fbx-to-scene.webp",
       "dependencies": []
     },
     "lib/media/create-parent.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 195162,
       "exportedPath": "lib/media/create-parent.webp",
       "dependencies": []
     },
     "lib/media/create-prefab.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 184338,
       "exportedPath": "lib/media/create-prefab.webp",
       "dependencies": []
     },
     "lib/media/notice-prefab.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 40114,
       "exportedPath": "lib/media/notice-prefab.png",
       "dependencies": []
     },
     "lib/media/create-prefabs-folder.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 203570,
       "exportedPath": "lib/media/create-prefabs-folder.webp",
       "dependencies": []
     },
     "lib/media/try-to-align.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 3783776,
       "exportedPath": "lib/media/try-to-align.webp",
       "dependencies": []
     },
     "lib/media/perfect-alignment-with-inspector.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 175522,
       "exportedPath": "lib/media/perfect-alignment-with-inspector.webp",
       "dependencies": []
     },
     "lib/media/challenge1-solution.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 95464,
       "exportedPath": "lib/media/challenge1-solution.png",
       "dependencies": []
     },
     "lib/media/linear-on-10-objects.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 909584,
       "exportedPath": "lib/media/linear-on-10-objects.webp",
       "dependencies": []
     },
     "lib/media/linear-on-z-axis.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 1085544,
       "exportedPath": "lib/media/linear-on-z-axis.webp",
       "dependencies": []
     },
     "lib/media/open-prefab-editor.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 258314,
       "exportedPath": "lib/media/open-prefab-editor.webp",
       "dependencies": []
     },
     "lib/media/unpack-tile-model.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 281044,
       "exportedPath": "lib/media/unpack-tile-model.webp",
       "dependencies": []
     },
     "lib/media/verify-prefab-update.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 245840,
       "exportedPath": "lib/media/verify-prefab-update.webp",
       "dependencies": []
     },
     "lib/media/set-tile-dirt-model.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 906138,
       "exportedPath": "lib/media/set-tile-dirt-model.webp",
       "dependencies": []
     },
     "lib/media/enter-prefab-scene-editor.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 270616,
       "exportedPath": "lib/media/enter-prefab-scene-editor.webp",
       "dependencies": []
     },
     "lib/media/change-to-snow-tile.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 686142,
       "exportedPath": "lib/media/change-to-snow-tile.webp",
       "dependencies": []
     },
     "lib/media/apply-overrides-inspector.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 194770,
       "exportedPath": "lib/media/apply-overrides-inspector.webp",
       "dependencies": []
     },
     "lib/media/unpack-path-tile.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 334954,
       "exportedPath": "lib/media/unpack-path-tile.webp",
       "dependencies": []
     },
     "lib/media/create-path-tile-prefab.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 184824,
       "exportedPath": "lib/media/create-path-tile-prefab.webp",
       "dependencies": []
     },
     "lib/media/create-tiles-challenge.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 68701,
       "exportedPath": "lib/media/create-tiles-challenge.png",
       "dependencies": []
     },
     "lib/media/replace-prefab.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 501630,
       "exportedPath": "lib/media/replace-prefab.webp",
       "dependencies": []
     },
     "lib/media/replace-prefab-inspector.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 374004,
       "exportedPath": "lib/media/replace-prefab-inspector.webp",
       "dependencies": []
     },
     "lib/media/replace-multiple-prefabs.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 394104,
       "exportedPath": "lib/media/replace-multiple-prefabs.webp",
       "dependencies": []
     },
     "lib/media/example-finished-map.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 541647,
       "exportedPath": "lib/media/example-finished-map.png",
       "dependencies": []
     },
     "lib/media/enter-playmode-button.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 235919,
       "exportedPath": "lib/media/enter-playmode-button.png",
       "dependencies": []
     },
     "lib/media/entering-playmode.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 541806,
       "exportedPath": "lib/media/entering-playmode.webp",
       "dependencies": []
     },
     "lib/media/editing-in-playmode.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 4006006,
       "exportedPath": "lib/media/editing-in-playmode.webp",
       "dependencies": []
     },
     "lib/media/preferences.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 53624,
       "exportedPath": "lib/media/preferences.png",
       "dependencies": []
     },
     "lib/media/playmode-tint.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 88562,
       "exportedPath": "lib/media/playmode-tint.png",
       "dependencies": []
     },
     "lib/media/changing-playmode-color.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 2846764,
       "exportedPath": "lib/media/changing-playmode-color.webp",
       "dependencies": []
     },
     "lib/media/reloading-domain.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 5408,
       "exportedPath": "lib/media/reloading-domain.png",
       "dependencies": []
     },
     "lib/media/project-settings.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 37588,
       "exportedPath": "lib/media/project-settings.png",
       "dependencies": []
     },
     "lib/media/editor-playmode-settings.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 122314,
       "exportedPath": "lib/media/editor-playmode-settings.png",
       "dependencies": []
     },
     "lib/media/instant-playmod.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 969322,
       "exportedPath": "lib/media/instant-playmod.webp",
       "dependencies": []
     },
     "lib/media/iso-camera-scene-view.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 7850026,
       "exportedPath": "lib/media/iso-camera-scene-view.webp",
       "dependencies": []
     },
     "lib/media/moving-iso-camera.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 8367512,
       "exportedPath": "lib/media/moving-iso-camera.webp",
       "dependencies": []
     },
     "lib/media/pivot-setting.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 188689,
       "exportedPath": "lib/media/pivot-setting.png",
       "dependencies": []
     },
     "lib/media/pivot-setting.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 7976456,
       "exportedPath": "lib/media/pivot-setting.webp",
       "dependencies": []
     },
     "lib/media/camera-preview-setting.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 189269,
       "exportedPath": "lib/media/camera-preview-setting.png",
       "dependencies": []
     },
     "lib/media/camera-preview-setting-2.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 139614,
       "exportedPath": "lib/media/camera-preview-setting-2.png",
       "dependencies": []
     },
     "lib/media/center-grid.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 186938,
       "exportedPath": "lib/media/center-grid.webp",
       "dependencies": []
     },
     "lib/media/center-camera.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 210150,
       "exportedPath": "lib/media/center-camera.webp",
       "dependencies": []
     },
     "lib/media/camera-orthographic-projection.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 317716,
       "exportedPath": "lib/media/camera-orthographic-projection.webp",
       "dependencies": []
     },
     "lib/media/orthographic-size.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 640414,
       "exportedPath": "lib/media/orthographic-size.webp",
       "dependencies": []
     },
     "lib/media/rotate-camera.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 323430,
       "exportedPath": "lib/media/rotate-camera.webp",
       "dependencies": []
     },
     "lib/media/missing-corner.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 141385,
       "exportedPath": "lib/media/missing-corner.png",
       "dependencies": []
     },
     "lib/media/position-pivot.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 30124,
       "exportedPath": "lib/media/position-pivot.png",
       "dependencies": []
     },
     "lib/media/set-position-pivot.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 2306470,
       "exportedPath": "lib/media/set-position-pivot.webp",
       "dependencies": []
     },
     "lib/media/center-all-tiles-with-pivot.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 2065706,
       "exportedPath": "lib/media/center-all-tiles-with-pivot.webp",
       "dependencies": []
     },
     "lib/media/adjust-clipping-plane.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 1255384,
       "exportedPath": "lib/media/adjust-clipping-plane.webp",
       "dependencies": []
     },
     "lib/media/disable-low-aspect-ratios.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 3001206,
       "exportedPath": "lib/media/disable-low-aspect-ratios.webp",
       "dependencies": []
     },
     "lib/media/set-hd-resolution.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 8779272,
       "exportedPath": "lib/media/set-hd-resolution.webp",
       "dependencies": []
     },
     "lib/media/create-empty.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 29527,
       "exportedPath": "lib/media/create-empty.png",
       "dependencies": []
     },
     "lib/media/ensure-top-level-enemy.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 26907,
       "exportedPath": "lib/media/ensure-top-level-enemy.png",
       "dependencies": []
     },
     "lib/media/kenney-character-models.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 76076,
       "exportedPath": "lib/media/kenney-character-models.png",
       "dependencies": []
     },
     "lib/media/add-model-to-enemy.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 361400,
       "exportedPath": "lib/media/add-model-to-enemy.webp",
       "dependencies": []
     },
     "lib/media/practice-renaming-unpacking.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 17153,
       "exportedPath": "lib/media/practice-renaming-unpacking.png",
       "dependencies": []
     },
     "lib/media/create-prefabs-folders.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 128324,
       "exportedPath": "lib/media/create-prefabs-folders.webp",
       "dependencies": []
     },
     "lib/media/create-scripts-folder.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 93822,
       "exportedPath": "lib/media/create-scripts-folder.webp",
       "dependencies": []
     },
     "lib/media/create-mono-behaviour-script.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 39068,
       "exportedPath": "lib/media/create-mono-behaviour-script.png",
       "dependencies": []
     },
     "lib/media/common-mistake.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 29645,
       "exportedPath": "lib/media/common-mistake.png",
       "dependencies": []
     },
     "lib/media/verify-name.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 50440,
       "exportedPath": "lib/media/verify-name.png",
       "dependencies": []
     },
     "lib/media/add-enemy-movement.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 283776,
       "exportedPath": "lib/media/add-enemy-movement.webp",
       "dependencies": []
     },
     "lib/media/enemy-movement-prefab-overrid.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 22749,
       "exportedPath": "lib/media/enemy-movement-prefab-overrid.png",
       "dependencies": []
     },
     "lib/media/enemy-movement-override-applied.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 9201,
       "exportedPath": "lib/media/enemy-movement-override-applied.png",
       "dependencies": []
     },
     "lib/media/increment-transform-enemy-movement.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 22668,
       "exportedPath": "lib/media/increment-transform-enemy-movement.png",
       "dependencies": []
     },
     "lib/media/playmode-move-enemy.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 418174,
       "exportedPath": "lib/media/playmode-move-enemy.webp",
       "dependencies": []
     },
     "lib/media/scale-movement-with-delta-time.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 12096,
       "exportedPath": "lib/media/scale-movement-with-delta-time.png",
       "dependencies": []
     },
     "lib/media/playmode-move-enemy-deltatime.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 563658,
       "exportedPath": "lib/media/playmode-move-enemy-deltatime.webp",
       "dependencies": []
     },
     "lib/media/add-speed-to-enemy-movement.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 12900,
       "exportedPath": "lib/media/add-speed-to-enemy-movement.png",
       "dependencies": []
     },
     "lib/media/update-method-with-speed-property.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 5288,
       "exportedPath": "lib/media/update-method-with-speed-property.png",
       "dependencies": []
     },
     "lib/media/playmode-move-at-1unit-per-second.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 621368,
       "exportedPath": "lib/media/playmode-move-at-1unit-per-second.webp",
       "dependencies": []
     },
     "lib/media/serialize-speed-property.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 9255,
       "exportedPath": "lib/media/serialize-speed-property.png",
       "dependencies": []
     },
     "lib/media/adjusting-speed-in-inspector.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 1198282,
       "exportedPath": "lib/media/adjusting-speed-in-inspector.webp",
       "dependencies": []
     },
     "lib/media/rotation-challenge-complete.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 861126,
       "exportedPath": "lib/media/rotation-challenge-complete.webp",
       "dependencies": []
     },
     "lib/media/create-prefab-in-project.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 47977,
       "exportedPath": "lib/media/create-prefab-in-project.png",
       "dependencies": []
     },
     "lib/media/waypoint-prefab.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 7761,
       "exportedPath": "lib/media/waypoint-prefab.png",
       "dependencies": []
     },
     "lib/media/waypoint-scene.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 107940,
       "exportedPath": "lib/media/waypoint-scene.png",
       "dependencies": []
     },
     "lib/media/create-sphere.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 57663,
       "exportedPath": "lib/media/create-sphere.png",
       "dependencies": []
     },
     "lib/media/verify-sphere.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 120036,
       "exportedPath": "lib/media/verify-sphere.png",
       "dependencies": []
     },
     "lib/media/remove-sphere-collider.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 54914,
       "exportedPath": "lib/media/remove-sphere-collider.png",
       "dependencies": []
     },
     "lib/media/exit-prefab-editor.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 318730,
       "exportedPath": "lib/media/exit-prefab-editor.webp",
       "dependencies": []
     },
     "lib/media/add-waypoints.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 594482,
       "exportedPath": "lib/media/add-waypoints.webp",
       "dependencies": []
     },
     "lib/media/grid-and-snapping.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 183898,
       "exportedPath": "lib/media/grid-and-snapping.png",
       "dependencies": []
     },
     "lib/media/show-grid-and-snap-settings.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 174650,
       "exportedPath": "lib/media/show-grid-and-snap-settings.webp",
       "dependencies": []
     },
     "lib/media/set-grid-snap-size.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 36106,
       "exportedPath": "lib/media/set-grid-snap-size.png",
       "dependencies": []
     },
     "lib/media/enable-grid-snapping.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 39733,
       "exportedPath": "lib/media/enable-grid-snapping.png",
       "dependencies": []
     },
     "lib/media/pivot-position.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 55828,
       "exportedPath": "lib/media/pivot-position.png",
       "dependencies": []
     },
     "lib/media/move-tool.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 32707,
       "exportedPath": "lib/media/move-tool.png",
       "dependencies": []
     },
     "lib/media/demonstrate-snap-movement.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 467108,
       "exportedPath": "lib/media/demonstrate-snap-movement.webp",
       "dependencies": []
     },
     "lib/media/disable-grid-clicking.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 22789,
       "exportedPath": "lib/media/disable-grid-clicking.png",
       "dependencies": []
     },
     "lib/media/disable-grid-clicking.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 549264,
       "exportedPath": "lib/media/disable-grid-clicking.webp",
       "dependencies": []
     },
     "lib/media/playmode-shows-waypoints.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 191977,
       "exportedPath": "lib/media/playmode-shows-waypoints.png",
       "dependencies": []
     },
     "lib/media/disable-mesh-renderer.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 271204,
       "exportedPath": "lib/media/disable-mesh-renderer.webp",
       "dependencies": []
     },
     "lib/media/tags-and-layers.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 75094,
       "exportedPath": "lib/media/tags-and-layers.png",
       "dependencies": []
     },
     "lib/media/specify-waypoint-layer.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 26988,
       "exportedPath": "lib/media/specify-waypoint-layer.png",
       "dependencies": []
     },
     "lib/media/where-is-layer.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 64205,
       "exportedPath": "lib/media/where-is-layer.png",
       "dependencies": []
     },
     "lib/media/change-children.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 12039,
       "exportedPath": "lib/media/change-children.png",
       "dependencies": []
     },
     "lib/media/culling-mask-settings.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 66966,
       "exportedPath": "lib/media/culling-mask-settings.png",
       "dependencies": []
     },
     "lib/media/verify-waypoints-hidden.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 428590,
       "exportedPath": "lib/media/verify-waypoints-hidden.webp",
       "dependencies": []
     },
     "lib/media/waypoint-component.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 5588,
       "exportedPath": "lib/media/waypoint-component.png",
       "dependencies": []
     },
     "lib/media/verify-waypoints.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 262672,
       "exportedPath": "lib/media/verify-waypoints.webp",
       "dependencies": []
     },
     "lib/media/set-next-on-first-waypoint.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 558558,
       "exportedPath": "lib/media/set-next-on-first-waypoint.webp",
       "dependencies": []
     },
     "lib/media/set-waypoint-dragging.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 379960,
       "exportedPath": "lib/media/set-waypoint-dragging.webp",
       "dependencies": []
     },
     "lib/media/properties-window.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 1151406,
       "exportedPath": "lib/media/properties-window.webp",
       "dependencies": []
     },
     "lib/media/organize-waypoints.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 23905,
       "exportedPath": "lib/media/organize-waypoints.png",
       "dependencies": []
     },
     "lib/media/drawing-red-line-on-selected.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 23153,
       "exportedPath": "lib/media/drawing-red-line-on-selected.png",
       "dependencies": []
     },
     "lib/media/view-gizmo-line.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 460732,
       "exportedPath": "lib/media/view-gizmo-line.webp",
       "dependencies": []
     },
     "lib/media/null-check.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 16337,
       "exportedPath": "lib/media/null-check.png",
       "dependencies": []
     },
     "lib/media/on-draw-gizmos.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 7508,
       "exportedPath": "lib/media/on-draw-gizmos.png",
       "dependencies": []
     },
     "lib/media/view-all-gizmo-lines.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 329992,
       "exportedPath": "lib/media/view-all-gizmo-lines.webp",
       "dependencies": []
     },
     "lib/media/add-waypoint-target.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 20377,
       "exportedPath": "lib/media/add-waypoint-target.png",
       "dependencies": []
     },
     "lib/media/use-vector3-move-towards.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 19799,
       "exportedPath": "lib/media/use-vector3-move-towards.png",
       "dependencies": []
     },
     "lib/media/set-first-waypoint.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 149029,
       "exportedPath": "lib/media/set-first-waypoint.png",
       "dependencies": []
     },
     "lib/media/move-to-waypoint.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 294006,
       "exportedPath": "lib/media/move-to-waypoint.webp",
       "dependencies": []
     },
     "lib/media/change-waypoint-in-playmode.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 903856,
       "exportedPath": "lib/media/change-waypoint-in-playmode.webp",
       "dependencies": []
     },
     "lib/media/calculate-distance.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 12654,
       "exportedPath": "lib/media/calculate-distance.png",
       "dependencies": []
     },
     "lib/media/verify-waypoint-traveler.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 502302,
       "exportedPath": "lib/media/verify-waypoint-traveler.webp",
       "dependencies": []
     },
     "lib/media/use-mathf-epsilon.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 2688,
       "exportedPath": "lib/media/use-mathf-epsilon.png",
       "dependencies": []
     },
     "lib/media/nullreference-exception.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 31165,
       "exportedPath": "lib/media/nullreference-exception.png",
       "dependencies": []
     },
     "lib/media/set-enemys-initial-position.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 3845,
       "exportedPath": "lib/media/set-enemys-initial-position.png",
       "dependencies": []
     },
     "lib/media/challenge-complete.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 432604,
       "exportedPath": "lib/media/challenge-complete.webp",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1732928348495,
-      "sourceSize": 93618,
+      "modifiedTime": 1733004734339,
+      "sourceSize": 100482,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 131018,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 238,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     },
     "Assets/09 - Enemy Spawner/call-spawn-in-start.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 44793,
       "exportedPath": "assets/09-enemy-spawner/call-spawn-in-start.png",
       "dependencies": []
     },
     "Assets/09 - Enemy Spawner/enemy-spawner-properties.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 29254,
       "exportedPath": "assets/09-enemy-spawner/enemy-spawner-properties.png",
       "dependencies": []
     },
     "Assets/09 - Enemy Spawner/example-enemy-spanwer-prefab.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 247312,
       "exportedPath": "assets/09-enemy-spawner/example-enemy-spanwer-prefab.png",
       "dependencies": []
     },
     "Assets/09 - Enemy Spawner/first-draft-spawn.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 12741,
       "exportedPath": "assets/09-enemy-spawner/first-draft-spawn.png",
       "dependencies": []
     },
     "Assets/09 - Enemy Spawner/invoke-repeating.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 8363,
       "exportedPath": "assets/09-enemy-spawner/invoke-repeating.png",
       "dependencies": []
     },
     "Assets/09 - Enemy Spawner/ondisable-cancelinvoke.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 5073,
       "exportedPath": "assets/09-enemy-spawner/ondisable-cancelinvoke.png",
       "dependencies": []
     },
     "Assets/09 - Enemy Spawner/set-enemy-with-prefab.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 82970,
       "exportedPath": "assets/09-enemy-spawner/set-enemy-with-prefab.png",
       "dependencies": []
     },
     "Assets/09 - Enemy Spawner/set-starting-waypoint.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 186437,
       "exportedPath": "assets/09-enemy-spawner/set-starting-waypoint.png",
       "dependencies": []
     },
     "Assets/09 - Enemy Spawner/update-target-to-public.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 17702,
       "exportedPath": "assets/09-enemy-spawner/update-target-to-public.png",
       "dependencies": []
     },
     "Assets/09 - Enemy Spawner/verify-ondisable.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 798912,
       "exportedPath": "assets/09-enemy-spawner/verify-ondisable.webp",
       "dependencies": []
     },
     "Assets/09 - Enemy Spawner/verify-onenable.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 946556,
       "exportedPath": "assets/09-enemy-spawner/verify-onenable.webp",
       "dependencies": []
     },
     "Assets/09 - Enemy Spawner/verify-repeating-spawn.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 1105542,
       "exportedPath": "assets/09-enemy-spawner/verify-repeating-spawn.webp",
       "dependencies": []
     },
     "Assets/09 - Enemy Spawner/verify-repeating-spawn 1.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 1105542,
       "exportedPath": "assets/09-enemy-spawner/verify-repeating-spawn-1.webp",
       "dependencies": []
     },
     "Assets/09 - Enemy Spawner/verify-spawn-method.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 301822,
       "exportedPath": "assets/09-enemy-spawner/verify-spawn-method.webp",
       "dependencies": []
     },
     "Lessons/09 - Enemy Spawner.md": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 7300,
       "exportedPath": "lessons/09-enemy-spawner.html",
       "dependencies": [
@@ -2675,104 +2706,104 @@
       ]
     },
     "Community.md": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 600,
       "exportedPath": "community.html",
       "dependencies": []
     },
     "lib/media/example-enemy-spanwer-prefab.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 247312,
       "exportedPath": "lib/media/example-enemy-spanwer-prefab.png",
       "dependencies": []
     },
     "lib/media/enemy-spawner-properties.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 29254,
       "exportedPath": "lib/media/enemy-spawner-properties.png",
       "dependencies": []
     },
     "lib/media/first-draft-spawn.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 12741,
       "exportedPath": "lib/media/first-draft-spawn.png",
       "dependencies": []
     },
     "lib/media/update-target-to-public.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 17702,
       "exportedPath": "lib/media/update-target-to-public.png",
       "dependencies": []
     },
     "lib/media/call-spawn-in-start.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 44793,
       "exportedPath": "lib/media/call-spawn-in-start.png",
       "dependencies": []
     },
     "lib/media/set-starting-waypoint.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 186437,
       "exportedPath": "lib/media/set-starting-waypoint.png",
       "dependencies": []
     },
     "lib/media/set-enemy-with-prefab.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 82970,
       "exportedPath": "lib/media/set-enemy-with-prefab.png",
       "dependencies": []
     },
     "lib/media/verify-spawn-method.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 301822,
       "exportedPath": "lib/media/verify-spawn-method.webp",
       "dependencies": []
     },
     "lib/media/invoke-repeating.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 8363,
       "exportedPath": "lib/media/invoke-repeating.png",
       "dependencies": []
     },
     "lib/media/verify-repeating-spawn.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 1105542,
       "exportedPath": "lib/media/verify-repeating-spawn.webp",
       "dependencies": []
     },
     "lib/media/verify-repeating-spawn-1.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 1105542,
       "exportedPath": "lib/media/verify-repeating-spawn-1.webp",
       "dependencies": []
     },
     "lib/media/ondisable-cancelinvoke.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 5073,
       "exportedPath": "lib/media/ondisable-cancelinvoke.png",
       "dependencies": []
     },
     "lib/media/verify-ondisable.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 798912,
       "exportedPath": "lib/media/verify-ondisable.webp",
       "dependencies": []
     },
     "lib/media/verify-onenable.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 946556,
       "exportedPath": "lib/media/verify-onenable.webp",
       "dependencies": []
     },
     "Assets/08 - Waypoint Traveler/adjust-model-y-position.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 125610,
       "exportedPath": "assets/08-waypoint-traveler/adjust-model-y-position.png",
       "dependencies": []
     },
     "Lessons/10 - Rotating Turret.md": {
-      "modifiedTime": 1732928348495,
-      "sourceSize": 8871,
+      "modifiedTime": 1733004734339,
+      "sourceSize": 8890,
       "exportedPath": "lessons/10-rotating-turret.html",
       "dependencies": [
         "lib/media/add-turret-to-scene.png",
@@ -2803,315 +2834,517 @@
       ]
     },
     "lib/media/adjust-model-y-position.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 125610,
       "exportedPath": "lib/media/adjust-model-y-position.png",
       "dependencies": []
     },
     "Assets/10 - Turret/add-capsule-collider.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 116776,
       "exportedPath": "assets/10-turret/add-capsule-collider.png",
       "dependencies": []
     },
     "Assets/10 - Turret/add-kinematic-rigidbody.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 233134,
       "exportedPath": "assets/10-turret/add-kinematic-rigidbody.webp",
       "dependencies": []
     },
     "Assets/10 - Turret/add-targets.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 22249,
       "exportedPath": "assets/10-turret/add-targets.png",
       "dependencies": []
     },
     "Assets/10 - Turret/add-turret-to-scene.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 281976,
       "exportedPath": "assets/10-turret/add-turret-to-scene.png",
       "dependencies": []
     },
     "Assets/10 - Turret/adjust-scale.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 236978,
       "exportedPath": "assets/10-turret/adjust-scale.webp",
       "dependencies": []
     },
     "Assets/10 - Turret/area-of-engagement-component.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 129350,
       "exportedPath": "assets/10-turret/area-of-engagement-component.png",
       "dependencies": []
     },
     "Assets/10 - Turret/area-of-engagment.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 13421,
       "exportedPath": "assets/10-turret/area-of-engagment.png",
       "dependencies": []
     },
     "Assets/10 - Turret/assign-aoe-material.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 323778,
       "exportedPath": "assets/10-turret/assign-aoe-material.webp",
       "dependencies": []
     },
     "Assets/10 - Turret/challenge-remove-transforms.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 1064098,
       "exportedPath": "assets/10-turret/challenge-remove-transforms.webp",
       "dependencies": []
     },
     "Assets/10 - Turret/create-rendering-material.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 73557,
       "exportedPath": "assets/10-turret/create-rendering-material.png",
       "dependencies": []
     },
     "Assets/10 - Turret/create-spehere.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 251064,
       "exportedPath": "assets/10-turret/create-spehere.webp",
       "dependencies": []
     },
     "Assets/10 - Turret/create-trigger-collider.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 24553,
       "exportedPath": "assets/10-turret/create-trigger-collider.png",
       "dependencies": []
     },
     "Assets/10 - Turret/find-nearest-target-foreach.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 58569,
       "exportedPath": "assets/10-turret/find-nearest-target-foreach.png",
       "dependencies": []
     },
     "Assets/10 - Turret/hard-to-tell-tiles.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 310258,
       "exportedPath": "assets/10-turret/hard-to-tell-tiles.png",
       "dependencies": []
     },
     "Assets/10 - Turret/hideous-aoe.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 875776,
       "exportedPath": "assets/10-turret/hideous-aoe.webp",
       "dependencies": []
     },
     "Assets/10 - Turret/metalic-map-smoothness-0.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 1952138,
       "exportedPath": "assets/10-turret/metalic-map-smoothness-0.webp",
       "dependencies": []
     },
     "Assets/10 - Turret/rotate-challenge-complete.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 4104478,
       "exportedPath": "assets/10-turret/rotate-challenge-complete.webp",
       "dependencies": []
     },
     "Assets/10 - Turret/scale-aoe-y.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 239342,
       "exportedPath": "assets/10-turret/scale-aoe-y.webp",
       "dependencies": []
     },
     "Assets/10 - Turret/set-aoe-color.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 2025174,
       "exportedPath": "assets/10-turret/set-aoe-color.webp",
       "dependencies": []
     },
     "Assets/10 - Turret/set-aoe-material.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 47663,
       "exportedPath": "assets/10-turret/set-aoe-material.png",
       "dependencies": []
     },
     "Assets/10 - Turret/set-aoe-model-inspector.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 73383,
       "exportedPath": "assets/10-turret/set-aoe-model-inspector.png",
       "dependencies": []
     },
     "Assets/10 - Turret/transparent-surface-type.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 35976,
       "exportedPath": "assets/10-turret/transparent-surface-type.png",
       "dependencies": []
     },
     "Assets/10 - Turret/turret-target-aoe-model.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 19172,
       "exportedPath": "assets/10-turret/turret-target-aoe-model.png",
       "dependencies": []
     },
     "Assets/10 - Turret/verify-collider-size.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 184628,
       "exportedPath": "assets/10-turret/verify-collider-size.webp",
       "dependencies": []
     },
     "Assets/10 - Turret/verify-targets-added.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 1697150,
       "exportedPath": "assets/10-turret/verify-targets-added.webp",
       "dependencies": []
     },
     "Assets/10 - Turret/verify-trigger-working.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 1180512,
       "exportedPath": "assets/10-turret/verify-trigger-working.webp",
       "dependencies": []
     },
     "lib/media/add-turret-to-scene.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 281976,
       "exportedPath": "lib/media/add-turret-to-scene.png",
       "dependencies": []
     },
     "lib/media/create-spehere.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 251064,
       "exportedPath": "lib/media/create-spehere.webp",
       "dependencies": []
     },
     "lib/media/adjust-scale.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 236978,
       "exportedPath": "lib/media/adjust-scale.webp",
       "dependencies": []
     },
     "lib/media/create-trigger-collider.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 24553,
       "exportedPath": "lib/media/create-trigger-collider.png",
       "dependencies": []
     },
     "lib/media/hideous-aoe.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 875776,
       "exportedPath": "lib/media/hideous-aoe.webp",
       "dependencies": []
     },
     "lib/media/create-rendering-material.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 73557,
       "exportedPath": "lib/media/create-rendering-material.png",
       "dependencies": []
     },
     "lib/media/set-aoe-material.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 47663,
       "exportedPath": "lib/media/set-aoe-material.png",
       "dependencies": []
     },
     "lib/media/assign-aoe-material.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 323778,
       "exportedPath": "lib/media/assign-aoe-material.webp",
       "dependencies": []
     },
     "lib/media/transparent-surface-type.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 35976,
       "exportedPath": "lib/media/transparent-surface-type.png",
       "dependencies": []
     },
     "lib/media/set-aoe-color.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 2025174,
       "exportedPath": "lib/media/set-aoe-color.webp",
       "dependencies": []
     },
     "lib/media/metalic-map-smoothness-0.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 1952138,
       "exportedPath": "lib/media/metalic-map-smoothness-0.webp",
       "dependencies": []
     },
     "lib/media/hard-to-tell-tiles.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 310258,
       "exportedPath": "lib/media/hard-to-tell-tiles.png",
       "dependencies": []
     },
     "lib/media/scale-aoe-y.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 239342,
       "exportedPath": "lib/media/scale-aoe-y.webp",
       "dependencies": []
     },
     "lib/media/verify-collider-size.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 184628,
       "exportedPath": "lib/media/verify-collider-size.webp",
       "dependencies": []
     },
     "lib/media/add-capsule-collider.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 116776,
       "exportedPath": "lib/media/add-capsule-collider.png",
       "dependencies": []
     },
     "lib/media/add-kinematic-rigidbody.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 233134,
       "exportedPath": "lib/media/add-kinematic-rigidbody.webp",
       "dependencies": []
     },
     "lib/media/area-of-engagement-component.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 129350,
       "exportedPath": "lib/media/area-of-engagement-component.png",
       "dependencies": []
     },
     "lib/media/area-of-engagment.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 13421,
       "exportedPath": "lib/media/area-of-engagment.png",
       "dependencies": []
     },
     "lib/media/verify-trigger-working.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 1180512,
       "exportedPath": "lib/media/verify-trigger-working.webp",
       "dependencies": []
     },
     "lib/media/add-targets.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 22249,
       "exportedPath": "lib/media/add-targets.png",
       "dependencies": []
     },
     "lib/media/verify-targets-added.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 1697150,
       "exportedPath": "lib/media/verify-targets-added.webp",
       "dependencies": []
     },
     "lib/media/challenge-remove-transforms.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 1064098,
       "exportedPath": "lib/media/challenge-remove-transforms.webp",
       "dependencies": []
     },
     "lib/media/turret-target-aoe-model.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 19172,
       "exportedPath": "lib/media/turret-target-aoe-model.png",
       "dependencies": []
     },
     "lib/media/set-aoe-model-inspector.png": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 73383,
       "exportedPath": "lib/media/set-aoe-model-inspector.png",
       "dependencies": []
     },
     "lib/media/rotate-challenge-complete.webp": {
-      "modifiedTime": 1732928348495,
+      "modifiedTime": 1733004734339,
       "sourceSize": 4104478,
       "exportedPath": "lib/media/rotate-challenge-complete.webp",
+      "dependencies": []
+    },
+    "Assets/11 - Projectile/add-health-to-enemy.png": {
+      "modifiedTime": 1733004734339,
+      "sourceSize": 104738,
+      "exportedPath": "assets/11-projectile/add-health-to-enemy.png",
+      "dependencies": []
+    },
+    "Assets/11 - Projectile/apply-hit-damage.png": {
+      "modifiedTime": 1733004734339,
+      "sourceSize": 26275,
+      "exportedPath": "assets/11-projectile/apply-hit-damage.png",
+      "dependencies": []
+    },
+    "Assets/11 - Projectile/create-scene-scene.png": {
+      "modifiedTime": 1733004734339,
+      "sourceSize": 29531,
+      "exportedPath": "assets/11-projectile/create-scene-scene.png",
+      "dependencies": []
+    },
+    "Assets/11 - Projectile/destroy-gameobject-1.png": {
+      "modifiedTime": 1733004734339,
+      "sourceSize": 15236,
+      "exportedPath": "assets/11-projectile/destroy-gameobject-1.png",
+      "dependencies": []
+    },
+    "Assets/11 - Projectile/get-health-apply-hit.png": {
+      "modifiedTime": 1733004734339,
+      "sourceSize": 20158,
+      "exportedPath": "assets/11-projectile/get-health-apply-hit.png",
+      "dependencies": []
+    },
+    "Assets/11 - Projectile/health-script-base.png": {
+      "modifiedTime": 1733004734339,
+      "sourceSize": 17786,
+      "exportedPath": "assets/11-projectile/health-script-base.png",
+      "dependencies": []
+    },
+    "Assets/11 - Projectile/missing-target.webp": {
+      "modifiedTime": 1733004734339,
+      "sourceSize": 143498,
+      "exportedPath": "assets/11-projectile/missing-target.webp",
+      "dependencies": []
+    },
+    "Assets/11 - Projectile/projectile-challenge-complete.webp": {
+      "modifiedTime": 1733004734339,
+      "sourceSize": 123426,
+      "exportedPath": "assets/11-projectile/projectile-challenge-complete.webp",
+      "dependencies": []
+    },
+    "Assets/11 - Projectile/projectile-challenge-completed.webp": {
+      "modifiedTime": 1733004734339,
+      "sourceSize": 205074,
+      "exportedPath": "assets/11-projectile/projectile-challenge-completed.webp",
+      "dependencies": []
+    },
+    "Assets/11 - Projectile/projectile-completed.png": {
+      "modifiedTime": 1733004734339,
+      "sourceSize": 85804,
+      "exportedPath": "assets/11-projectile/projectile-completed.png",
+      "dependencies": []
+    },
+    "Assets/11 - Projectile/projectile-speed-damage-target.png": {
+      "modifiedTime": 1733004734339,
+      "sourceSize": 24288,
+      "exportedPath": "assets/11-projectile/projectile-speed-damage-target.png",
+      "dependencies": []
+    },
+    "Assets/11 - Projectile/projectile-test-scene-setup.webp": {
+      "modifiedTime": 1733004734339,
+      "sourceSize": 171490,
+      "exportedPath": "assets/11-projectile/projectile-test-scene-setup.webp",
+      "dependencies": []
+    },
+    "Assets/11 - Projectile/verify-damage-is-updating.webp": {
+      "modifiedTime": 1733004734339,
+      "sourceSize": 231588,
+      "exportedPath": "assets/11-projectile/verify-damage-is-updating.webp",
+      "dependencies": []
+    },
+    "Assets/11 - Projectile/verify-enemy-is-destroyed.webp": {
+      "modifiedTime": 1733004734339,
+      "sourceSize": 204354,
+      "exportedPath": "assets/11-projectile/verify-enemy-is-destroyed.webp",
+      "dependencies": []
+    },
+    "Assets/11 - Projectile/verify-projectiles-removed.webp": {
+      "modifiedTime": 1733004734339,
+      "sourceSize": 222216,
+      "exportedPath": "assets/11-projectile/verify-projectiles-removed.webp",
+      "dependencies": []
+    },
+    "Lessons/11 - Projectile.md": {
+      "modifiedTime": 1733004734339,
+      "sourceSize": 7362,
+      "exportedPath": "lessons/11-projectile.html",
+      "dependencies": [
+        "lib/media/projectile-completed.png",
+        "lib/media/create-scene-scene.png",
+        "lib/media/health-script-base.png",
+        "lib/media/add-health-to-enemy.png",
+        "lib/media/projectile-speed-damage-target.png",
+        "lib/media/projectile-test-scene-setup.webp",
+        "lib/media/projectile-challenge-completed.webp",
+        "lib/media/destroy-gameobject-1.png",
+        "lib/media/verify-projectiles-removed.webp",
+        "lib/media/apply-hit-damage.png",
+        "lib/media/get-health-apply-hit.png",
+        "lib/media/verify-damage-is-updating.webp",
+        "lib/media/verify-enemy-is-destroyed.webp",
+        "lib/media/missing-target.webp",
+        "lib/media/projectile-challenge-complete.webp"
+      ]
+    },
+    "lib/media/projectile-completed.png": {
+      "modifiedTime": 1733004734339,
+      "sourceSize": 85804,
+      "exportedPath": "lib/media/projectile-completed.png",
+      "dependencies": []
+    },
+    "lib/media/create-scene-scene.png": {
+      "modifiedTime": 1733004734339,
+      "sourceSize": 29531,
+      "exportedPath": "lib/media/create-scene-scene.png",
+      "dependencies": []
+    },
+    "lib/media/health-script-base.png": {
+      "modifiedTime": 1733004734339,
+      "sourceSize": 17786,
+      "exportedPath": "lib/media/health-script-base.png",
+      "dependencies": []
+    },
+    "lib/media/add-health-to-enemy.png": {
+      "modifiedTime": 1733004734339,
+      "sourceSize": 104738,
+      "exportedPath": "lib/media/add-health-to-enemy.png",
+      "dependencies": []
+    },
+    "lib/media/projectile-speed-damage-target.png": {
+      "modifiedTime": 1733004734339,
+      "sourceSize": 24288,
+      "exportedPath": "lib/media/projectile-speed-damage-target.png",
+      "dependencies": []
+    },
+    "lib/media/projectile-test-scene-setup.webp": {
+      "modifiedTime": 1733004734339,
+      "sourceSize": 171490,
+      "exportedPath": "lib/media/projectile-test-scene-setup.webp",
+      "dependencies": []
+    },
+    "lib/media/projectile-challenge-completed.webp": {
+      "modifiedTime": 1733004734339,
+      "sourceSize": 205074,
+      "exportedPath": "lib/media/projectile-challenge-completed.webp",
+      "dependencies": []
+    },
+    "lib/media/destroy-gameobject-1.png": {
+      "modifiedTime": 1733004734339,
+      "sourceSize": 15236,
+      "exportedPath": "lib/media/destroy-gameobject-1.png",
+      "dependencies": []
+    },
+    "lib/media/verify-projectiles-removed.webp": {
+      "modifiedTime": 1733004734339,
+      "sourceSize": 222216,
+      "exportedPath": "lib/media/verify-projectiles-removed.webp",
+      "dependencies": []
+    },
+    "lib/media/apply-hit-damage.png": {
+      "modifiedTime": 1733004734339,
+      "sourceSize": 26275,
+      "exportedPath": "lib/media/apply-hit-damage.png",
+      "dependencies": []
+    },
+    "lib/media/get-health-apply-hit.png": {
+      "modifiedTime": 1733004734339,
+      "sourceSize": 20158,
+      "exportedPath": "lib/media/get-health-apply-hit.png",
+      "dependencies": []
+    },
+    "lib/media/verify-damage-is-updating.webp": {
+      "modifiedTime": 1733004734339,
+      "sourceSize": 231588,
+      "exportedPath": "lib/media/verify-damage-is-updating.webp",
+      "dependencies": []
+    },
+    "lib/media/verify-enemy-is-destroyed.webp": {
+      "modifiedTime": 1733004734339,
+      "sourceSize": 204354,
+      "exportedPath": "lib/media/verify-enemy-is-destroyed.webp",
+      "dependencies": []
+    },
+    "lib/media/missing-target.webp": {
+      "modifiedTime": 1733004734339,
+      "sourceSize": 143498,
+      "exportedPath": "lib/media/missing-target.webp",
+      "dependencies": []
+    },
+    "lib/media/projectile-challenge-complete.webp": {
+      "modifiedTime": 1733004734339,
+      "sourceSize": 123426,
+      "exportedPath": "lib/media/projectile-challenge-complete.webp",
       "dependencies": []
     }
   }
