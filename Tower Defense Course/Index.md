@@ -26,6 +26,7 @@ Take your Unity and C# skills to the next level with this hands-on workshop, des
 * [[09 - Enemy Spawner]]
 * [[10 - Rotating Turret]]
 * [[11 - Projectile]]
+* [[12 - Firing Projectiles]]
 * 
 
 ## Special Thanks

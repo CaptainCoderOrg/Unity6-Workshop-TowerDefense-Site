@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Tower Defense Course]]></title><description><![CDATA[Obsidian digital garden]]></description><link>https://towerdefense.captaincoder.org/</link><image><url>https://towerdefense.captaincoder.org/lib/media/favicon.png</url><title>Tower Defense Course</title><link>https://towerdefense.captaincoder.org/</link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sat, 30 Nov 2024 22:12:40 GMT</lastBuildDate><atom:link href="https://towerdefense.captaincoder.org/lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sat, 30 Nov 2024 22:12:14 GMT</pubDate><copyright><![CDATA[Captain Coder]]></copyright><ttl>60</ttl><dc:creator>Captain Coder</dc:creator><item><title><![CDATA[Isometric Camera Challenge]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Tower Defense Course]]></title><description><![CDATA[Obsidian digital garden]]></description><link>https://towerdefense.captaincoder.org/</link><image><url>https://towerdefense.captaincoder.org/lib/media/favicon.png</url><title>Tower Defense Course</title><link>https://towerdefense.captaincoder.org/</link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 01 Dec 2024 03:43:10 GMT</lastBuildDate><atom:link href="https://towerdefense.captaincoder.org/lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 01 Dec 2024 03:42:42 GMT</pubDate><copyright><![CDATA[Captain Coder]]></copyright><ttl>60</ttl><dc:creator>Captain Coder</dc:creator><item><title><![CDATA[Isometric Camera Challenge]]></title><description><![CDATA[ 
  <br>Before starting this challenge, you should complete <a data-href="05 - Creating an Isometric Camera" href="https://towerdefense.captaincoder.org/lessons/05-creating-an-isometric-camera.html" class="internal-link" target="_self" rel="noopener nofollow">05 - Creating an Isometric Camera</a>.<br>In this challenge you are tasked with setting up an Isometric Camera for a pre-existing scene.<br><br>
 <br>Download the Isometric Camera Challenge: <a data-href="IsometricCameraChallenge v1.0.0.unitypackage" href="https://towerdefense.captaincoder.org/challenges/01-isometric-camera-challenge/isometriccamerachallenge-v1.0.0.unitypackage" class="internal-link" target="_self" rel="noopener nofollow">IsometricCameraChallenge v1.0.0.unitypackage</a>
 <br>Import the package into your Unity Project
@@ -769,7 +769,92 @@ With your new gizmo in place, you can now more easily verify that your Waypoints
 <br>Enter Play Mode, what happens?
 <br>Depending on how you implemented your Projectile, it may throw a NullReferenceException when the Target is destroyed. It may also simply stop moving when the Target is destroyed. If you check in the Inspector, you will see that the Target is marked as Missing. This is because it was destroyed.<br><img alt="missing-target.webp" src="https://towerdefense.captaincoder.org/lib/media/missing-target.webp"><br>As a developer, you will often need to account for situations that are not ideal but are technically possible during game play. These are often referred to as Edge Cases because they exist at the "boundaries" of what is expected. As you continue to develop your skills, you will begin to develop an intuition for Edge Cases and be able to anticipate many (but not all) of them.<br><br>There are many possible ways to handle this particular Edge Case. One of the simplest solutions is to destroy the Projectile if it has no Target. <br>
 <br>Update your Projectile script such that if the Target is null, the Projectile is removed from the Scene
-<br>When you have successfully implemented this challenge, your scene should act similar to the video below:<br><img alt="projectile-challenge-complete.webp" src="https://towerdefense.captaincoder.org/lib/media/projectile-challenge-complete.webp"><br><br>With your Projectile Prefab working, it is time to add a script that allows your turrets to fire them.]]></description><link>https://towerdefense.captaincoder.org/lessons/11-projectile.html</link><guid isPermaLink="false">Lessons/11 - Projectile.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Sat, 30 Nov 2024 22:03:52 GMT</pubDate><enclosure url="https://towerdefense.captaincoder.org/lib/media/projectile-completed.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://towerdefense.captaincoder.org/lib/media/projectile-completed.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Community]]></title><description><![CDATA[ 
+<br>When you have successfully implemented this challenge, your scene should act similar to the video below:<br><img alt="projectile-challenge-complete.webp" src="https://towerdefense.captaincoder.org/lib/media/projectile-challenge-complete.webp"><br><br>With your Projectile Prefab working, it is time to add a script that allows your turrets to fire them.<br><a data-href="12 - Firing Projectiles" href="https://towerdefense.captaincoder.org/lessons/12-firing-projectiles.html" class="internal-link" target="_self" rel="noopener nofollow">12 - Firing Projectiles</a>]]></description><link>https://towerdefense.captaincoder.org/lessons/11-projectile.html</link><guid isPermaLink="false">Lessons/11 - Projectile.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Sun, 01 Dec 2024 03:39:33 GMT</pubDate><enclosure url="https://towerdefense.captaincoder.org/lib/media/projectile-completed.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://towerdefense.captaincoder.org/lib/media/projectile-completed.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[12 - Firing Projectiles]]></title><description><![CDATA[ 
+ <br>In this lesson, you will implement a TurretAttack MonoBehaviour that will spawn Projectiles that will target enemies within the Turret's Area of Engagement.<br><br><br>Your TurretAttack will need to be able to check if there are any Targets in the AreaOfEngagement. If there is at least one target, it will need to Instantiate a Projectile. Then, it should wait for some amount of time before firing again. Finally, to be able to check if it can fire again, it should track if it is currently cooling down.<br>
+<br>Create a new TurretAttack MonoBehaviour Script
+<br>Add an AreaOfEngagement AoE Property
+<br>Add a Projectile ProjectilePrefab Property
+<br>Add a float CooldownTime Property. Set the default value to 3.
+<br>Add a bool IsCoolingDown Property. Set the default value to false.
+<br>Add a Turret Attack component to your Turret Prefab
+<br>Set the AreaOfEngagement in the Inspector
+<br>Set the ProjectilePrefab in the Inspector
+<br>When you have finished, your Turret Prefab should be similar to the image below:<br><img alt="setup-turret-attack.png" src="https://towerdefense.captaincoder.org/lib/media/setup-turret-attack.png"><br><br>To help you test if your TurretAttack implementation is working in isolation, create a test scene. In this test, you will test that your TurretAttack:<br>
+<br>Fires at an Enemy that is within the Area of Engagement
+<br>Changes targets when an Enemy in the Area of Engagement is destroyed
+<br>Does not fire at an Enemy that is not within the Area of Engagement
+<br><br>
+<br>Create a new Scene in your Test Scenes folder. Name it "TurretAttack Test Scene"
+<br>Add a Turret Prefab to the Scene
+<br>Add 2 Enemy Prefabs within the Area of Engagement
+<br>Add a 3rd Enemy Prefab that is outside the Area of Engagement
+<br>Set all of the Enemies to have at least 2 base health.
+<br>When you're done, your TurretAttack Test Scene should look similar to the image below:<br><img alt="turret-attack-test-scene-setup.png" src="https://towerdefense.captaincoder.org/lib/media/turret-attack-test-scene-setup.png"><br><br>Sometimes, it is easier to build a small part of a bigger challenge. Start by implementing a Fire() method that will Instantiate a clone of the ProjectilePrefab, set its transform.position to match the Turret's transform.position, and set its Target to be the first element of AoE.<br>
+<br>Declare a private void Fire() method
+<br>Instantiate a clone of the ProjectilePrefab
+<br>Set the transform.position of the new Projectile to this.transform.position (the position of the Turret)
+<br>Set the Projectile.Target to the first target in AoE.Targets 
+<br>If necessary, update your Projectile.Target access modifier to public<br>
+<img alt="implement-fire.png" src="https://towerdefense.captaincoder.org/lib/media/implement-fire.png">
+<br><br>In your Start() method, you can use the Invoke(string, float) method to call the Fire() method after a specified amount of time has passed. Invoke is similar to InvokeRepeating but only calls the method once.<br>
+<br>Read the Friendly Manual: <a data-tooltip-position="top" aria-label="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MonoBehaviour.Invoke.html" rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MonoBehaviour.Invoke.html" target="_blank">Unity - Scripting API: MonoBehaviour.Invoke</a>
+<br>Add a Start() method to your TurretAttack script
+<br>In Start(), use Invoke to call Fire after 1 second (use nameof(Fire) rather than "Fire")
+<br>Note: Waiting 1 second allows the AreaOfEngagement time to add the Enemies to the Targets list.<br><img alt="call-fire-in-start.png" src="https://towerdefense.captaincoder.org/lib/media/call-fire-in-start.png"><br>If all went well, your Turret should fire exactly one projectile that deals damage to one of the enemies in the Area of Engagement.<br><img alt="test-firing-once.webp" src="https://towerdefense.captaincoder.org/lib/media/test-firing-once.webp"><br><br>Now that you have tested your Fire() method and have confidence that it is working, it is time to implement the full TurretAttack script<br>
+<br>Delete the Start() method, you don't need it
+<br>Add an Update() method:
+<br>If the TurretAttack IsOnCooldown, do nothing (return)
+<br>If there AoE.Targets is empty, do nothing (AoE.Targets.Count == 0)
+<br>Otherwise, call Fire()
+<br>Set IsOnCoolDown to true
+<br>Invoke a method that sets IsOnCoolDown to false after CooldownTime seconds
+<br>Note: Set the CooldownTime to a smaller number to increase the speed of the test.<br>If all went well, when you enter Play Mode, you should see:<br>
+<br>Your Turret will fire a Projectile that hits an Enemy
+<br>Wait for the Cooldown
+<br>Fire a second Projectile that will destroy the Enemy (assuming it has 2 BaseHealth)
+<br>Wait for the Cooldown
+<br>An error will appear in the console saying there is a MissingReferenceException. You will solve this bug in the next part of the lesson. 
+<br><img alt="challenge-complete-missing-reference-exception.webp" src="https://towerdefense.captaincoder.org/lib/media/challenge-complete-missing-reference-exception.webp"><br><br>A MissingReferenceException occurs when you attempt to reference a Game Object  or Component that has been destroyed and removed from the Scene. In this case, you have destroyed the Enemy but it has not been removed from the Area of Effect's Targets list. If you look closely in the documentation for OnTriggerExit, you will see that it states, "Deactivating or destroying a Collider while it is inside a trigger volume will not register an on exit event."<br>
+<br>Read the Friendly Manual: <a data-tooltip-position="top" aria-label="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Collider.OnTriggerExit.html" rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Collider.OnTriggerExit.html" target="_blank">Unity - Scripting API: Collider.OnTriggerExit(Collider)</a>
+<br>This means that you need to manually remove the target from the AreaOfEngagement when it is destroyed.<br><br>There are several ways that you could implement a solution to this bug. One common way is to use a UnityEvent to notify the AreaOfEngagement when the Enemy has been destroyed.<br>A UnityEvent is a way to trigger actions when something happens, like clicking a button or reaching a goal, or in this case, when an enemy dies.<br><br>Create an OnDeath event inside your Health script that is invoked before the object is destroyed. <br>
+<br>Read the Friendly Manual: <a data-tooltip-position="top" aria-label="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Events.UnityEvent.html" rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Events.UnityEvent.html" target="_blank">Unity - Scripting API: UnityEvent</a>
+<br>Open your Health MonoBehaviour Script
+<br>Add a UnityEvent&lt;Health&gt; OnDeath Property
+<br>Update your ApplyHit method to invoke the OnDeath event before destroying the gameObject
+<br><img alt="health-on-death-event.png" src="https://towerdefense.captaincoder.org/lib/media/health-on-death-event.png"><br><br>Now that you have implemented a Health component, you can refactor your AreaOfEngagement to track the Health of the Enemy rather than just the Transform.<br>
+<br>Open the AreaOfEngagement Script
+<br>Refactor the Targets list to be a List&lt;Health&gt;. You will only fire at enemies that have a Health component.
+<br>Refactor OnTriggerEnter and OnTriggerExit to find the Health component on collider
+<br>If there is no Health component, return early
+<br>Otherwise, add / remove the Health component
+<br><img alt="refactor-area-of-engagement.png" src="https://towerdefense.captaincoder.org/lib/media/refactor-area-of-engagement.png"><br>
+<br>If necessary, refactor any references to AreaOfEngagement.Targets to use the transform of the component. For example, the TurretAttack script may need to be refactor to:
+<br><img alt="refactor-fire.png" src="https://towerdefense.captaincoder.org/lib/media/refactor-fire.png"><br>Before continuing, be sure to test that your Test Scene continues to function the same way it did previously.<br><br>You can use the UnityEvent.AddListener method to "listen" for the OnDeath event to be invoked. In this case, you can use it to call a method that accepts a Health parameter and use it to remove the associated target. To do this, you first need to write a method that will remove a Health component from the Targets list.<br>
+<br>Read the Friendly Manual: <a data-tooltip-position="top" aria-label="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Events.UnityEvent.AddListener.html" rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Events.UnityEvent.AddListener.html" target="_blank">Unity - Scripting API: Events.UnityEvent.AddListener</a>
+<br>Add a method void RemoveOnDeath(Health targetHealth) to your AreaOfEngagement script
+<br>This method simply calls Target.Remove(targetHealth)
+<br><img alt="remove-on-death-method.png" src="https://towerdefense.captaincoder.org/lib/media/remove-on-death-method.png"><br>
+<br>Update the OnTriggerEnter method such that the RemoveOnDeath method to the is added as a listener to the Health.OnDeath event.
+<br><img alt="adding-on-death-listener.png" src="https://towerdefense.captaincoder.org/lib/media/adding-on-death-listener.png"><br>Similar to the UnityEvent.AddListener method, there is also a UnityEvent.RemoveListener method which is used to stop listening to the event. You should do this when the enemy exits the AreaOfEngagement. If you do not and the enemy is destroyed by another turret, it will notify all AreaOfEngagement's it has ever entered.<br>
+<br>Update the OnTriggerExit method such that the RemoveOnDeath method stops listening to the Health.OnDeath event using OnDeath.RemoveListener
+<br><img alt="ondeath-remove-listener.png" src="https://towerdefense.captaincoder.org/lib/media/ondeath-remove-listener.png"><br>
+<br>Finally, run your TurretAttack Test Scene
+<br>If all went well, you should see the following:<br>
+<br>The Turret fires a projectile that hits the first enemy
+<br>A cooldown occurs
+<br>The Turret fires a second projectile that hits and destroys the first enemy
+<br>A cooldown occurs
+<br>The Turret fires a third projectile that hits the second enemy
+<br>A cooldown occurs
+<br>The Turret fires a fourth projectile that hits the second enemy and destroys it
+<br>The test is complete, the Turret does not fire on the 3rd and final enemy as it is not within the AoE
+<br><img alt="turret-attack-completed.webp" src="https://towerdefense.captaincoder.org/lib/media/turret-attack-completed.webp"><br><br>With your TurretAttack Test Scene demonstrating the Turret working in isolation, you now have a little confidence that your turrets will work in your game.<br>
+<br>Save your TurretAttack Test Scene
+<br>Load your level Scene
+<br>Test if your Turrets fire on passing enemies!
+<br>You may need to adjust the Y position of your Projectile Prefabs model so it appears above the ground (I recommend setting the model's Y position to 0.5)
+<br>If necessary, adjust the speed of your projectiles / enemies
+<br><img alt="turret-projectile-in-scene.webp" src="https://towerdefense.captaincoder.org/lib/media/turret-projectile-in-scene.webp"><br><br>In this lesson, you used a UnityEvent to notify the AreaOfEffect when your enemy died. In this challenge you will continue to develop your skills using UnityEvents -- TO DO: Add challenge<br><br>With a simple turret, projectile, and enemy implemented, it is now time to add the ability for the player to be able to place turrets onto the map.]]></description><link>https://towerdefense.captaincoder.org/lessons/12-firing-projectiles.html</link><guid isPermaLink="false">Lessons/12 - Firing Projectiles.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Sun, 01 Dec 2024 03:42:28 GMT</pubDate><enclosure url="https://towerdefense.captaincoder.org/lib/media/setup-turret-attack.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://towerdefense.captaincoder.org/lib/media/setup-turret-attack.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Community]]></title><description><![CDATA[ 
  <br>It is never too early to share your work with others to get feedback. One of the biggest mistakes a new developer can make is feeling like your work is not good enough to share. Sharing your work, asking questions, and getting feedback from others will accelerate your learning.<br>Discord: <a rel="noopener nofollow" class="external-link" href="https://discord.gg/captaincoder" target="_blank">https://discord.gg/captaincoder</a><br>
 Twitch: <a rel="noopener nofollow" class="external-link" href="https://twitch.tv/thecaptaincoder" target="_blank">https://twitch.tv/thecaptaincoder</a><br>]]></description><link>https://towerdefense.captaincoder.org/community.html</link><guid isPermaLink="false">Community.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Fri, 29 Nov 2024 13:05:15 GMT</pubDate></item><item><title><![CDATA[Unity Workshop - 3D Tower Defense]]></title><description><![CDATA[ 
  <br><br>Take your Unity and C# skills to the next level with this hands-on workshop, designed for aspiring game developers who want to create their own 3D Tower Defense game. This course builds on your foundational knowledge of Unity and programming, focusing on practical application, advanced Unity concepts, and user-centric game design.<br><br>
@@ -793,5 +878,6 @@ Twitch: <a rel="noopener nofollow" class="external-link" href="https://twitch.tv
 <br><a data-href="09 - Enemy Spawner" href="https://towerdefense.captaincoder.org/lessons/09-enemy-spawner.html" class="internal-link" target="_self" rel="noopener nofollow">09 - Enemy Spawner</a>
 <br><a data-href="10 - Rotating Turret" href="https://towerdefense.captaincoder.org/lessons/10-rotating-turret.html" class="internal-link" target="_self" rel="noopener nofollow">10 - Rotating Turret</a>
 <br><a data-href="11 - Projectile" href="https://towerdefense.captaincoder.org/lessons/11-projectile.html" class="internal-link" target="_self" rel="noopener nofollow">11 - Projectile</a>
+<br><a data-href="12 - Firing Projectiles" href="https://towerdefense.captaincoder.org/lessons/12-firing-projectiles.html" class="internal-link" target="_self" rel="noopener nofollow">12 - Firing Projectiles</a>
 <br>
-<br><br>I would like to give a a huge thank you to everyone who helped test and proof read this project. I could not have done it without you.]]></description><link>https://towerdefense.captaincoder.org/index.html</link><guid isPermaLink="false">Index.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Sat, 30 Nov 2024 22:05:09 GMT</pubDate></item></channel></rss>
+<br><br>I would like to give a a huge thank you to everyone who helped test and proof read this project. I could not have done it without you.]]></description><link>https://towerdefense.captaincoder.org/index.html</link><guid isPermaLink="false">Index.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Sun, 01 Dec 2024 03:39:37 GMT</pubDate></item></channel></rss>
