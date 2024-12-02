@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "45436ea552f0b0f7",
+        "id": "8a39be990900cb89",
         "type": "tabs",
         "children": [
           {
-            "id": "92fdef848005d8dd",
+            "id": "2405a5f0d1ac7b1c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lessons/12 - Firing Projectiles.md",
+                "file": "Lessons/13 - Mouse Events.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "12 - Firing Projectiles"
+              "title": "13 - Mouse Events"
             }
           }
         ]
@@ -167,47 +167,48 @@
     }
   },
   "floating": {
-    "id": "6abf1e1d647a6f63",
+    "id": "0759442d68fa0351",
     "type": "floating",
     "children": [
       {
-        "id": "c131285b4625df0d",
+        "id": "ae10032844f7c864",
         "type": "window",
         "children": [
           {
-            "id": "2acd48af580e30f6",
+            "id": "266287f6974b779c",
             "type": "tabs",
             "children": [
               {
-                "id": "6e5bf9f9b92e72f4",
+                "id": "e05a6da9c48bfa4f",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Lessons/12 - Firing Projectiles.md",
+                    "file": "Lessons/13 - Mouse Events.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "12 - Firing Projectiles"
+                  "title": "13 - Mouse Events"
                 }
               }
             ]
           }
         ],
         "direction": "vertical",
-        "x": 758,
-        "y": 93,
-        "width": 1217,
-        "height": 1180,
+        "x": 2560,
+        "y": 0,
+        "width": 1540,
+        "height": 1043,
         "maximize": false,
         "zoom": 1
       }
     ]
   },
-  "active": "92fdef848005d8dd",
+  "active": "2405a5f0d1ac7b1c",
   "lastOpenFiles": [
     "Index.md",
+    "Lessons/13 - Mouse Events.md",
     "Lessons/12 - Firing Projectiles.md",
     "Lessons/11 - Projectile.md",
     "Lessons/10 - Rotating Turret.md",
@@ -223,17 +224,19 @@
     "Lessons/00 - Install Unity 6.md",
     "Challenges/02 - Binary Waypoint Challenge/Binary Waypoint Challenge.md",
     "Challenges/01 - Isometric Camera Challenge/Isometric Camera Challenge.md",
-    "Challenges/12 - Firing Projectiles/turret-projectile-in-scene.webp",
-    "Challenges/12 - Firing Projectiles/turret-attack-completed.webp",
-    "Challenges/12 - Firing Projectiles/ondeath-remove-listener.png",
-    "Challenges/12 - Firing Projectiles/adding-on-death-listener.png",
-    "Challenges/12 - Firing Projectiles/remove-on-death-method.png",
-    "Challenges/12 - Firing Projectiles/refactor-fire.png",
-    "Challenges/12 - Firing Projectiles/refactor-area-of-engagement.png",
-    "Challenges/12 - Firing Projectiles/health-on-death-event.png",
-    "Challenges/12 - Firing Projectiles/challenge-complete-missing-reference-exception.webp",
-    "Challenges/12 - Firing Projectiles/test-firing-once.webp",
-    "Challenges/12 - Firing Projectiles",
+    "Assets/13 - Placing Turrets/challenge-enter-exit-click-complete.webp",
+    "Assets/13 - Placing Turrets/change-tile-name-challenge.webp",
+    "Assets/13 - Placing Turrets/verify-tiles-deactivate.webp",
+    "Assets/13 - Placing Turrets/leave-set-active-false.png",
+    "Assets/13 - Placing Turrets/gameobject-set-active.png",
+    "Assets/13 - Placing Turrets/attach-tile-to-onenter.webp",
+    "Assets/13 - Placing Turrets/add-on-enter-event.webp",
+    "verify-on-mouse-entered.webp",
+    "Assets/13 - Placing Turrets/find-mouse-events.png",
+    "Assets/13 - Placing Turrets/add-on-enter-event.png",
+    "Assets/13 - Placing Turrets",
+    "word-count.sh",
+    "Assets/12 - Firing Projectiles",
     "Lessons/Untitled",
     "To Do (Kanban).md",
     "11 - Projectile.md",
@@ -248,10 +251,7 @@
     "Assets/Challenges/Binary Waypoint Challenge",
     "Challenges/02 - Binary Waypoint Challenge/BinaryWaypointChallenge V1.0.0.unitypackage",
     "Challenges/02 - Binary Waypoint Challenge",
-    "Assets/07 - Waypoints",
     "Unity Manual Links.md",
-    "02.md",
-    "Assets/Challenges/Isometric Camera Challenge",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

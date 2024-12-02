@@ -165,4 +165,6 @@ With your **TurretAttack Test Scene** demonstrating the **Turret** working in is
 In this lesson, you used a `UnityEvent` to notify the `AreaOfEffect` when your enemy died. In this challenge you will continue to develop your skills using `UnityEvents` -- TO DO: Add challenge
 
 ## What's Next
-With a simple turret, projectile, and enemy implemented, it is now time to add the ability for the player to be able to place turrets onto the map.
+With a simple turret, projectile, and enemy implemented, it is now time to add the ability for the player to be able to place turrets onto the map. In the next lesson, you will learn how to utilize **Mouse Events** to send messages between **Game Objects**
+
+[[13 - Mouse Events]]

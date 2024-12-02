@@ -1,0 +1,1 @@
+find . -name '*.md' | sed 's/.*/"&"/' | xargs  wc

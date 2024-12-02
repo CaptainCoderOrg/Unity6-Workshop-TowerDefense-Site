@@ -27,6 +27,7 @@ Take your Unity and C# skills to the next level with this hands-on workshop, des
 * [[10 - Rotating Turret]]
 * [[11 - Projectile]]
 * [[12 - Firing Projectiles]]
+* [[13 - Mouse Events]]
 * 
 
 ## Special Thanks
