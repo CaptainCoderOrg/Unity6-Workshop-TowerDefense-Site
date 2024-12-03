@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "13 - Mouse Events"
             }
+          },
+          {
+            "id": "aeb91476e18071c1",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "m14 - Tile Controller/dynamic-tile-controller.png"
+              },
+              "icon": "lucide-image",
+              "title": "dynamic-tile-controller"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -167,29 +180,29 @@
     }
   },
   "floating": {
-    "id": "0759442d68fa0351",
+    "id": "fe455cb4e1ec7198",
     "type": "floating",
     "children": [
       {
-        "id": "ae10032844f7c864",
+        "id": "a3b53774cb26a7e5",
         "type": "window",
         "children": [
           {
-            "id": "266287f6974b779c",
+            "id": "758cf6a505f6c0db",
             "type": "tabs",
             "children": [
               {
-                "id": "e05a6da9c48bfa4f",
+                "id": "aeb50479b5a8ba2d",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Lessons/13 - Mouse Events.md",
+                    "file": "14 - Tile Cursor.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "13 - Mouse Events"
+                  "title": "14 - Tile Cursor"
                 }
               }
             ]
@@ -198,14 +211,14 @@
         "direction": "vertical",
         "x": 2560,
         "y": 0,
-        "width": 1540,
-        "height": 1043,
+        "width": 1280,
+        "height": 1400,
         "maximize": false,
         "zoom": 1
       }
     ]
   },
-  "active": "2405a5f0d1ac7b1c",
+  "active": "aeb91476e18071c1",
   "lastOpenFiles": [
     "Index.md",
     "Lessons/13 - Mouse Events.md",
@@ -224,16 +237,18 @@
     "Lessons/00 - Install Unity 6.md",
     "Challenges/02 - Binary Waypoint Challenge/Binary Waypoint Challenge.md",
     "Challenges/01 - Isometric Camera Challenge/Isometric Camera Challenge.md",
-    "Assets/13 - Placing Turrets/challenge-enter-exit-click-complete.webp",
-    "Assets/13 - Placing Turrets/change-tile-name-challenge.webp",
-    "Assets/13 - Placing Turrets/verify-tiles-deactivate.webp",
-    "Assets/13 - Placing Turrets/leave-set-active-false.png",
-    "Assets/13 - Placing Turrets/gameobject-set-active.png",
-    "Assets/13 - Placing Turrets/attach-tile-to-onenter.webp",
-    "Assets/13 - Placing Turrets/add-on-enter-event.webp",
-    "verify-on-mouse-entered.webp",
-    "Assets/13 - Placing Turrets/find-mouse-events.png",
-    "Assets/13 - Placing Turrets/add-on-enter-event.png",
+    "m14 - Tile Controller/dynamic-tile-controller.png",
+    "14 - Tile Cursor.md",
+    "m14 - Tile Controller/complete-challenge-part-14.webp",
+    "m14 - Tile Controller/verify-cursor-working.webp",
+    "m14 - Tile Controller/register-grid.png",
+    "m14 - Tile Controller/on-enable.png",
+    "m14 - Tile Controller/listen-to-tiles-in.png",
+    "m14 - Tile Controller/verify-cursor-moves.webp",
+    "m14 - Tile Controller/add-on-cursor-enter.png",
+    "m14 - Tile Controller/tile-cursor.png",
+    "m14 - Tile Controller/add-tilecursor-to-tile.webp",
+    "m14 - Tile Controller",
     "Assets/13 - Placing Turrets",
     "word-count.sh",
     "Assets/12 - Firing Projectiles",
@@ -250,8 +265,6 @@
     "Assets/08 - Waypoint Traveler",
     "Assets/Challenges/Binary Waypoint Challenge",
     "Challenges/02 - Binary Waypoint Challenge/BinaryWaypointChallenge V1.0.0.unitypackage",
-    "Challenges/02 - Binary Waypoint Challenge",
-    "Unity Manual Links.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

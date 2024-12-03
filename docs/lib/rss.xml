@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Tower Defense Course]]></title><description><![CDATA[Obsidian digital garden]]></description><link>https://towerdefense.captaincoder.org/</link><image><url>https://towerdefense.captaincoder.org/lib/media/favicon.png</url><title>Tower Defense Course</title><link>https://towerdefense.captaincoder.org/</link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 02 Dec 2024 19:55:35 GMT</lastBuildDate><atom:link href="https://towerdefense.captaincoder.org/lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 02 Dec 2024 19:54:58 GMT</pubDate><copyright><![CDATA[Captain Coder]]></copyright><ttl>60</ttl><dc:creator>Captain Coder</dc:creator><item><title><![CDATA[Isometric Camera Challenge]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Tower Defense Course]]></title><description><![CDATA[Obsidian digital garden]]></description><link>https://towerdefense.captaincoder.org/</link><image><url>https://towerdefense.captaincoder.org/lib/media/favicon.png</url><title>Tower Defense Course</title><link>https://towerdefense.captaincoder.org/</link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 03 Dec 2024 20:59:57 GMT</lastBuildDate><atom:link href="https://towerdefense.captaincoder.org/lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 03 Dec 2024 20:59:15 GMT</pubDate><copyright><![CDATA[Captain Coder]]></copyright><ttl>60</ttl><dc:creator>Captain Coder</dc:creator><item><title><![CDATA[Isometric Camera Challenge]]></title><description><![CDATA[ 
  <br>Before starting this challenge, you should complete <a data-href="05 - Creating an Isometric Camera" href="https://towerdefense.captaincoder.org/lessons/05-creating-an-isometric-camera.html" class="internal-link" target="_self" rel="noopener nofollow">05 - Creating an Isometric Camera</a>.<br>In this challenge you are tasked with setting up an Isometric Camera for a pre-existing scene.<br><br>
 <br>Download the Isometric Camera Challenge: <a data-href="IsometricCameraChallenge v1.0.0.unitypackage" href="https://towerdefense.captaincoder.org/challenges/01-isometric-camera-challenge/isometriccamerachallenge-v1.0.0.unitypackage" class="internal-link" target="_self" rel="noopener nofollow">IsometricCameraChallenge v1.0.0.unitypackage</a>
 <br>Import the package into your Unity Project
@@ -905,7 +905,72 @@ With your new gizmo in place, you can now more easily verify that your Waypoints
 <br>Use OnMouseUpAsButton to Invoke OnClick
 <br>When exited, the Tile's name in the Hierarchy should be "Exited"
 <br>When clicked, the Tile should be set to inactive
-<br>When you have finished this challenge, your Test Scene should act similar to the video below:<br><img alt="challenge-enter-exit-click-complete.webp" src="https://towerdefense.captaincoder.org/lib/media/challenge-enter-exit-click-complete.webp"><br><br>With a MouseEvents implemented and ready to use, you can now create a TileController script that will allow your player to place a Turret in a specific location.]]></description><link>https://towerdefense.captaincoder.org/lessons/13-mouse-events.html</link><guid isPermaLink="false">Lessons/13 - Mouse Events.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Mon, 02 Dec 2024 19:54:52 GMT</pubDate><enclosure url="https://towerdefense.captaincoder.org/lib/media/occupied-spaces.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://towerdefense.captaincoder.org/lib/media/occupied-spaces.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Community]]></title><description><![CDATA[ 
+<br>When you have finished this challenge, your Test Scene should act similar to the video below:<br><img alt="challenge-enter-exit-click-complete.webp" src="https://towerdefense.captaincoder.org/lib/media/challenge-enter-exit-click-complete.webp"><br><br>With a MouseEvents implemented and ready to use, you can now create a TileCursor that will track which tile the player will interact with when the press the mouse button.<br><a data-href="14 - Tile Cursor" href="https://towerdefense.captaincoder.org/lessons/14-tile-cursor.html" class="internal-link" target="_self" rel="noopener nofollow">14 - Tile Cursor</a>]]></description><link>https://towerdefense.captaincoder.org/lessons/13-mouse-events.html</link><guid isPermaLink="false">Lessons/13 - Mouse Events.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Tue, 03 Dec 2024 20:58:46 GMT</pubDate><enclosure url="https://towerdefense.captaincoder.org/lib/media/occupied-spaces.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://towerdefense.captaincoder.org/lib/media/occupied-spaces.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[14 - Tile Cursor]]></title><description><![CDATA[ 
+ <br><br>During game play, it will be helpful to your player to be able to tell more easily which tile they are hovering / selecting. To do this, you can use the selection-a or selection-b model which fit nicely around a tile.<br><img alt="tile-cursor-model-examples.png" src="https://towerdefense.captaincoder.org/lib/media/tile-cursor-model-examples.png"><br>
+<br>Create a new Prefab to represent your Tile Cursor
+<br>Add a model child of the Prefab (I will be using selection-a)
+<br>To appear above a tile, set the Y-position to at least 0.201 (tiles are 0.2 units thick)
+<br>Add a Tile Cursor prefab to your scene
+<br><br>Currently, your Tile Prefab has no components attached to it. When placing a turret, it will be useful to track if the Tile is occupied. To do this, create a TileController MonoBehaviour Script that has a property bool IsOccupied. By default, this will be false.<br>
+<br>Create a TileController MonoBehaviour Script
+<br>Add a property bool IsOccupied that is false by default
+<br>Add a TileController component to your Tile Prefab
+<br><img alt="tile-controller-is-occupied-false.png" src="https://towerdefense.captaincoder.org/lib/media/tile-controller-is-occupied-false.png"><br><br>The TileCursor will need to listen to your TileControllers to know if the mouse has entered them. To do this, you will add an event to your TileController that will notify listeners when the mouse has entered.<br>
+<br>Add a UnityEvent&lt;TileController&gt; OnCursorEnter
+<br><img alt="add-on-cursor-enter.png" src="https://towerdefense.captaincoder.org/lib/media/add-on-cursor-enter.png"><br>
+<br>Open your Tile Prefab
+<br>If necessary, remove any events you've added to the model's MouseEvents
+<br><img alt="clear-events.webp" src="https://towerdefense.captaincoder.org/lib/media/clear-events.webp"><br><br>You may have noticed that you cannot call TileController.OnCursorEnter.Invoke from the MouseEvents.OnEnter listener in the Inspector. This is because you must provide a TileController to call OnCursorEnter.Invoke. However, you can create a method that invokes it that takes no arguments.<br>
+<br>
+Add a method NotifyCursorEnter()
+
+<br>
+In NotifyCursorEnter() invoke OnCursorEnter with this<br>
+<img alt="notify-cursor-enter.png" src="https://towerdefense.captaincoder.org/lib/media/notify-cursor-enter.png">
+
+<br>
+In the Inspector, add a listener to MouseEvents.OnEnter that will invoke TileController.NotifyCursorEnter()
+
+<br><img alt="tile-cursor-notify-cursor-enter.png" src="https://towerdefense.captaincoder.org/lib/media/tile-cursor-notify-cursor-enter.png"><br><br>With your TileController propagating itself to listeners, you can now register your TileCursor on them and update its position to match.<br>
+<br>Create a TileCursor MonoBehaviour Script
+<br>Add an HandleTileEntered(TileController) method
+<br>In HandleTileEntered, set the transform.position of the cursor to match the transform.position of the TileController.
+<br><img alt="tile-cursor.png" src="https://towerdefense.captaincoder.org/lib/media/tile-cursor.png"><br>
+<br>In your Scene Hierarchy, select one of your Tiles
+<br>In the Inspector, locate the Tile Controller component
+<br>Add a listener to the OnCursorEnter event
+<br>Add your Tile Cursor to the event
+<br><img alt="add-tilecursor-to-tile.webp" src="https://towerdefense.captaincoder.org/lib/media/add-tilecursor-to-tile.webp"><br>By using a Unity Event that sends a TileController, you gain access to Dynamic TileController functions in the Function Drop Down. When you use this function, it will send the TileController as an argument to the specified method.<br>
+<br>Select the Function Drop Down
+<br>Select TileCursor &gt; HandleTileEntered  (the first option under Dynamic TileController)
+<br><img alt="dynamic-tile-controller.png" src="https://towerdefense.captaincoder.org/lib/media/dynamic-tile-controller.png"><br>
+<br>Enter Play Mode and test that your Tile Cursor moves when the mouse moves over the Tile that you registered the event on.
+<br><img alt="verify-cursor-moves.webp" src="https://towerdefense.captaincoder.org/lib/media/verify-cursor-moves.webp"><br><br>To move the Tile Cursor to the most recently entered Tile, you need to register the Tile Cursor on all of your Tile Controllers. Doing this through the Hierarchy and Inspector is challenging and error prone. To make things worse, if you decide to change your map, you have to do it again! Remember, as a programmer, any time you find yourself performing a repetitive task, you should ask yourself if there exists a way to automate it. If not, you should consider how difficult it would be to create your own automation.<br>Because all of your TileControllers are children of your Grid, you can retrieve them all using the GetComponentInChildren method which retrieves all of the components of a specified type from the specified GameObject and all of its children.<br>
+<br>Read the Friendly Manual: <a data-tooltip-position="top" aria-label="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/GameObject.GetComponentsInChildren.html#:~:text=GetComponentsInChildren checks the GameObject on which it is,a matching Component of the type T specified." rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/GameObject.GetComponentsInChildren.html#:~:text=GetComponentsInChildren%20checks%20the%20GameObject%20on%20which%20it%20is,a%20matching%20Component%20of%20the%20type%20T%20specified." target="_blank">Unity - Scripting API: GameObject.GetComponentsInChildren</a>
+<br>Add a GameObject TargetGrid to your TileCursor
+<br>Add a ListenToTilesIn(GameObject) method to your TileCursor
+<br>In ListenToTileIn, iterate through all of the TileController components and add a listener to call HandleTileEntered
+<br><img alt="listen-to-tiles-in.png" src="https://towerdefense.captaincoder.org/lib/media/listen-to-tiles-in.png"><br>
+<br>Add a OnEnable() method to TileCursor
+<br>In OnEnable, call ListenToTilesIn(TargetGrid)
+<br><img alt="on-enable.png" src="https://towerdefense.captaincoder.org/lib/media/on-enable.png"><br>
+<br>In the Inspector add your Grid as the TargetGrid for your TileCursor
+<br><img alt="register-grid.png" src="https://towerdefense.captaincoder.org/lib/media/register-grid.png"><br>
+<br>Enter Play Mode and test that your cursor changes between tiles as it moves between Tiles
+<br><img alt="verify-cursor-working.webp" src="https://towerdefense.captaincoder.org/lib/media/verify-cursor-working.webp"><br><br>Recall that it is good practice to remove a listener if the listening object becomes inactive (e.g. OnDisable).<br>
+<br>Write a StopListeningToTilesIn(GameObject grid) method
+<br>In StopListeningToTiles you should iterate through the specified grid searching for TileControllers and call OnCursorEnter.RemoveListener on each one found.
+<br>Add an OnDisable method
+<br>In OnDisable, call StopListeningToTiles on the TargetGrid
+<br><br>Currently, when the player moves the mouse off of map into a space on the screen that does not contain a tile, the TileCursor remains on the most recently entered Tile. Instead, you should hide the Tile Cursors model.<br>
+<br>Add an UnityEvent&lt;TileController&gt; OnCursorExit property to your TileController
+<br>Add a NotifyCursorExit() method that invokes OnCursorExit
+<br>Add a GameObject Model property to your TileCursor
+<br>Add a HandleTileExited(TileController) method to TileCursor
+<br>In HandleTileExited, call Model.SetActive(false) to hide the TileCursor's model
+<br>In HandleTileEntered, call Model.SetActive(true) to show the TileCursor's model
+<br>Connect all necessary events in the Inspector, OnEnable, and OnDisable
+<br>When you have successfully completed this challenge, your test scene should look similar to this:<br><img alt="complete-challenge-part-14.webp" src="https://towerdefense.captaincoder.org/lib/media/complete-challenge-part-14.webp"><br><br>With the ability to easily see which tile the player is interacting with, it is time to implement an OnCursorClicked event and an OnTileSelected method that will allow your player to spawn a turret.]]></description><link>https://towerdefense.captaincoder.org/lessons/14-tile-cursor.html</link><guid isPermaLink="false">Lessons/14 - Tile Cursor.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Tue, 03 Dec 2024 20:55:10 GMT</pubDate><enclosure url="https://towerdefense.captaincoder.org/lib/media/tile-cursor-model-examples.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://towerdefense.captaincoder.org/lib/media/tile-cursor-model-examples.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Community]]></title><description><![CDATA[ 
  <br>It is never too early to share your work with others to get feedback. One of the biggest mistakes a new developer can make is feeling like your work is not good enough to share. Sharing your work, asking questions, and getting feedback from others will accelerate your learning.<br>Discord: <a rel="noopener nofollow" class="external-link" href="https://discord.gg/captaincoder" target="_blank">https://discord.gg/captaincoder</a><br>
 Twitch: <a rel="noopener nofollow" class="external-link" href="https://twitch.tv/thecaptaincoder" target="_blank">https://twitch.tv/thecaptaincoder</a><br>]]></description><link>https://towerdefense.captaincoder.org/community.html</link><guid isPermaLink="false">Community.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Fri, 29 Nov 2024 13:05:15 GMT</pubDate></item><item><title><![CDATA[Unity Workshop - 3D Tower Defense]]></title><description><![CDATA[ 
  <br><br>Take your Unity and C# skills to the next level with this hands-on workshop, designed for aspiring game developers who want to create their own 3D Tower Defense game. This course builds on your foundational knowledge of Unity and programming, focusing on practical application, advanced Unity concepts, and user-centric game design.<br><br>
@@ -931,5 +996,6 @@ Twitch: <a rel="noopener nofollow" class="external-link" href="https://twitch.tv
 <br><a data-href="11 - Projectile" href="https://towerdefense.captaincoder.org/lessons/11-projectile.html" class="internal-link" target="_self" rel="noopener nofollow">11 - Projectile</a>
 <br><a data-href="12 - Firing Projectiles" href="https://towerdefense.captaincoder.org/lessons/12-firing-projectiles.html" class="internal-link" target="_self" rel="noopener nofollow">12 - Firing Projectiles</a>
 <br><a data-href="13 - Mouse Events" href="https://towerdefense.captaincoder.org/lessons/13-mouse-events.html" class="internal-link" target="_self" rel="noopener nofollow">13 - Mouse Events</a>
+<br><a data-href="14 - Tile Cursor" href="https://towerdefense.captaincoder.org/lessons/14-tile-cursor.html" class="internal-link" target="_self" rel="noopener nofollow">14 - Tile Cursor</a>
 <br>
-<br><br>I would like to give a a huge thank you to everyone who helped test and proof read this project. I could not have done it without you.]]></description><link>https://towerdefense.captaincoder.org/index.html</link><guid isPermaLink="false">Index.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Mon, 02 Dec 2024 19:43:05 GMT</pubDate></item></channel></rss>
+<br><br>I would like to give a a huge thank you to everyone who helped test and proof read this project. I could not have done it without you.]]></description><link>https://towerdefense.captaincoder.org/index.html</link><guid isPermaLink="false">Index.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Tue, 03 Dec 2024 20:57:47 GMT</pubDate></item></channel></rss>

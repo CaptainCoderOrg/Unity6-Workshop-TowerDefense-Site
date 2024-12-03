@@ -111,5 +111,8 @@ When you have finished this challenge, your **Test Scene** should act similar to
 ![[challenge-enter-exit-click-complete.webp]]
 
 ## What's Next
-With a `MouseEvents` implemented and ready to use, you can now create a **TileController** script that will allow your player to place a **Turret** in a specific location.
+With a `MouseEvents` implemented and ready to use, you can now create a **TileCursor** that will track which tile the player will interact with when the press the mouse button.
+
+[[14 - Tile Cursor]]
+
 
