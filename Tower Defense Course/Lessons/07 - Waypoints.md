@@ -118,7 +118,7 @@ Another option is to tell our **Main Camera** to ignore rendering them. This can
 	- From the top menu **Edit > Project Settings**
 - [ ] Select the **Tags and Layers** tab on the left
 
-![[tags-and-layers.png]]
+![[Assets/07 - Waypoints/tags-and-layers.png]]
 
 - [ ] Verify you're editing the **Layers** drop down
 - [ ] Select Layer 6

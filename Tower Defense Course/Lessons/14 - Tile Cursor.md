@@ -114,4 +114,4 @@ When you have successfully completed this challenge, your test scene should look
 ![[complete-challenge-part-14.webp]]
 
 ## What's Next
-With the ability to easily see which tile the player is interacting with, it is time to implement an `OnCursorClicked` event and an `OnTileSelected` method that will allow your player to spawn a turret.
+With the ability to easily see which tile the player is interacting with, it is time to implement an `OnCursorClicked` event and an `OnTileSelected` method that will allow your player to spawn a turret. [[15 - Turret Spawner]]

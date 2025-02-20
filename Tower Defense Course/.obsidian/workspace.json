@@ -4,37 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "8a39be990900cb89",
+        "id": "fdf73bbccc8446a4",
         "type": "tabs",
         "children": [
           {
-            "id": "2405a5f0d1ac7b1c",
+            "id": "12504a60e61b679d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lessons/13 - Mouse Events.md",
+                "file": "Lessons/14 - Tile Cursor.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "13 - Mouse Events"
+              "title": "14 - Tile Cursor"
             }
           },
           {
-            "id": "aeb91476e18071c1",
+            "id": "a8fb7f9666511b81",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "m14 - Tile Controller/dynamic-tile-controller.png"
+                "file": "Lessons/14 - Tile Cursor.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "dynamic-tile-controller"
+              "icon": "lucide-file",
+              "title": "14 - Tile Cursor"
+            }
+          },
+          {
+            "id": "7a3cad8cc436cc07",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lessons/15 - Turret Spawner.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "15 - Turret Spawner"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -53,7 +69,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -65,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "course description",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -179,48 +196,11 @@
       "media-extended:Open media": false
     }
   },
-  "floating": {
-    "id": "fe455cb4e1ec7198",
-    "type": "floating",
-    "children": [
-      {
-        "id": "a3b53774cb26a7e5",
-        "type": "window",
-        "children": [
-          {
-            "id": "758cf6a505f6c0db",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "aeb50479b5a8ba2d",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "14 - Tile Cursor.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "14 - Tile Cursor"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 2560,
-        "y": 0,
-        "width": 1280,
-        "height": 1400,
-        "maximize": false,
-        "zoom": 1
-      }
-    ]
-  },
-  "active": "aeb91476e18071c1",
+  "active": "7a3cad8cc436cc07",
   "lastOpenFiles": [
     "Index.md",
+    "Lessons/15 - Turret Spawner.md",
+    "Lessons/14 - Tile Cursor.md",
     "Lessons/13 - Mouse Events.md",
     "Lessons/12 - Firing Projectiles.md",
     "Lessons/11 - Projectile.md",
@@ -237,34 +217,32 @@
     "Lessons/00 - Install Unity 6.md",
     "Challenges/02 - Binary Waypoint Challenge/Binary Waypoint Challenge.md",
     "Challenges/01 - Isometric Camera Challenge/Isometric Camera Challenge.md",
+    "Assets/m15-Spawning a Turret/spawn-many-turrets.webm",
+    "Assets/m15-Spawning a Turret/layer-mask-working.webm",
+    "Assets/m15-Spawning a Turret/15 - Spawning a Turret 1.png",
+    "Assets/m15-Spawning a Turret/set-event-mask-tile.webm",
+    "Assets/m15-Spawning a Turret/eventmask.png",
+    "Assets/m15-Spawning a Turret/camera-event-mask-layers.png",
+    "Assets/m15-Spawning a Turret/apply-tile-layer.webm",
+    "Assets/m15-Spawning a Turret/add-tile-layer.png",
+    "Assets/m15-Spawning a Turret/tags-and-layers.png",
+    "Assets/m15-Spawning a Turret/spawn-turret.webm",
+    "Assets/m15-Spawning a Turret/set-spawn-turret-invoke.webm",
+    "Assets/m15-Spawning a Turret/select-tile.webm",
+    "Assets/m15-Spawning a Turret/SpawnTurretMethod.png",
+    "Assets/m15-Spawning a Turret/set-turret-prefab.webm",
+    "Assets/m15-Spawning a Turret/15 - Spawning a Turret.png",
+    "Assets/m15-Spawning a Turret/on-click-notify-cursor-clicked.png",
+    "Assets/m15-Spawning a Turret",
+    "Assets/m15-Spawning a Turret/verify-on-cursor-click-inspector.png",
+    "Community.md",
     "m14 - Tile Controller/dynamic-tile-controller.png",
     "14 - Tile Cursor.md",
-    "m14 - Tile Controller/complete-challenge-part-14.webp",
-    "m14 - Tile Controller/verify-cursor-working.webp",
-    "m14 - Tile Controller/register-grid.png",
-    "m14 - Tile Controller/on-enable.png",
-    "m14 - Tile Controller/listen-to-tiles-in.png",
-    "m14 - Tile Controller/verify-cursor-moves.webp",
-    "m14 - Tile Controller/add-on-cursor-enter.png",
-    "m14 - Tile Controller/tile-cursor.png",
-    "m14 - Tile Controller/add-tilecursor-to-tile.webp",
     "m14 - Tile Controller",
-    "Assets/13 - Placing Turrets",
-    "word-count.sh",
-    "Assets/12 - Firing Projectiles",
-    "Lessons/Untitled",
     "To Do (Kanban).md",
     "11 - Projectile.md",
-    "Assets/10 - Turret",
     "Proof Reading Notes.md",
-    "Community.md",
     "Untitled Kanban.md",
-    "To Do.md",
-    "Dev Notes.md",
-    "Assets/09 - Enemy Spawner",
-    "Assets/08 - Waypoint Traveler",
-    "Assets/Challenges/Binary Waypoint Challenge",
-    "Challenges/02 - Binary Waypoint Challenge/BinaryWaypointChallenge V1.0.0.unitypackage",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
