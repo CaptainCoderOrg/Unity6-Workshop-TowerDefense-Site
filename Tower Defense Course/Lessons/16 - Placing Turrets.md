@@ -119,4 +119,4 @@ When you're finished, your game should operate similar to the video below
 # What's Next?
 Now that you have a basic understanding about adding a button to your scene that can invoke methods on your other GameObjects, it is time to add in resources that will determine if the player is able to place a turret on the map.
 
-[[17 - Building Resources]]
+[[17 - Adding Gold]]

@@ -1,5 +1,5 @@
 # PlayerController Class
-Currently, when your player clicks the **Build** button, it enables the **TurretSpawner** which, in turn allows them to click on tiles to spawn multiple turrets. Next, you will create a `PlayerController` class that will track a `Gold` resource for the player that limits their ability to place towers. When the player builds a tower, it will reduce the player's `Gold`.
+Currently, when your player clicks the **Build** button, it enables the **TurretSpawner** which, in turn allows them to click on tiles to spawn multiple turrets. Next, you will create a `PlayerController` class that will track a `Gold` resource for the player that limits their ability to place turrets. When the player builds a turret, it will reduce the player's `Gold`.
 
 ## Practice: Create a PlayerController Class and GameObject
 
@@ -118,3 +118,8 @@ By default, Text labels intercept click events of a mouse. This can be useful if
 When you have finished, your game should behave similar to the scene below:
 
 ![[17-challenge-complete.webm]]
+
+# What's Next?
+Now that your player can use gold to build turrets, it is now time to create a way for the player to gain gold. In the next lesson, you will create a new building that continuously generates gold for the player.
+
+[[18 - Generating Gold]]
