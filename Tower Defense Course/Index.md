@@ -31,6 +31,7 @@ Take your Unity and C# skills to the next level with this hands-on workshop, des
 * [[14 - Tile Cursor]]
 * [[15 - Turret Spawner]]
 * [[16 - Placing Turrets]]
+* [[17 - Building Resources]]
 
 ## Special Thanks
 I would like to give a a huge thank you to everyone who helped test and proof read this project. I could not have done it without you.

@@ -4,65 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "fdf73bbccc8446a4",
+        "id": "928c19128cc0c9b7",
         "type": "tabs",
         "children": [
           {
-            "id": "12504a60e61b679d",
+            "id": "832f86bdf1ced7f9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lessons/14 - Tile Cursor.md",
+                "file": "Lessons/16 - Placing Turrets.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "14 - Tile Cursor"
+              "title": "16 - Placing Turrets"
             }
           },
           {
-            "id": "a8fb7f9666511b81",
+            "id": "48bbabb436f5a453",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lessons/14 - Tile Cursor.md",
+                "file": "Lessons/12 - Firing Projectiles.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "14 - Tile Cursor"
-            }
-          },
-          {
-            "id": "7a3cad8cc436cc07",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lessons/15 - Turret Spawner.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "15 - Turret Spawner"
-            }
-          },
-          {
-            "id": "b6c9ee931b199aeb",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.7"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.7"
+              "title": "12 - Firing Projectiles"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -119,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 310.5
   },
   "right": {
     "id": "4673782bc117cf08",
@@ -207,15 +180,73 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "b6c9ee931b199aeb",
+  "floating": {
+    "id": "f9fdb5479e1247e8",
+    "type": "floating",
+    "children": [
+      {
+        "id": "35961a6413e414be",
+        "type": "window",
+        "children": [
+          {
+            "id": "f658bc9ceb2bf5e6",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "a448527d9c128802",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Lessons/17 - Building Resources.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "17 - Building Resources"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1258,
+        "y": -10,
+        "width": 1312,
+        "height": 1412,
+        "maximize": false,
+        "zoom": 1
+      }
+    ]
+  },
+  "active": "832f86bdf1ced7f9",
   "lastOpenFiles": [
-    "Lessons/15 - Turret Spawner.md",
     "Index.md",
-    "Community.md",
+    "Lessons/17 - Building Resources.md",
+    "Assets/m17 - Building Resources/17-challenge-complete.webm",
     "Lessons/16 - Placing Turrets.md",
+    "Assets/m17 - Building Resources/show-info-method.png",
+    "Assets/m17 - Building Resources/disable-raycast-target.webm",
+    "Assets/m17 - Building Resources/place-build-test.webm",
+    "Assets/m17 - Building Resources/player-interaction-info-label.png",
+    "Assets/m17 - Building Resources/place-info-button.png",
+    "Assets/m17 - Building Resources/testing-can-spawn.webm",
+    "Assets/m17 - Building Resources/Pasted image 20250227105306.png",
+    "Assets/m17 - Building Resources/reference-player-controller.png",
+    "Assets/m17 - Building Resources/set-spawner-tile-cursor.png",
+    "Assets/m17 - Building Resources/update-gold.webm",
+    "Lessons/12 - Firing Projectiles.md",
+    "Assets/m17 - Building Resources/GoldLabelController.png",
+    "Assets/m17 - Building Resources/adjust-x-and-y 1.webm",
+    "Assets/m17 - Building Resources/adjust-x-and-y.webm",
+    "Assets/m17 - Building Resources/set-anchor-and-pivots.webm",
+    "Assets/m17 - Building Resources/create-gold-label.webm",
+    "Assets/m17 - Building Resources",
+    "Assets/m17 - Building Resources/add-player-controller-gold-200.png",
+    "Community.md",
+    "Lessons/15 - Turret Spawner.md",
     "Lessons/14 - Tile Cursor.md",
     "Lessons/13 - Mouse Events.md",
-    "Lessons/12 - Firing Projectiles.md",
     "Lessons/11 - Projectile.md",
     "Lessons/10 - Rotating Turret.md",
     "Lessons/09 - Enemy Spawner.md",
@@ -230,31 +261,11 @@
     "Lessons/00 - Install Unity 6.md",
     "Challenges/02 - Binary Waypoint Challenge/Binary Waypoint Challenge.md",
     "Challenges/01 - Isometric Camera Challenge/Isometric Camera Challenge.md",
-    "Lessons/17 - Building Resources.md",
-    "Assets/m16-BuyingTurrets/change-build-text.webm",
-    "Assets/m16-BuyingTurrets/practice-turretspawner.webm",
-    "Assets/m16-BuyingTurrets/test-button.webm",
-    "Assets/m16-BuyingTurrets/set-tile-cursor-active.webm",
-    "Assets/m16-BuyingTurrets/create-button-listener.webm",
-    "Assets/m16-BuyingTurrets/observe-pivot.webm",
-    "Assets/m16-BuyingTurrets/set-pivot-bottom-left.webm",
-    "Assets/m16-BuyingTurrets/button-changes-resolution.webm",
-    "Assets/m16-BuyingTurrets/reposition-button.webm",
-    "view-canvas-in-scene-view.webm",
+    "Proof Reading Notes.md",
+    "To Do (Kanban).md",
+    "Unity Manual Links.md",
     "Assets/m16-BuyingTurrets/verify-button-in-center.png",
     "Assets/m16-BuyingTurrets/after-importing-button.png",
-    "Assets/m16-BuyingTurrets/import-tmp-essentials.png",
-    "Assets/m16-BuyingTurrets/Add button textmeshpro.png",
-    "Assets/m15-Spawning a Turret/15 - Spawning a Turret 1.png",
-    "Assets/m15-Spawning a Turret/eventmask.png",
-    "Assets/m15-Spawning a Turret/camera-event-mask-layers.png",
-    "Assets/m15-Spawning a Turret/add-tile-layer.png",
-    "Assets/m15-Spawning a Turret/tags-and-layers.png",
-    "Assets/m15-Spawning a Turret/SpawnTurretMethod.png",
-    "14 - Tile Cursor.md",
-    "To Do (Kanban).md",
-    "11 - Projectile.md",
-    "Proof Reading Notes.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
