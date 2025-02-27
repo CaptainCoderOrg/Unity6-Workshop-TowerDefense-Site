@@ -213,18 +213,18 @@
         "x": 1258,
         "y": -10,
         "width": 1312,
-        "height": 1412,
+        "height": 1392,
         "maximize": false,
         "zoom": 1
       }
     ]
   },
-  "active": "832f86bdf1ced7f9",
+  "active": "25d244e850a26219",
   "lastOpenFiles": [
-    "Index.md",
     "Lessons/17 - Building Resources.md",
-    "Assets/m17 - Building Resources/17-challenge-complete.webm",
     "Lessons/16 - Placing Turrets.md",
+    "Index.md",
+    "Assets/m17 - Building Resources/17-challenge-complete.webm",
     "Assets/m17 - Building Resources/show-info-method.png",
     "Assets/m17 - Building Resources/disable-raycast-target.webm",
     "Assets/m17 - Building Resources/place-build-test.webm",

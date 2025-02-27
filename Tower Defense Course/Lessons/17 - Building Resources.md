@@ -61,7 +61,7 @@ When you have finished, your inspector should look similar to the image below:
 ![[reference-player-controller.png]]
 
 ### Challenge: Add a CanSpawn Method to TurretSpawner
-- [ ] Add a `private bool CanSpawn(TileController tileController)` method to the `TurretSpawner` **MonoBehaviour**:
+- [ ] Add a `bool CanSpawn(TileController tileController)` method to the `TurretSpawner` **MonoBehaviour**:
 - [ ] The method returns `false` if the `tileController` is occupied 
 - [ ] The method returns `false` if the `Controller` does not have at least 50 gold
 - [ ] Otherwise, the method returns `true`
