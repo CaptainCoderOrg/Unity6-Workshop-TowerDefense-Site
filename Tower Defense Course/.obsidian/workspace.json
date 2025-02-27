@@ -48,9 +48,21 @@
               "icon": "lucide-file",
               "title": "15 - Turret Spawner"
             }
+          },
+          {
+            "id": "b6c9ee931b199aeb",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.7"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -192,14 +204,15 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-kanban:Create new board": false,
-      "webpage-html-export:Export Vault to HTML": false,
-      "media-extended:Open media": false
+      "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "7a3cad8cc436cc07",
+  "active": "b6c9ee931b199aeb",
   "lastOpenFiles": [
-    "Index.md",
     "Lessons/15 - Turret Spawner.md",
+    "Index.md",
+    "Community.md",
+    "Lessons/16 - Placing Turrets.md",
     "Lessons/14 - Tile Cursor.md",
     "Lessons/13 - Mouse Events.md",
     "Lessons/12 - Firing Projectiles.md",
@@ -217,32 +230,31 @@
     "Lessons/00 - Install Unity 6.md",
     "Challenges/02 - Binary Waypoint Challenge/Binary Waypoint Challenge.md",
     "Challenges/01 - Isometric Camera Challenge/Isometric Camera Challenge.md",
-    "Assets/m15-Spawning a Turret/spawn-many-turrets.webm",
-    "Assets/m15-Spawning a Turret/layer-mask-working.webm",
+    "Lessons/17 - Building Resources.md",
+    "Assets/m16-BuyingTurrets/change-build-text.webm",
+    "Assets/m16-BuyingTurrets/practice-turretspawner.webm",
+    "Assets/m16-BuyingTurrets/test-button.webm",
+    "Assets/m16-BuyingTurrets/set-tile-cursor-active.webm",
+    "Assets/m16-BuyingTurrets/create-button-listener.webm",
+    "Assets/m16-BuyingTurrets/observe-pivot.webm",
+    "Assets/m16-BuyingTurrets/set-pivot-bottom-left.webm",
+    "Assets/m16-BuyingTurrets/button-changes-resolution.webm",
+    "Assets/m16-BuyingTurrets/reposition-button.webm",
+    "view-canvas-in-scene-view.webm",
+    "Assets/m16-BuyingTurrets/verify-button-in-center.png",
+    "Assets/m16-BuyingTurrets/after-importing-button.png",
+    "Assets/m16-BuyingTurrets/import-tmp-essentials.png",
+    "Assets/m16-BuyingTurrets/Add button textmeshpro.png",
     "Assets/m15-Spawning a Turret/15 - Spawning a Turret 1.png",
-    "Assets/m15-Spawning a Turret/set-event-mask-tile.webm",
     "Assets/m15-Spawning a Turret/eventmask.png",
     "Assets/m15-Spawning a Turret/camera-event-mask-layers.png",
-    "Assets/m15-Spawning a Turret/apply-tile-layer.webm",
     "Assets/m15-Spawning a Turret/add-tile-layer.png",
     "Assets/m15-Spawning a Turret/tags-and-layers.png",
-    "Assets/m15-Spawning a Turret/spawn-turret.webm",
-    "Assets/m15-Spawning a Turret/set-spawn-turret-invoke.webm",
-    "Assets/m15-Spawning a Turret/select-tile.webm",
     "Assets/m15-Spawning a Turret/SpawnTurretMethod.png",
-    "Assets/m15-Spawning a Turret/set-turret-prefab.webm",
-    "Assets/m15-Spawning a Turret/15 - Spawning a Turret.png",
-    "Assets/m15-Spawning a Turret/on-click-notify-cursor-clicked.png",
-    "Assets/m15-Spawning a Turret",
-    "Assets/m15-Spawning a Turret/verify-on-cursor-click-inspector.png",
-    "Community.md",
-    "m14 - Tile Controller/dynamic-tile-controller.png",
     "14 - Tile Cursor.md",
-    "m14 - Tile Controller",
     "To Do (Kanban).md",
     "11 - Projectile.md",
     "Proof Reading Notes.md",
-    "Untitled Kanban.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

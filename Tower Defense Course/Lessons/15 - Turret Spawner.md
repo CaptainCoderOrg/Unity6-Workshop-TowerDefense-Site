@@ -72,11 +72,10 @@ You likely noticed that after you placed your turret, the cursor stops registeri
 If you switch to the **Game** tab or enter **Play Mode** you will no longer see your tiles. This is because the Camera does not render them.
 - [ ] Update the camera's `Culling Mask` to see the `Tile` layer
 
-### Camera Event Layer
-By default, the Camera will detect all collision layers. 
+## Camera Event Layer
+By default, the Camera will detect all collision layers. This means that your mouse is being blocked by your turrets area of engagement collider. To fix this, you must change which layers the camera allows the mouse to interact with. This is called the Camera's Event Layer. 
 
-### Challenge: HandleClickEvent
-Recall how the `TileCursor` listens to all tiles in your grid. Unfortunately, there is no way to set this in the **Inspector**. But, it is possible to modify the `Camera.eventMask` field using a script.
+Unfortunately, there is no way to set this in the **Inspector**. But, it is possible to modify the `Camera.eventMask` field using a script.
 
 - [ ] Read the Friendly Manual: [Unity - Scripting API: Camera.eventMask](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-eventMask.html)
 - [ ] Read the Friendly Manual: [Unity - Scripting API: LayerMask](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/LayerMask.html)
@@ -111,4 +110,6 @@ Currently, if you click the same tile multiple times, it will spawn multiple tur
 - Hint: You will also need to modify `TileController`
 
 ## What's Next?
-Now that you are able to spawn turrets on a tile, it is time to add a TileCursor and a `TurretSpawner` to your map.
+Now that you are able to spawn turrets on a tile, it is time to add a TileCursor and a `TurretSpawner` to your map. In the next lesson, you will learn how to add a button that enables the player to build a turret in your level.
+
+[[16 - Placing Turrets]]
