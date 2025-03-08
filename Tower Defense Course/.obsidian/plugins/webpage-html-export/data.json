@@ -43,13 +43,12 @@
   "defaultFileIcon": "lucide//file",
   "defaultFolderIcon": "lucide//folder",
   "defaultMediaIcon": "lucide//file-image",
-  "exportPath": "C:\\\\Users\\User\\git\\jcollard\\TowerDefense-Winter2025\\docs",
+  "exportPath": "C:\\\\Users\\User\\git\\CaptainCoderOrg\\Unity6-Workshop-TowerDefense-Site\\docs",
   "filesToExport": [
     [
       "Assets",
       "Challenges",
       "Lessons",
-      "Community.md",
       "Index.md"
     ]
   ]

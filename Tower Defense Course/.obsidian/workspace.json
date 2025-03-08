@@ -13,29 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Index.md",
+                "file": "Lessons/20 - Tower.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Index"
+              "title": "20 - Tower"
             }
           },
           {
-            "id": "48bbabb436f5a453",
+            "id": "861a0aa8480fd0c5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lessons/12 - Firing Projectiles.md",
+                "file": "Lessons/19 - BuildingData.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "12 - Firing Projectiles"
+              "title": "19 - BuildingData"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -180,37 +181,18 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "832f86bdf1ced7f9",
+  "active": "861a0aa8480fd0c5",
   "lastOpenFiles": [
-    "Assets/m18-GeneratingGold/set-parent-object.png",
-    "Assets/m18-GeneratingGold/gold-generator-nullreference-exception.webm",
-    "Assets/m18-GeneratingGold/gold-generating-invoke-repeating.webm",
     "Index.md",
-    "Assets/m18-GeneratingGold",
-    "Lessons/17 - Adding Gold.md",
+    "Lessons/20 - Tower.md",
+    "Lessons/19 - BuildingData.md",
     "Lessons/18 - Generating Gold.md",
-    "Assets/m18-GeneratingGold/test-buttons.webm",
-    "Assets/m18-GeneratingGold/test-prefab-build-button.webm",
-    "Assets/m18-GeneratingGold/set-turret-prefab-on-click.webm",
-    "Assets/m18-GeneratingGold/ensure-set-public.png",
-    "Assets/m18-GeneratingGold/spawning-gold-generators.webm",
-    "Assets/m18-GeneratingGold/verify-player-controller-set.webm",
-    "Assets/m18-GeneratingGold/cache-player-controller.png",
-    "Assets/m18-GeneratingGold/gold-generator.png",
-    "Assets/m18-GeneratingGold/gold-generator example.webm",
-    "Lessons/12 - Firing Projectiles.md",
+    "Lessons/17 - Adding Gold.md",
     "Lessons/16 - Placing Turrets.md",
-    "Assets/m17 - Building Resources/17-challenge-complete.webm",
-    "Assets/m17 - Building Resources/show-info-method.png",
-    "Assets/m17 - Building Resources/player-interaction-info-label.png",
-    "Assets/m17 - Building Resources/place-info-button.png",
-    "Assets/m17 - Building Resources/Pasted image 20250227105306.png",
-    "Assets/m17 - Building Resources/reference-player-controller.png",
-    "Assets/m17 - Building Resources/set-spawner-tile-cursor.png",
-    "Community.md",
     "Lessons/15 - Turret Spawner.md",
     "Lessons/14 - Tile Cursor.md",
     "Lessons/13 - Mouse Events.md",
+    "Lessons/12 - Firing Projectiles.md",
     "Lessons/11 - Projectile.md",
     "Lessons/10 - Rotating Turret.md",
     "Lessons/09 - Enemy Spawner.md",
@@ -225,8 +207,27 @@
     "Lessons/00 - Install Unity 6.md",
     "Challenges/02 - Binary Waypoint Challenge/Binary Waypoint Challenge.md",
     "Challenges/01 - Isometric Camera Challenge/Isometric Camera Challenge.md",
-    "Proof Reading Notes.md",
+    "Assets/m20 - Tower/tower-collider.webm",
+    "Assets/m20 - Tower/show-game-over.webm",
+    "Assets/m20 - Tower/demo-game-over.webm",
+    "Assets/m20 - Tower",
+    "Assets/m20 - Tower/test-tower-controller.webm",
+    "Assets/m20 - Tower/testing-collisions.webm",
+    "Assets/m20 - Tower/tower-collider 1.webm",
+    "Assets/m20 - Tower/enemy-attack-setup.webm",
+    "Assets/m20 - Tower/test-tower-scene 1.webm",
+    "Assets/m20 - Tower/test-tower-scene.webm",
+    "Assets/m20 - Tower/tower-prefab.png",
+    "Assets/m19-BuildingData/turret-placement.png",
     "To Do (Kanban).md",
+    "Assets/m19-BuildingData/instantiate-update.png",
+    "Assets/m19-BuildingData/selectedcost.png",
+    "Assets/m19-BuildingData/selected-1.png",
+    "Assets/m19-BuildingData/selected.png",
+    "Assets/m19-BuildingData/verify-name-component.png",
+    "Assets/m19-BuildingData/classname-match.png",
+    "Assets/m19-BuildingData/turret-prefab-set.png",
+    "Assets/m19-BuildingData/fields.png",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

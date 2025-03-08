@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Tower Defense Course]]></title><description><![CDATA[Obsidian digital garden]]></description><link>https://towerdefense.captaincoder.org/</link><image><url>https://towerdefense.captaincoder.org/lib/media/favicon.png</url><title>Tower Defense Course</title><link>https://towerdefense.captaincoder.org/</link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 03 Dec 2024 20:59:57 GMT</lastBuildDate><atom:link href="https://towerdefense.captaincoder.org/lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 03 Dec 2024 20:59:15 GMT</pubDate><copyright><![CDATA[Captain Coder]]></copyright><ttl>60</ttl><dc:creator>Captain Coder</dc:creator><item><title><![CDATA[Isometric Camera Challenge]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Tower Defense Course]]></title><description><![CDATA[Obsidian digital garden]]></description><link>https://towerdefense.captaincoder.org/</link><image><url>https://towerdefense.captaincoder.org/lib/media/favicon.png</url><title>Tower Defense Course</title><link>https://towerdefense.captaincoder.org/</link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sat, 08 Mar 2025 11:53:55 GMT</lastBuildDate><atom:link href="https://towerdefense.captaincoder.org/lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sat, 08 Mar 2025 11:53:33 GMT</pubDate><copyright><![CDATA[Captain Coder]]></copyright><ttl>60</ttl><dc:creator>Captain Coder</dc:creator><item><title><![CDATA[Isometric Camera Challenge]]></title><description><![CDATA[ 
  <br>Before starting this challenge, you should complete <a data-href="05 - Creating an Isometric Camera" href="https://towerdefense.captaincoder.org/lessons/05-creating-an-isometric-camera.html" class="internal-link" target="_self" rel="noopener nofollow">05 - Creating an Isometric Camera</a>.<br>In this challenge you are tasked with setting up an Isometric Camera for a pre-existing scene.<br><br>
 <br>Download the Isometric Camera Challenge: <a data-href="IsometricCameraChallenge v1.0.0.unitypackage" href="https://towerdefense.captaincoder.org/challenges/01-isometric-camera-challenge/isometriccamerachallenge-v1.0.0.unitypackage" class="internal-link" target="_self" rel="noopener nofollow">IsometricCameraChallenge v1.0.0.unitypackage</a>
 <br>Import the package into your Unity Project
@@ -6,7 +6,7 @@
 <br>Open the Isometric Camera Challenge Scene
 <br>Configure the scene's Main Camera to be Isometric using a Rotation of (30, -45, 0)
 <br>Modify the elements in the Hierarchy such that the elements are centered at the game world's origin (0, 0, 0)
-<br><br>When you've completed this challenge, your Game View should look similar to the one below.<br><img alt="isometric-camera-challenge-solution.png" src="https://towerdefense.captaincoder.org/lib/media/isometric-camera-challenge-solution.png">]]></description><link>https://towerdefense.captaincoder.org/challenges/01-isometric-camera-challenge/isometric-camera-challenge.html</link><guid isPermaLink="false">Challenges/01 - Isometric Camera Challenge/Isometric Camera Challenge.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Wed, 27 Nov 2024 01:46:38 GMT</pubDate><enclosure url="https://towerdefense.captaincoder.org/lib/media/import-challenge.webp" length="0" type="image/webp"/><content:encoded>&lt;figure&gt;&lt;img src="https://towerdefense.captaincoder.org/lib/media/import-challenge.webp"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Binary Waypoint Challenge]]></title><description><![CDATA[ 
+<br><br>When you've completed this challenge, your Game View should look similar to the one below.<br><img alt="isometric-camera-challenge-solution.png" src="https://towerdefense.captaincoder.org/lib/media/isometric-camera-challenge-solution.png">]]></description><link>https://towerdefense.captaincoder.org/challenges/01-isometric-camera-challenge/isometric-camera-challenge.html</link><guid isPermaLink="false">Challenges/01 - Isometric Camera Challenge/Isometric Camera Challenge.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Thu, 27 Feb 2025 16:07:42 GMT</pubDate><enclosure url="https://towerdefense.captaincoder.org/lib/media/import-challenge.webp" length="0" type="image/webp"/><content:encoded>&lt;figure&gt;&lt;img src="https://towerdefense.captaincoder.org/lib/media/import-challenge.webp"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Binary Waypoint Challenge]]></title><description><![CDATA[ 
  <br>Before starting this challenge, you should complete <a data-href="07 - Waypoints" href="https://towerdefense.captaincoder.org/lessons/07-waypoints.html" class="internal-link" target="_self" rel="noopener nofollow">07 - Waypoints</a>.<br>In this challenge, you are tasked with creating a Binary Waypoint that can connected up to TWO other Binary Waypoints.<br><br>
 <br>Download the Binary Waypoint Challenge: <a data-href="BinaryWaypointChallenge V1.0.0.unitypackage" href="https://towerdefense.captaincoder.org/challenges/02-binary-waypoint-challenge/binarywaypointchallenge-v1.0.0.unitypackage" class="internal-link" target="_self" rel="noopener nofollow">BinaryWaypointChallenge V1.0.0.unitypackage</a>
 <br>Import the package into your Unity Project
@@ -31,7 +31,7 @@
 <br>Add Binary Waypoints to the scene to match the image below
 <br><img alt="binary-waypoint-connections.png" src="https://towerdefense.captaincoder.org/lib/media/binary-waypoint-connections.png"><br>
 <br>Ensure that the Binary Waypoints are not visible in the Game View
-<br><img alt="no-waypoints-visible.png" src="https://towerdefense.captaincoder.org/lib/media/no-waypoints-visible.png">]]></description><link>https://towerdefense.captaincoder.org/challenges/02-binary-waypoint-challenge/binary-waypoint-challenge.html</link><guid isPermaLink="false">Challenges/02 - Binary Waypoint Challenge/Binary Waypoint Challenge.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Wed, 27 Nov 2024 23:36:04 GMT</pubDate><enclosure url="https://towerdefense.captaincoder.org/lib/media/binary-waypoint-connections.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://towerdefense.captaincoder.org/lib/media/binary-waypoint-connections.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[00 - Install Unity 6]]></title><description><![CDATA[ 
+<br><img alt="no-waypoints-visible.png" src="https://towerdefense.captaincoder.org/lib/media/no-waypoints-visible.png">]]></description><link>https://towerdefense.captaincoder.org/challenges/02-binary-waypoint-challenge/binary-waypoint-challenge.html</link><guid isPermaLink="false">Challenges/02 - Binary Waypoint Challenge/Binary Waypoint Challenge.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Thu, 27 Feb 2025 16:07:42 GMT</pubDate><enclosure url="https://towerdefense.captaincoder.org/lib/media/binary-waypoint-connections.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://towerdefense.captaincoder.org/lib/media/binary-waypoint-connections.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[00 - Install Unity 6]]></title><description><![CDATA[ 
  <br>Before you can start this course, you will need to ensure you have the correct version of Unity installed. In this course, you will be using Unity 6 (version: 6000.0.XYZ), although many aspects of this project will likely work in later versions, no guarantees will be made by the author.<br><br>
 <br>In Unity Hub select the Installs tab on the left side of the interface. Then select Install Editor.
 <br><img alt="UnityHubInstalls.png" src="https://towerdefense.captaincoder.org/lib/media/unityhubinstalls.png"><br>
@@ -45,7 +45,7 @@ Before clicking finalizing the Install be sure you add the WebGL Build Support m
 
 <br>If all went well, the Editor application and WebGL  Build Support module will download and install. Depending on your internet connection speed and your computer's processor speed, this can take anywhere from 5 minutes to 1 hour to complete (longer for slower internet connections).<br>
 <img alt="Unity6DownloadInProgress.png" src="https://towerdefense.captaincoder.org/lib/media/unity6downloadinprogress.png"><br>
-Note: After the download has finished, the installer will prompt you to finish the installation. You may need the password you use to log into your computer to finish this step. If you encounter any issues, do not hesitate to contact your instructor.<br>After the install is complete, you should see an Install complete message and a green check mark next to Editor application and WebGL Build Support. If you do not see this, contact your instructor for additional help.<br><img alt="Unity6DownloadComplete.png" src="https://towerdefense.captaincoder.org/lib/media/unity6downloadcomplete.png"><br><br>In the next section, you will create a new Unity 6 project<br><a data-href="01 - Creating the Project" href="https://towerdefense.captaincoder.org/lessons/01-creating-the-project.html" class="internal-link" target="_self" rel="noopener nofollow">01 - Creating the Project</a>]]></description><link>https://towerdefense.captaincoder.org/lessons/00-install-unity-6.html</link><guid isPermaLink="false">Lessons/00 - Install Unity 6.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Thu, 28 Nov 2024 21:34:03 GMT</pubDate><enclosure url="https://towerdefense.captaincoder.org/lib/media/unityhubinstalls.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://towerdefense.captaincoder.org/lib/media/unityhubinstalls.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[01 - Creating the Project]]></title><description><![CDATA[ 
+Note: After the download has finished, the installer will prompt you to finish the installation. You may need the password you use to log into your computer to finish this step. If you encounter any issues, do not hesitate to contact your instructor.<br>After the install is complete, you should see an Install complete message and a green check mark next to Editor application and WebGL Build Support. If you do not see this, contact your instructor for additional help.<br><img alt="Unity6DownloadComplete.png" src="https://towerdefense.captaincoder.org/lib/media/unity6downloadcomplete.png"><br><br>In the next section, you will create a new Unity 6 project<br><a data-href="01 - Creating the Project" href="https://towerdefense.captaincoder.org/lessons/01-creating-the-project.html" class="internal-link" target="_self" rel="noopener nofollow">01 - Creating the Project</a>]]></description><link>https://towerdefense.captaincoder.org/lessons/00-install-unity-6.html</link><guid isPermaLink="false">Lessons/00 - Install Unity 6.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Thu, 27 Feb 2025 16:07:42 GMT</pubDate><enclosure url="https://towerdefense.captaincoder.org/lib/media/unityhubinstalls.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://towerdefense.captaincoder.org/lib/media/unityhubinstalls.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[01 - Creating the Project]]></title><description><![CDATA[ 
  <br><br>Before starting, you will need to create a new Unity 6 project. The picture below shows the settings you should select when creating the project.<br>
 <br>Ensure the editor version begins with 6000.0.
 <br>Ensure you are using the Universal 3D Core template 
@@ -66,7 +66,7 @@ Note: After the download has finished, the installer will prompt you to finish t
 <br><img alt="rename-scene.png" src="https://towerdefense.captaincoder.org/lib/media/rename-scene.png"><br>
 <br>Double click to open your new Scene
 <br>Delete the original SampleScene to prevent yourself from accidentally using it.
-<br><img alt="delete-sample-scene.png" src="https://towerdefense.captaincoder.org/lib/media/delete-sample-scene.png"><br><br>With your Tower Defense Scene created, you're ready to design your map. In the next section, you create a Tile Grid that will be used to create your map<br><a data-href="02 - Creating a Tile Grid" href="https://towerdefense.captaincoder.org/lessons/02-creating-a-tile-grid.html" class="internal-link" target="_self" rel="noopener nofollow">02 - Creating a Tile Grid</a>]]></description><link>https://towerdefense.captaincoder.org/lessons/01-creating-the-project.html</link><guid isPermaLink="false">Lessons/01 - Creating the Project.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Thu, 28 Nov 2024 15:33:25 GMT</pubDate><enclosure url="https://towerdefense.captaincoder.org/lib/media/unityhubprojectsettings.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://towerdefense.captaincoder.org/lib/media/unityhubprojectsettings.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[02 - Creating a Tile Grid]]></title><description><![CDATA[ 
+<br><img alt="delete-sample-scene.png" src="https://towerdefense.captaincoder.org/lib/media/delete-sample-scene.png"><br><br>With your Tower Defense Scene created, you're ready to design your map. In the next section, you create a Tile Grid that will be used to create your map<br><a data-href="02 - Creating a Tile Grid" href="https://towerdefense.captaincoder.org/lessons/02-creating-a-tile-grid.html" class="internal-link" target="_self" rel="noopener nofollow">02 - Creating a Tile Grid</a>]]></description><link>https://towerdefense.captaincoder.org/lessons/01-creating-the-project.html</link><guid isPermaLink="false">Lessons/01 - Creating the Project.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Thu, 27 Feb 2025 16:07:42 GMT</pubDate><enclosure url="https://towerdefense.captaincoder.org/lib/media/unityhubprojectsettings.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://towerdefense.captaincoder.org/lib/media/unityhubprojectsettings.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[02 - Creating a Tile Grid]]></title><description><![CDATA[ 
  <br><br>The mini-lecture below provides a high level overview of what you'll learn in this section. Watch the video and take notes. Then, complete the lesson below to apply the concepts from the video. <br>Warning: It is not recommended to work along side the video as the content is not identical to the lesson.<br><br><br>
 <br>Download Kenney's Tower Defense Kit: <a rel="noopener nofollow" class="external-link" href="https://kenney.nl/assets/tower-defense-kit" target="_blank">https://kenney.nl/assets/tower-defense-kit</a>
 <br>Extract the archived zip file
@@ -143,7 +143,7 @@ Note: After the download has finished, the installer will prompt you to finish t
 <br>Edit the Prefab directly
 <br>Edit a Tile using the Scene prefab editor
 <br>Modify a Tile then Apply the Override to all prefabs
-<br>Before continuing, update your Tile Prefab to use the tile mesh. This particular Prefab will be used as an empty tile where the player can build a structure.<br><br>In the next section, you will create several more Prefabs that you will use to build a more detailed map<br><a data-href="03 - Creating Additional Tile Prefabs" href="https://towerdefense.captaincoder.org/lessons/03-creating-additional-tile-prefabs.html" class="internal-link" target="_self" rel="noopener nofollow">03 - Creating Additional Tile Prefabs</a>]]></description><link>https://towerdefense.captaincoder.org/lessons/02-creating-a-tile-grid.html</link><guid isPermaLink="false">Lessons/02 - Creating a Tile Grid.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Thu, 28 Nov 2024 17:34:02 GMT</pubDate><enclosure url="https://towerdefense.captaincoder.org/lib/media/extractfile.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://towerdefense.captaincoder.org/lib/media/extractfile.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[03 - Creating Additional Tile Prefabs]]></title><description><![CDATA[ 
+<br>Before continuing, update your Tile Prefab to use the tile mesh. This particular Prefab will be used as an empty tile where the player can build a structure.<br><br>In the next section, you will create several more Prefabs that you will use to build a more detailed map<br><a data-href="03 - Creating Additional Tile Prefabs" href="https://towerdefense.captaincoder.org/lessons/03-creating-additional-tile-prefabs.html" class="internal-link" target="_self" rel="noopener nofollow">03 - Creating Additional Tile Prefabs</a>]]></description><link>https://towerdefense.captaincoder.org/lessons/02-creating-a-tile-grid.html</link><guid isPermaLink="false">Lessons/02 - Creating a Tile Grid.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Thu, 27 Feb 2025 16:07:42 GMT</pubDate><enclosure url="https://towerdefense.captaincoder.org/lib/media/extractfile.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://towerdefense.captaincoder.org/lib/media/extractfile.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[03 - Creating Additional Tile Prefabs]]></title><description><![CDATA[ 
  <br>Before you can design your first level, you will need to create a few more Prefabs that will be used on your Grid in place of the empty Tile.<br><br>The mini-lecture below provides a high level overview of what you'll learn in this section. Watch the video and take notes. Then, complete the lesson below to apply the concepts from the video. <br>Warning: It is not recommended to work along side the video as the content is not identical to the lesson.<br><br><br>Start by changing the Mesh of a Tile in your scene to use the tile-dirt mesh.<br>
 <br>Select a Tile in your Scene
 <br>Change the Mesh property of the selected tile to tile-dirt
@@ -187,7 +187,7 @@ Note: After the download has finished, the installer will prompt you to finish t
 <br>Your level should use at least 5 different types of tiles
 <br>Your level should have one continuous path from the edge of the map to an "end" location, eventually your Player's tower will be placed here. 
 <br>Bonus: Share a screenshot of your Map with a friend!
-<br>When you're finished, your map might look something like the image below:<br><img alt="Example Finished Map.png" src="https://towerdefense.captaincoder.org/lib/media/example-finished-map.png"><br><br>With a tile grid designed for your game, you are ready to set up the player's view. In the next section, you will configure your editor's Play Mode to optimize your design experience.<br><a data-href="04 - Play Mode Settings" href="https://towerdefense.captaincoder.org/lessons/04-play-mode-settings.html" class="internal-link" target="_self" rel="noopener nofollow">04 - Play Mode Settings</a>]]></description><link>https://towerdefense.captaincoder.org/lessons/03-creating-additional-tile-prefabs.html</link><guid isPermaLink="false">Lessons/03 - Creating Additional Tile Prefabs.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Thu, 28 Nov 2024 17:33:46 GMT</pubDate><enclosure url="https://towerdefense.captaincoder.org/lib/media/set-tile-dirt-model.webp" length="0" type="image/webp"/><content:encoded>&lt;figure&gt;&lt;img src="https://towerdefense.captaincoder.org/lib/media/set-tile-dirt-model.webp"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[04 - Play Mode Settings]]></title><description><![CDATA[ 
+<br>When you're finished, your map might look something like the image below:<br><img alt="Example Finished Map.png" src="https://towerdefense.captaincoder.org/lib/media/example-finished-map.png"><br><br>With a tile grid designed for your game, you are ready to set up the player's view. In the next section, you will configure your editor's Play Mode to optimize your design experience.<br><a data-href="04 - Play Mode Settings" href="https://towerdefense.captaincoder.org/lessons/04-play-mode-settings.html" class="internal-link" target="_self" rel="noopener nofollow">04 - Play Mode Settings</a>]]></description><link>https://towerdefense.captaincoder.org/lessons/03-creating-additional-tile-prefabs.html</link><guid isPermaLink="false">Lessons/03 - Creating Additional Tile Prefabs.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Thu, 27 Feb 2025 16:07:42 GMT</pubDate><enclosure url="https://towerdefense.captaincoder.org/lib/media/set-tile-dirt-model.webp" length="0" type="image/webp"/><content:encoded>&lt;figure&gt;&lt;img src="https://towerdefense.captaincoder.org/lib/media/set-tile-dirt-model.webp"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[04 - Play Mode Settings]]></title><description><![CDATA[ 
  <br><br>Thus far, you have only worked within the Scene view without testing how your game will appear to a player. To enter Play Mode to see what the player's experience will be, click the Play button at the top center of the Unity Editor window.<br><img alt="enter-playmode-button.png" src="https://towerdefense.captaincoder.org/lib/media/enter-playmode-button.png"><br>Upon entering Play Mode you'll notice a few things. First, you likely will see a loading window that will appear for a few seconds (in some cases more minutes!). Then, the editor will automatically switch the the Game view. You can tell when you're in Play Mode when the play button switches to a "stop" button and is highlighted. Additionally, the editor changes to a slightly darker tint.<br>You can see each of these changes in the video below:<br><img alt="entering-playmode.webp" src="https://towerdefense.captaincoder.org/lib/media/entering-playmode.webp"><br><br>A common beginner mistake happens when you modify your scene while you're unintentionally in Play Mode. This can result in lost work. The moment you exit Play Mode all changes revert back to the state they were in prior to entering Play Mode<br>You can test this by moving your camera while you're in Play Mode then exiting Play Mode<br>
 <br>Enter Play Mode
 <br>While in Play Mode select your Main Camera
@@ -220,7 +220,7 @@ Note: After the download has finished, the installer will prompt you to finish t
 <br><img alt="editor-playmode-settings.png" src="https://towerdefense.captaincoder.org/lib/media/editor-playmode-settings.png"><br>
 <br>Close the Project Settings window
 <br>Enter Play Mode
-<br>You should notice entering Play Mode is now almost instantaneous.<br><img alt="instant-playmod.webp" src="https://towerdefense.captaincoder.org/lib/media/instant-playmod.webp"><br><br>Now that you have configured Play Mode to work better for you, it is time to set up the game's isometric camera.<br><a data-href="05 - Creating an Isometric Camera" href="https://towerdefense.captaincoder.org/lessons/05-creating-an-isometric-camera.html" class="internal-link" target="_self" rel="noopener nofollow">05 - Creating an Isometric Camera</a>]]></description><link>https://towerdefense.captaincoder.org/lessons/04-play-mode-settings.html</link><guid isPermaLink="false">Lessons/04 - Play Mode Settings.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Tue, 26 Nov 2024 18:56:50 GMT</pubDate><enclosure url="https://towerdefense.captaincoder.org/lib/media/enter-playmode-button.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://towerdefense.captaincoder.org/lib/media/enter-playmode-button.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[05 - Creating an Isometric Camera]]></title><description><![CDATA[ 
+<br>You should notice entering Play Mode is now almost instantaneous.<br><img alt="instant-playmod.webp" src="https://towerdefense.captaincoder.org/lib/media/instant-playmod.webp"><br><br>Now that you have configured Play Mode to work better for you, it is time to set up the game's isometric camera.<br><a data-href="05 - Creating an Isometric Camera" href="https://towerdefense.captaincoder.org/lessons/05-creating-an-isometric-camera.html" class="internal-link" target="_self" rel="noopener nofollow">05 - Creating an Isometric Camera</a>]]></description><link>https://towerdefense.captaincoder.org/lessons/04-play-mode-settings.html</link><guid isPermaLink="false">Lessons/04 - Play Mode Settings.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Thu, 27 Feb 2025 16:07:42 GMT</pubDate><enclosure url="https://towerdefense.captaincoder.org/lib/media/enter-playmode-button.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://towerdefense.captaincoder.org/lib/media/enter-playmode-button.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[05 - Creating an Isometric Camera]]></title><description><![CDATA[ 
  <br>In this section, you will learn how to configure your Main Camera to render your game Isometrically.<br><br>An isometric camera shows a scene from a tilted angle, so you can see multiple sides of objects at the same time, like the top and two sides of a building. Unlike a regular camera, it doesn’t make things in the distance look smaller, which keeps everything the same size and gives a clean, organized look. It’s often used in games and art to create a clear and detailed view of the world.<br>By default, the Scene view is set to use an Perspective camera. This makes things that are further away appear smaller and things that are closer larger. In the top right corner of the Scene view, there is an Orientation Gizmo that allows you to switch to an Isometric view by clicking on the text  "Persp". To return to a Perspective view, you can click the text "Iso".<br><img alt="iso-camera-scene-view.webp" src="https://towerdefense.captaincoder.org/lib/media/iso-camera-scene-view.webp"><br>
 <br>Find the Orientation Gizmo in the Scene view
 <br>Change to Isometric view
@@ -303,7 +303,7 @@ Note: After the download has finished, the installer will prompt you to finish t
 <br><img alt="set-hd-resolution.webp" src="https://towerdefense.captaincoder.org/lib/media/set-hd-resolution.webp"><br>
 You'll now notice that the elements within the Game View will begin to scale with the size of the view port. This is because the game camera will now force the specified resolution / aspect ratio.<br>The majority of desktop and TV screens use a 16:9 aspect ratio. If you are developing for mobile devices, you will need to take more care to ensure the game functions properly for more aspect ratios. For this project, we will use a 16:9 ratio.<br>
 <br>Set the Aspect to 16:9
-<br><br>Whew! That was a lot of work. The best way to learn and retain something is to practice it. Before continuing to the next lesson, why not see if you can set up an Isometric Camera again in the <a data-href="Isometric Camera Challenge" href="https://towerdefense.captaincoder.org/challenges/01-isometric-camera-challenge/isometric-camera-challenge.html" class="internal-link" target="_self" rel="noopener nofollow">Isometric Camera Challenge</a>?<br>If you get stuck or need help, you can refer back to this lesson. Best of luck!<br><br>With your Game Camera set up, you are ready it is time to create your game's mechanics. In the next lesson, you will learn how to create a simple enemy that moves within your world.<br><a data-href="06 - Adding an Enemy" href="https://towerdefense.captaincoder.org/lessons/06-adding-an-enemy.html" class="internal-link" target="_self" rel="noopener nofollow">06 - Adding an Enemy</a>]]></description><link>https://towerdefense.captaincoder.org/lessons/05-creating-an-isometric-camera.html</link><guid isPermaLink="false">Lessons/05 - Creating an Isometric Camera.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Wed, 27 Nov 2024 01:44:49 GMT</pubDate><enclosure url="https://towerdefense.captaincoder.org/lib/media/iso-camera-scene-view.webp" length="0" type="image/webp"/><content:encoded>&lt;figure&gt;&lt;img src="https://towerdefense.captaincoder.org/lib/media/iso-camera-scene-view.webp"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[06 - Adding an Enemy]]></title><description><![CDATA[ 
+<br><br>Whew! That was a lot of work. The best way to learn and retain something is to practice it. Before continuing to the next lesson, why not see if you can set up an Isometric Camera again in the <a data-href="Isometric Camera Challenge" href="https://towerdefense.captaincoder.org/challenges/01-isometric-camera-challenge/isometric-camera-challenge.html" class="internal-link" target="_self" rel="noopener nofollow">Isometric Camera Challenge</a>?<br>If you get stuck or need help, you can refer back to this lesson. Best of luck!<br><br>With your Game Camera set up, you are ready it is time to create your game's mechanics. In the next lesson, you will learn how to create a simple enemy that moves within your world.<br><a data-href="06 - Adding an Enemy" href="https://towerdefense.captaincoder.org/lessons/06-adding-an-enemy.html" class="internal-link" target="_self" rel="noopener nofollow">06 - Adding an Enemy</a>]]></description><link>https://towerdefense.captaincoder.org/lessons/05-creating-an-isometric-camera.html</link><guid isPermaLink="false">Lessons/05 - Creating an Isometric Camera.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Thu, 27 Feb 2025 16:07:43 GMT</pubDate><enclosure url="https://towerdefense.captaincoder.org/lib/media/iso-camera-scene-view.webp" length="0" type="image/webp"/><content:encoded>&lt;figure&gt;&lt;img src="https://towerdefense.captaincoder.org/lib/media/iso-camera-scene-view.webp"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[06 - Adding an Enemy]]></title><description><![CDATA[ 
  <br>In this section, you will create a simple enemy that can move around the map.<br><br>Kenney provides hundreds of free assets to the public domain that can be used to help in your prototypes (and even commercial projects). In this section, you will use the Graveyard Kit to create an enemy using one of the 5 provided models and animations.<br>Before starting, you should import the FBX Models from this asset pack: <a data-tooltip-position="top" aria-label="https://kenney.nl/assets/graveyard-kit" rel="noopener nofollow" class="external-link" href="https://kenney.nl/assets/graveyard-kit" target="_blank">Graveyard Kit · Kenney</a><br>If you need help importing the models, you can refer to the Importing Asset section of <a data-href="02 - Creating a Tile Grid#Importing Assets" href="https://towerdefense.captaincoder.org/lessons/02-creating-a-tile-grid.html#Importing_Assets" class="internal-link" target="_self" rel="noopener nofollow">02 - Creating a Tile Grid &gt; Importing Assets</a><br>Here is a quick check list to help you:<br>
 <br>Download the Asset Pack
 <br>Extract the ZIP archive
@@ -394,7 +394,7 @@ Once again, enter Play Mode and verify that your Enemy moves at 1 unity per seco
 
 
 <br>Be sure to scale the rotation speed using Time.deltaTime
-<br>When you have successfully implemented the EnemyRotation script, it should work similar to the image below:<br><img alt="rotation-challenge-complete.webp" src="https://towerdefense.captaincoder.org/lib/media/rotation-challenge-complete.webp"><br><br>In the next section you will create a Waypoint component that you can use to specify the path your enemies will take.<br><a data-href="07 - Waypoints" href="https://towerdefense.captaincoder.org/lessons/07-waypoints.html" class="internal-link" target="_self" rel="noopener nofollow">07 - Waypoints</a>]]></description><link>https://towerdefense.captaincoder.org/lessons/06-adding-an-enemy.html</link><guid isPermaLink="false">Lessons/06 - Adding an Enemy.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Fri, 29 Nov 2024 20:07:10 GMT</pubDate><enclosure url="https://towerdefense.captaincoder.org/lib/media/create-empty.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://towerdefense.captaincoder.org/lib/media/create-empty.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[07 - Waypoints]]></title><description><![CDATA[ 
+<br>When you have successfully implemented the EnemyRotation script, it should work similar to the image below:<br><img alt="rotation-challenge-complete.webp" src="https://towerdefense.captaincoder.org/lib/media/rotation-challenge-complete.webp"><br><br>In the next section you will create a Waypoint component that you can use to specify the path your enemies will take.<br><a data-href="07 - Waypoints" href="https://towerdefense.captaincoder.org/lessons/07-waypoints.html" class="internal-link" target="_self" rel="noopener nofollow">07 - Waypoints</a>]]></description><link>https://towerdefense.captaincoder.org/lessons/06-adding-an-enemy.html</link><guid isPermaLink="false">Lessons/06 - Adding an Enemy.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Thu, 27 Feb 2025 16:07:43 GMT</pubDate><enclosure url="https://towerdefense.captaincoder.org/lib/media/create-empty.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://towerdefense.captaincoder.org/lib/media/create-empty.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[07 - Waypoints]]></title><description><![CDATA[ 
  <br>In this section, you will create a Waypoint script that you will use to define positions in your world for your enemies to move between.<br><br>It is possible to create a Prefab directly in the Project explorer.<br>
 <br>Navigate to your Prefabs folder
 <br>Right Click
@@ -436,7 +436,7 @@ Once again, enter Play Mode and verify that your Enemy moves at 1 unity per seco
 
 
 <br>Select the Tags and Layers tab on the left
-<br><img alt="tags-and-layers.png" src="https://towerdefense.captaincoder.org/lib/media/tags-and-layers.png"><br>
+<br><img alt="Assets/07 - Waypoints/tags-and-layers.png" src="https://towerdefense.captaincoder.org/lib/media/tags-and-layers.png"><br>
 <br>Verify you're editing the Layers drop down
 <br>Select Layer 6
 <br>Enter the name "Waypoint"
@@ -499,7 +499,7 @@ Once again, enter Play Mode and verify that your Enemy moves at 1 unity per seco
 <br><img alt="drawing-red-line-on-selected.png" src="https://towerdefense.captaincoder.org/lib/media/drawing-red-line-on-selected.png"><br>
 With your new gizmo in place, you can now more easily verify that your Waypoints are connected properly:<br><img alt="view-gizmo-line.webp" src="https://towerdefense.captaincoder.org/lib/media/view-gizmo-line.webp"><br><br>You most likely encountered NullReferenceException when you selected your final Waypoint. This is because the Next property is set to None. For class objects, this is the equivalent to a null value. To prevent this, you should add a null check to your code that exists your method early if Next == null.<br><img alt="null-check.png" src="https://towerdefense.captaincoder.org/lib/media/null-check.png"><br><br>If you prefer, you can also use the OnDrawGizmos method which is executed in the Scene View even when the Game Object is not selected.<br>
 <br>Rename your OnDrawGizmosSelected method to OnDrawGizmos
-<br><img alt="on-draw-gizmos.png" src="https://towerdefense.captaincoder.org/lib/media/on-draw-gizmos.png"><br>In the Scene View verify your path is correct<br><img alt="view-all-gizmo-lines.webp" src="https://towerdefense.captaincoder.org/lib/media/view-all-gizmo-lines.webp"><br><br>It is important to review what you've learned in this lesson and apply it in a new context. Before continuing, I encourage you to attempt the <a data-href="Binary Waypoint Challenge" href="https://towerdefense.captaincoder.org/challenges/02-binary-waypoint-challenge/binary-waypoint-challenge.html" class="internal-link" target="_self" rel="noopener nofollow">Binary Waypoint Challenge</a> in which you will be challenged to create a new script to accommodate splitting paths.<br><img alt="binary-waypoint-connections.png" src="https://towerdefense.captaincoder.org/lib/media/binary-waypoint-connections.png"><br><br>With your Waypoints set up, it is now time to update your Enemy Movement script to move between each Waypoint.]]></description><link>https://towerdefense.captaincoder.org/lessons/07-waypoints.html</link><guid isPermaLink="false">Lessons/07 - Waypoints.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Thu, 28 Nov 2024 15:19:39 GMT</pubDate><enclosure url="https://towerdefense.captaincoder.org/lib/media/create-prefab-in-project.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://towerdefense.captaincoder.org/lib/media/create-prefab-in-project.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[08 - Waypoint Traveler]]></title><description><![CDATA[ 
+<br><img alt="on-draw-gizmos.png" src="https://towerdefense.captaincoder.org/lib/media/on-draw-gizmos.png"><br>In the Scene View verify your path is correct<br><img alt="view-all-gizmo-lines.webp" src="https://towerdefense.captaincoder.org/lib/media/view-all-gizmo-lines.webp"><br><br>It is important to review what you've learned in this lesson and apply it in a new context. Before continuing, I encourage you to attempt the <a data-href="Binary Waypoint Challenge" href="https://towerdefense.captaincoder.org/challenges/02-binary-waypoint-challenge/binary-waypoint-challenge.html" class="internal-link" target="_self" rel="noopener nofollow">Binary Waypoint Challenge</a> in which you will be challenged to create a new script to accommodate splitting paths.<br><img alt="binary-waypoint-connections.png" src="https://towerdefense.captaincoder.org/lib/media/binary-waypoint-connections.png"><br><br>With your Waypoints set up, it is now time to update your Enemy Movement script to move between each Waypoint.]]></description><link>https://towerdefense.captaincoder.org/lessons/07-waypoints.html</link><guid isPermaLink="false">Lessons/07 - Waypoints.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Thu, 27 Feb 2025 16:07:43 GMT</pubDate><enclosure url="https://towerdefense.captaincoder.org/lib/media/create-prefab-in-project.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://towerdefense.captaincoder.org/lib/media/create-prefab-in-project.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[08 - Waypoint Traveler]]></title><description><![CDATA[ 
  <br>With your Waypoints set up, it is time to update your Enemy to follow your Waypoints.<br><br>
 <br>Enemy has a Target Waypoint that they move toward
 <br>When the Enemy reaches their Target they query the Waypoint for the Next Waypoint  and update their Target Waypoint
@@ -543,7 +543,7 @@ With your new gizmo in place, you can now more easily verify that your Waypoints
 <br>Remove the Enemy Rotation component from your Enemy
 <br>When the Enemy changes Targets, call the Transform.LookAt method to rotate the Enemy to face the next Waypoint
 <br>Fix any NullReferenceExceptions that occur
-<br>When you have successfully completed this challenge, your Enemy should look similar to the one in the video below.<br><img alt="challenge-complete.webp" src="https://towerdefense.captaincoder.org/lib/media/challenge-complete.webp"><br><br>With your Enemy's moving, it is time to create an Enemy Spawner that will generate additional enemies during game play.]]></description><link>https://towerdefense.captaincoder.org/lessons/08-waypoint-traveler.html</link><guid isPermaLink="false">Lessons/08 - Waypoint Traveler.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Fri, 29 Nov 2024 20:12:41 GMT</pubDate><enclosure url="https://towerdefense.captaincoder.org/lib/media/add-waypoint-target.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://towerdefense.captaincoder.org/lib/media/add-waypoint-target.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[09 - Enemy Spawner]]></title><description><![CDATA[ 
+<br>When you have successfully completed this challenge, your Enemy should look similar to the one in the video below.<br><img alt="challenge-complete.webp" src="https://towerdefense.captaincoder.org/lib/media/challenge-complete.webp"><br><br>With your Enemy's moving, it is time to create an Enemy Spawner that will generate additional enemies during game play.]]></description><link>https://towerdefense.captaincoder.org/lessons/08-waypoint-traveler.html</link><guid isPermaLink="false">Lessons/08 - Waypoint Traveler.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Thu, 27 Feb 2025 16:07:43 GMT</pubDate><enclosure url="https://towerdefense.captaincoder.org/lib/media/add-waypoint-target.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://towerdefense.captaincoder.org/lib/media/add-waypoint-target.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[09 - Enemy Spawner]]></title><description><![CDATA[ 
  <br>In this section, you will implement an Enemy Spawner that repeatedly spawns new Enemies for your player to destroy!<br><br>
 <br>Creates an Enemy
 <br>Sets the Enemies first Target Waypoint
@@ -599,7 +599,7 @@ With your new gizmo in place, you can now more easily verify that your Waypoints
 <br>Read the Friendly Manual: <a data-tooltip-position="top" aria-label="https://docs.unity3d.com/ScriptReference/MonoBehaviour.OnEnable.html" rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/ScriptReference/MonoBehaviour.OnEnable.html" target="_blank">Unity - Scripting API: MonoBehaviour.OnEnable()</a>
 <br>Update your EnemySpawner to have an OnEnable method
 <br>Use OnEnable to call InvokeRepeating instead of the Start() method
-<br>When implemented correctly, your game should act similar to the video below:<br><img alt="verify-onenable.webp" src="https://towerdefense.captaincoder.org/lib/media/verify-onenable.webp"><br><br>Now that you are able to spawn enemies into you game. It is time to design a turret that rotates to follow nearby enemies: <a data-href="10 - Rotating Turret" href="https://towerdefense.captaincoder.org/lessons/10-rotating-turret.html" class="internal-link" target="_self" rel="noopener nofollow">10 - Rotating Turret</a>]]></description><link>https://towerdefense.captaincoder.org/lessons/09-enemy-spawner.html</link><guid isPermaLink="false">Lessons/09 - Enemy Spawner.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Sat, 30 Nov 2024 00:59:04 GMT</pubDate><enclosure url="https://towerdefense.captaincoder.org/lib/media/example-enemy-spanwer-prefab.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://towerdefense.captaincoder.org/lib/media/example-enemy-spanwer-prefab.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[10 - Rotating Turret]]></title><description><![CDATA[ 
+<br>When implemented correctly, your game should act similar to the video below:<br><img alt="verify-onenable.webp" src="https://towerdefense.captaincoder.org/lib/media/verify-onenable.webp"><br><br>Now that you are able to spawn enemies into you game. It is time to design a turret that rotates to follow nearby enemies: <a data-href="10 - Rotating Turret" href="https://towerdefense.captaincoder.org/lessons/10-rotating-turret.html" class="internal-link" target="_self" rel="noopener nofollow">10 - Rotating Turret</a>]]></description><link>https://towerdefense.captaincoder.org/lessons/09-enemy-spawner.html</link><guid isPermaLink="false">Lessons/09 - Enemy Spawner.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Thu, 27 Feb 2025 16:07:43 GMT</pubDate><enclosure url="https://towerdefense.captaincoder.org/lib/media/example-enemy-spanwer-prefab.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://towerdefense.captaincoder.org/lib/media/example-enemy-spanwer-prefab.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[10 - Rotating Turret]]></title><description><![CDATA[ 
  <br>In this lesson, you will create a simple Turret that rotates to face enemies that are nearby.<br><br>
 <br>Create a new Prefab to represent a turret
 <br>Add a model to the Prefab (I will be using the weapon-ballista model but you may use any model)
@@ -707,7 +707,7 @@ With your new gizmo in place, you can now more easily verify that your Waypoints
 <br>Call Model.transform.LookAt to rotate the model to face the first Enemy in AoE.Targets
 
 
-<br>If all went well, you should see your Turrets rotating to face enemies as they pass by:<br><img alt="rotate-challenge-complete.webp" src="https://towerdefense.captaincoder.org/lib/media/rotate-challenge-complete.webp"><br><br>With your turrets successfully tracking the enemies as they pass by, it is time to create a Projectile that can be fired at the enemies to destroy them.<br><a data-href="11 - Projectile" href="https://towerdefense.captaincoder.org/lessons/11-projectile.html" class="internal-link" target="_self" rel="noopener nofollow">11 - Projectile</a>]]></description><link>https://towerdefense.captaincoder.org/lessons/10-rotating-turret.html</link><guid isPermaLink="false">Lessons/10 - Rotating Turret.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Sat, 30 Nov 2024 22:12:09 GMT</pubDate><enclosure url="https://towerdefense.captaincoder.org/lib/media/add-turret-to-scene.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://towerdefense.captaincoder.org/lib/media/add-turret-to-scene.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[11 - Projectile]]></title><description><![CDATA[ 
+<br>If all went well, you should see your Turrets rotating to face enemies as they pass by:<br><img alt="rotate-challenge-complete.webp" src="https://towerdefense.captaincoder.org/lib/media/rotate-challenge-complete.webp"><br><br>With your turrets successfully tracking the enemies as they pass by, it is time to create a Projectile that can be fired at the enemies to destroy them.<br><a data-href="11 - Projectile" href="https://towerdefense.captaincoder.org/lessons/11-projectile.html" class="internal-link" target="_self" rel="noopener nofollow">11 - Projectile</a>]]></description><link>https://towerdefense.captaincoder.org/lessons/10-rotating-turret.html</link><guid isPermaLink="false">Lessons/10 - Rotating Turret.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Thu, 27 Feb 2025 16:07:44 GMT</pubDate><enclosure url="https://towerdefense.captaincoder.org/lib/media/add-turret-to-scene.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://towerdefense.captaincoder.org/lib/media/add-turret-to-scene.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[11 - Projectile]]></title><description><![CDATA[ 
  <br>In this lesson, you will create a Projectile that will move toward an Enemy. Upon reaching the Enemy, it will apply damage. If an enemy receives enough damage, it will be destroyed.<br><br>Before your turrets can shoot a projectile, you must first create a Projectile Prefab to spawn.<br>
 <br>Create a new Prefab for your Projectile
 <br>Add a model to the Prefab (I will be using weapon-ammo-arrow but you can use any model you like)
@@ -769,7 +769,7 @@ With your new gizmo in place, you can now more easily verify that your Waypoints
 <br>Enter Play Mode, what happens?
 <br>Depending on how you implemented your Projectile, it may throw a NullReferenceException when the Target is destroyed. It may also simply stop moving when the Target is destroyed. If you check in the Inspector, you will see that the Target is marked as Missing. This is because it was destroyed.<br><img alt="missing-target.webp" src="https://towerdefense.captaincoder.org/lib/media/missing-target.webp"><br>As a developer, you will often need to account for situations that are not ideal but are technically possible during game play. These are often referred to as Edge Cases because they exist at the "boundaries" of what is expected. As you continue to develop your skills, you will begin to develop an intuition for Edge Cases and be able to anticipate many (but not all) of them.<br><br>There are many possible ways to handle this particular Edge Case. One of the simplest solutions is to destroy the Projectile if it has no Target. <br>
 <br>Update your Projectile script such that if the Target is null, the Projectile is removed from the Scene
-<br>When you have successfully implemented this challenge, your scene should act similar to the video below:<br><img alt="projectile-challenge-complete.webp" src="https://towerdefense.captaincoder.org/lib/media/projectile-challenge-complete.webp"><br><br>With your Projectile Prefab working, it is time to add a script that allows your turrets to fire them.<br><a data-href="12 - Firing Projectiles" href="https://towerdefense.captaincoder.org/lessons/12-firing-projectiles.html" class="internal-link" target="_self" rel="noopener nofollow">12 - Firing Projectiles</a>]]></description><link>https://towerdefense.captaincoder.org/lessons/11-projectile.html</link><guid isPermaLink="false">Lessons/11 - Projectile.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Sun, 01 Dec 2024 03:39:33 GMT</pubDate><enclosure url="https://towerdefense.captaincoder.org/lib/media/projectile-completed.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://towerdefense.captaincoder.org/lib/media/projectile-completed.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[12 - Firing Projectiles]]></title><description><![CDATA[ 
+<br>When you have successfully implemented this challenge, your scene should act similar to the video below:<br><img alt="projectile-challenge-complete.webp" src="https://towerdefense.captaincoder.org/lib/media/projectile-challenge-complete.webp"><br><br>With your Projectile Prefab working, it is time to add a script that allows your turrets to fire them.<br><a data-href="12 - Firing Projectiles" href="https://towerdefense.captaincoder.org/lessons/12-firing-projectiles.html" class="internal-link" target="_self" rel="noopener nofollow">12 - Firing Projectiles</a>]]></description><link>https://towerdefense.captaincoder.org/lessons/11-projectile.html</link><guid isPermaLink="false">Lessons/11 - Projectile.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Thu, 27 Feb 2025 16:07:44 GMT</pubDate><enclosure url="https://towerdefense.captaincoder.org/lib/media/projectile-completed.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://towerdefense.captaincoder.org/lib/media/projectile-completed.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[12 - Firing Projectiles]]></title><description><![CDATA[ 
  <br>In this lesson, you will implement a TurretAttack MonoBehaviour that will spawn Projectiles that will target enemies within the Turret's Area of Engagement.<br><br><br>Your TurretAttack will need to be able to check if there are any Targets in the AreaOfEngagement. If there is at least one target, it will need to Instantiate a Projectile. Then, it should wait for some amount of time before firing again. Finally, to be able to check if it can fire again, it should track if it is currently cooling down.<br>
 <br>Create a new TurretAttack MonoBehaviour Script
 <br>Add an AreaOfEngagement AoE Property
@@ -854,7 +854,7 @@ With your new gizmo in place, you can now more easily verify that your Waypoints
 <br>Test if your Turrets fire on passing enemies!
 <br>You may need to adjust the Y position of your Projectile Prefabs model so it appears above the ground (I recommend setting the model's Y position to 0.5)
 <br>If necessary, adjust the speed of your projectiles / enemies
-<br><img alt="turret-projectile-in-scene.webp" src="https://towerdefense.captaincoder.org/lib/media/turret-projectile-in-scene.webp"><br><br>In this lesson, you used a UnityEvent to notify the AreaOfEffect when your enemy died. In this challenge you will continue to develop your skills using UnityEvents -- TO DO: Add challenge<br><br>With a simple turret, projectile, and enemy implemented, it is now time to add the ability for the player to be able to place turrets onto the map. In the next lesson, you will learn how to utilize Mouse Events to send messages between Game Objects<br><a data-href="13 - Mouse Events" href="https://towerdefense.captaincoder.org/lessons/13-mouse-events.html" class="internal-link" target="_self" rel="noopener nofollow">13 - Mouse Events</a>]]></description><link>https://towerdefense.captaincoder.org/lessons/12-firing-projectiles.html</link><guid isPermaLink="false">Lessons/12 - Firing Projectiles.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Mon, 02 Dec 2024 19:42:51 GMT</pubDate><enclosure url="https://towerdefense.captaincoder.org/lib/media/setup-turret-attack.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://towerdefense.captaincoder.org/lib/media/setup-turret-attack.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[13 - Mouse Events]]></title><description><![CDATA[ 
+<br><img alt="turret-projectile-in-scene.webp" src="https://towerdefense.captaincoder.org/lib/media/turret-projectile-in-scene.webp"><br><br>In this lesson, you used a UnityEvent to notify the AreaOfEffect when your enemy died. In this challenge you will continue to develop your skills using UnityEvents -- TO DO: Add challenge<br><br>With a simple turret, projectile, and enemy implemented, it is now time to add the ability for the player to be able to place turrets onto the map. In the next lesson, you will learn how to utilize Mouse Events to send messages between Game Objects<br><a data-href="13 - Mouse Events" href="https://towerdefense.captaincoder.org/lessons/13-mouse-events.html" class="internal-link" target="_self" rel="noopener nofollow">13 - Mouse Events</a>]]></description><link>https://towerdefense.captaincoder.org/lessons/12-firing-projectiles.html</link><guid isPermaLink="false">Lessons/12 - Firing Projectiles.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Thu, 27 Feb 2025 16:07:44 GMT</pubDate><enclosure url="https://towerdefense.captaincoder.org/lib/media/setup-turret-attack.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://towerdefense.captaincoder.org/lib/media/setup-turret-attack.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[13 - Mouse Events]]></title><description><![CDATA[ 
  <br>In this lesson, you will create a MouseEvents MonoBehaviour Script that will allow you to send messages between Game Objects when the mouse cursor interacts with them.<br><br>Start by creating a test scene where you will be able to test your MouseEvents script in isolation. In this scene, you will create a small map 5x5 Grid. On the Grid you will have tiles that you the player can interact with (empty tiles) and tiles that the player cannot interact with (occupied tiles).  <br>
 <br>Create a new scene in your Test Scenes folder. I recommend naming it Tile MouseEvents Test Scene
 <br>Create a 5x5 Grid of Tiles
@@ -905,7 +905,7 @@ With your new gizmo in place, you can now more easily verify that your Waypoints
 <br>Use OnMouseUpAsButton to Invoke OnClick
 <br>When exited, the Tile's name in the Hierarchy should be "Exited"
 <br>When clicked, the Tile should be set to inactive
-<br>When you have finished this challenge, your Test Scene should act similar to the video below:<br><img alt="challenge-enter-exit-click-complete.webp" src="https://towerdefense.captaincoder.org/lib/media/challenge-enter-exit-click-complete.webp"><br><br>With a MouseEvents implemented and ready to use, you can now create a TileCursor that will track which tile the player will interact with when the press the mouse button.<br><a data-href="14 - Tile Cursor" href="https://towerdefense.captaincoder.org/lessons/14-tile-cursor.html" class="internal-link" target="_self" rel="noopener nofollow">14 - Tile Cursor</a>]]></description><link>https://towerdefense.captaincoder.org/lessons/13-mouse-events.html</link><guid isPermaLink="false">Lessons/13 - Mouse Events.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Tue, 03 Dec 2024 20:58:46 GMT</pubDate><enclosure url="https://towerdefense.captaincoder.org/lib/media/occupied-spaces.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://towerdefense.captaincoder.org/lib/media/occupied-spaces.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[14 - Tile Cursor]]></title><description><![CDATA[ 
+<br>When you have finished this challenge, your Test Scene should act similar to the video below:<br><img alt="challenge-enter-exit-click-complete.webp" src="https://towerdefense.captaincoder.org/lib/media/challenge-enter-exit-click-complete.webp"><br><br>With a MouseEvents implemented and ready to use, you can now create a TileCursor that will track which tile the player will interact with when the press the mouse button.<br><a data-href="14 - Tile Cursor" href="https://towerdefense.captaincoder.org/lessons/14-tile-cursor.html" class="internal-link" target="_self" rel="noopener nofollow">14 - Tile Cursor</a>]]></description><link>https://towerdefense.captaincoder.org/lessons/13-mouse-events.html</link><guid isPermaLink="false">Lessons/13 - Mouse Events.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Thu, 27 Feb 2025 16:07:44 GMT</pubDate><enclosure url="https://towerdefense.captaincoder.org/lib/media/occupied-spaces.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://towerdefense.captaincoder.org/lib/media/occupied-spaces.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[14 - Tile Cursor]]></title><description><![CDATA[ 
  <br><br>During game play, it will be helpful to your player to be able to tell more easily which tile they are hovering / selecting. To do this, you can use the selection-a or selection-b model which fit nicely around a tile.<br><img alt="tile-cursor-model-examples.png" src="https://towerdefense.captaincoder.org/lib/media/tile-cursor-model-examples.png"><br>
 <br>Create a new Prefab to represent your Tile Cursor
 <br>Add a model child of the Prefab (I will be using selection-a)
@@ -946,7 +946,7 @@ In the Inspector, add a listener to MouseEvents.OnEnter that will invoke TileCon
 <br><img alt="dynamic-tile-controller.png" src="https://towerdefense.captaincoder.org/lib/media/dynamic-tile-controller.png"><br>
 <br>Enter Play Mode and test that your Tile Cursor moves when the mouse moves over the Tile that you registered the event on.
 <br><img alt="verify-cursor-moves.webp" src="https://towerdefense.captaincoder.org/lib/media/verify-cursor-moves.webp"><br><br>To move the Tile Cursor to the most recently entered Tile, you need to register the Tile Cursor on all of your Tile Controllers. Doing this through the Hierarchy and Inspector is challenging and error prone. To make things worse, if you decide to change your map, you have to do it again! Remember, as a programmer, any time you find yourself performing a repetitive task, you should ask yourself if there exists a way to automate it. If not, you should consider how difficult it would be to create your own automation.<br>Because all of your TileControllers are children of your Grid, you can retrieve them all using the GetComponentInChildren method which retrieves all of the components of a specified type from the specified GameObject and all of its children.<br>
-<br>Read the Friendly Manual: <a data-tooltip-position="top" aria-label="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/GameObject.GetComponentsInChildren.html#:~:text=GetComponentsInChildren checks the GameObject on which it is,a matching Component of the type T specified." rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/GameObject.GetComponentsInChildren.html#:~:text=GetComponentsInChildren%20checks%20the%20GameObject%20on%20which%20it%20is,a%20matching%20Component%20of%20the%20type%20T%20specified." target="_blank">Unity - Scripting API: GameObject.GetComponentsInChildren</a>
+<br>Read the Friendly Manual: <a data-tooltip-position="top" aria-label="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/GameObject.GetComponentsInChildren.html#:~:text=GetComponentsInChildren%20checks%20the%20GameObject%20on%20which%20it%20is,a%20matching%20Component%20of%20the%20type%20T%20specified." rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/GameObject.GetComponentsInChildren.html#:~:text=GetComponentsInChildren%20checks%20the%20GameObject%20on%20which%20it%20is,a%20matching%20Component%20of%20the%20type%20T%20specified." target="_blank">Unity - Scripting API: GameObject.GetComponentsInChildren</a>
 <br>Add a GameObject TargetGrid to your TileCursor
 <br>Add a ListenToTilesIn(GameObject) method to your TileCursor
 <br>In ListenToTileIn, iterate through all of the TileController components and add a listener to call HandleTileEntered
@@ -970,9 +970,499 @@ In the Inspector, add a listener to MouseEvents.OnEnter that will invoke TileCon
 <br>In HandleTileExited, call Model.SetActive(false) to hide the TileCursor's model
 <br>In HandleTileEntered, call Model.SetActive(true) to show the TileCursor's model
 <br>Connect all necessary events in the Inspector, OnEnable, and OnDisable
-<br>When you have successfully completed this challenge, your test scene should look similar to this:<br><img alt="complete-challenge-part-14.webp" src="https://towerdefense.captaincoder.org/lib/media/complete-challenge-part-14.webp"><br><br>With the ability to easily see which tile the player is interacting with, it is time to implement an OnCursorClicked event and an OnTileSelected method that will allow your player to spawn a turret.]]></description><link>https://towerdefense.captaincoder.org/lessons/14-tile-cursor.html</link><guid isPermaLink="false">Lessons/14 - Tile Cursor.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Tue, 03 Dec 2024 20:55:10 GMT</pubDate><enclosure url="https://towerdefense.captaincoder.org/lib/media/tile-cursor-model-examples.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://towerdefense.captaincoder.org/lib/media/tile-cursor-model-examples.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Community]]></title><description><![CDATA[ 
+<br>When you have successfully completed this challenge, your test scene should look similar to this:<br><img alt="complete-challenge-part-14.webp" src="https://towerdefense.captaincoder.org/lib/media/complete-challenge-part-14.webp"><br><br>With the ability to easily see which tile the player is interacting with, it is time to implement an OnCursorClicked event and an OnTileSelected method that will allow your player to spawn a turret. <a data-href="15 - Turret Spawner" href="https://towerdefense.captaincoder.org/lessons/15-turret-spawner.html" class="internal-link" target="_self" rel="noopener nofollow">15 - Turret Spawner</a>]]></description><link>https://towerdefense.captaincoder.org/lessons/14-tile-cursor.html</link><guid isPermaLink="false">Lessons/14 - Tile Cursor.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Thu, 27 Feb 2025 16:06:43 GMT</pubDate><enclosure url="https://towerdefense.captaincoder.org/lib/media/tile-cursor-model-examples.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://towerdefense.captaincoder.org/lib/media/tile-cursor-model-examples.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[15 - Turret Spawner]]></title><description><![CDATA[ 
+ <br><br>To be able to detect when the player has clicked on a tile, you will add a new event to the TileController that can be used to forward click events. <br>
+<br>
+Add an UnityEvent&lt;TileController&gt; OnCursorClick property to your TileController
+
+<br>Hint: <a data-href="14 - Tile Cursor#TileController OnCursorEnter Event" href="https://towerdefense.captaincoder.org/lessons/14-tile-cursor.html#TileController_OnCursorEnter_Event" class="internal-link" target="_self" rel="noopener nofollow">14 - Tile Cursor &gt; TileController OnCursorEnter Event</a>
+
+
+<br>
+Verify that the event is now available in the inspector.
+
+<br><img alt="verify-on-cursor-click-inspector.png" src="https://towerdefense.captaincoder.org/lib/media/verify-on-cursor-click-inspector.png"><br>
+<br>Add a NotifyCursorClicked() method that invokes OnCursorClick
+
+<br>Hint: <a data-href="14 - Tile Cursor#NotifyCursorEnter" href="https://towerdefense.captaincoder.org/lessons/14-tile-cursor.html#NotifyCursorEnter" class="internal-link" target="_self" rel="noopener nofollow">14 - Tile Cursor &gt; NotifyCursorEnter</a>
+
+
+<br>In your Tile Prefab update the model's OnClick event to invoke the NotifyCursorClicked method.
+<br><img alt="on-click-notify-cursor-clicked.png" src="https://towerdefense.captaincoder.org/lib/media/on-click-notify-cursor-clicked.png"><br><br>Now that you have an event that sends an event when a tile is clicked, you add in a Turret Spawner that will listen for clicks. If the tile is not occupied, it will spawn a turret at that location.<br>
+<br>Create a new MonoBehaviour called TurretSpawner
+<br>Add a GameObject TurretPrefab property to your TurretSpawner
+<br>Add the [field: SerializeField] attribute to the TurretPrefab property
+<br><img alt="15 - Spawning a Turret.png" src="https://towerdefense.captaincoder.org/lib/media/15-spawning-a-turret.png"><br>
+<br>Create a new GameObject in the Turret Spawn Test Scene, this will be your TurretSpawner
+<br>Add the TurretSpawner component
+<br>In the Inspector set the TurretPrefab to use the prefab you created for your Turret
+<br><br><br>
+<br>Add a SpawnTurret(TileController) method to your TurretSpawner
+<br>In SpawnTurret, check to see if the specified TileController IsOccupied . 
+<br>If it is, do nothing.  (return)
+<br>If it is not occupied, Instantiate a TurretPrefab and set the position to match the position of the TileController
+<br><img alt="SpawnTurretMethod.png" src="https://towerdefense.captaincoder.org/lib/media/spawnturretmethod.png"><br><br>Before writing a handler to register your TurretSpanwer on all tiles, it is helpful to test if the SpawnTurret method is working against a single tile.<br>
+<br>In the Hierarchy select a Tile
+<br>In the Inspector add listener to the OnCursorClick event<br>
+
+<br>Add your TurretSpanwer as the listening object
+<br>Select the TurretSpawner.SpawnTurret method as the method to invoke<br>
+
+<br>Take note of the tile that you updated.
+<br>Enter Play Mode and click on that tile, if all went well, a turret was spawned into the scene<br>
+
+<br><br>You likely noticed that after you placed your turret, the cursor stops registering on tiles that are near your turret. This is because the collider the turret is using to detect enemies is blocking the tile. To prevent this, you can create Collision Layers for your objects and specify which layers mouse events detect.<br><br>
+<br>
+From the top menu select Edit &gt; Project Settings
+
+<br>
+On the left side, select the Tags and Layers tab<br>
+<img alt="Assets/m15-Spawning a Turret/tags-and-layers.png" src="https://towerdefense.captaincoder.org/lib/media/tags-and-layers.png">
+
+<br>
+If necessary, open the Layers drop down. (Ensure you are not in Sorting Layers / Rendering Layers)
+
+<br>
+Add a Tiles layer<br>
+<img alt="add-tile-layer.png" src="https://towerdefense.captaincoder.org/lib/media/add-tile-layer.png">
+
+<br><br>
+<br>In the Project explorer tab, navigate to your Prefabs &gt; Tiles folder
+<br>Select all of your Tile prefabs
+<br>In the Inspector, change the Layer to Tile
+<br>When prompted, select change children
+<br>This will apply the Tile layer to all of your tile objects and their models<br>
+
+<br><br>If you switch to the Game tab or enter Play Mode you will no longer see your tiles. This is because the Camera does not render them.<br>
+<br>Update the camera's Culling Mask to see the Tile layer
+<br><br>By default, the Camera will detect all collision layers. This means that your mouse is being blocked by your turrets area of engagement collider. To fix this, you must change which layers the camera allows the mouse to interact with. This is called the Camera's Event Layer. <br>Unfortunately, there is no way to set this in the Inspector. But, it is possible to modify the Camera.eventMask field using a script.<br>
+<br>Read the Friendly Manual: <a data-tooltip-position="top" aria-label="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-eventMask.html" rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-eventMask.html" target="_blank">Unity - Scripting API: Camera.eventMask</a>
+<br>Read the Friendly Manual: <a data-tooltip-position="top" aria-label="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/LayerMask.html" rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/LayerMask.html" target="_blank">Unity - Scripting API: LayerMask</a>
+<br>Create a new MonoBehaviour called CameraEventMaskController
+<br>Add a LayerMask EventMask property<br>
+<img alt="eventmask.png" src="https://towerdefense.captaincoder.org/lib/media/eventmask.png">
+<br>In the Hierarchy select your Main Camera
+<br>In the Inspector, add a CameraEventMaskController
+<br>Set the EventMask to Tile<br>
+
+<br>Add an Awake() method to your CameraEventMaskController
+<br>In Awake()
+<br>Use GetComponent&lt;Camera&gt;() to find the Camera component
+<br>Set the camera's eventMask to the EventMask property<br>
+<img alt="15 - Spawning a Turret 1.png" src="https://towerdefense.captaincoder.org/lib/media/15-spawning-a-turret-1.png">
+<br>Enter Play mode and test that you can still see the selected tile after placing a turret<br>
+
+<br><br>Now that you have verified that you can spawn a single turret, you are ready to listen to all of the tiles in a grid.<br>
+<br>Remove the listener you added to the tile in your scene
+<br>Review how you listen to all tiles in TileCursor<br>
+Update TurretSpawner such that
+<br>OnEnable, listen to all of the tiles in your test scene's grid
+<br>OnDisable, stop listening to all of the tiles in your test scene's grid
+<br>When you have finished, you should be able to click on any tile in the scene to spawn a turret:<br>
+<br><br>Currently, if you click the same tile multiple times, it will spawn multiple turrets. This is because you never set tilecontroller.IsOccupied to true after spawning a turret in SpawnTurret Can you fix this bug?<br>
+<br>Update SpawnTurret to set tileController.IsOccupied to true
+<br>Hint: You will also need to modify TileController
+<br><br>Now that you are able to spawn turrets on a tile, it is time to add a TileCursor and a TurretSpawner to your map. In the next lesson, you will learn how to add a button that enables the player to build a turret in your level.<br><a data-href="16 - Placing Turrets" href="https://towerdefense.captaincoder.org/lessons/16-placing-turrets.html" class="internal-link" target="_self" rel="noopener nofollow">16 - Placing Turrets</a>]]></description><link>https://towerdefense.captaincoder.org/lessons/15-turret-spawner.html</link><guid isPermaLink="false">Lessons/15 - Turret Spawner.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Thu, 27 Feb 2025 16:06:38 GMT</pubDate><enclosure url="https://towerdefense.captaincoder.org/lib/media/verify-on-cursor-click-inspector.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://towerdefense.captaincoder.org/lib/media/verify-on-cursor-click-inspector.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[16 - Placing Turrets]]></title><description><![CDATA[ 
+ <br><br>To be able to use your TurretSpanwer in any scene, you can turn it into a prefab.<br>
+<br>Turn your TurretSpawner into a prefab
+<br><br>
+<br>Open your level scene<br>
+You'll notice that in your level scene, your camera no longer renders your Tiles. This is because you moved your Tile prefabs to the Tile layer. 
+<br>Update your main camera's culling mask to show the Tile layer
+<br><br>
+<br>Add a TileCursor and a TurretSpawner to your scene
+<br>In the Inspector, set your TileCursor and TurretSpawner to listen to the tiles in your level's grid<br>
+
+<br>Enter Play Mode and test that you can now place turrets<br>
+
+<br><br>You may have noticed that you are unable to place turrets within another turrets Area of Engagement. Recall that you fixed this for your Test Scene in <a data-href="15 - Turret Spawner#Camera Event Layer" href="https://towerdefense.captaincoder.org/lessons/15-turret-spawner.html#Camera_Event_Layer" class="internal-link" target="_self" rel="noopener nofollow">15 - Turret Spawner &gt; Camera Event Layer</a>.<br>
+<br>Update your camera to only interact with the Tile layer
+<br><br>As you continue to add new scenes to your game, you may need to adjust the camera again. Ideally, the camera will work the same in every scene. To help create this consistency, you can create a GameCamera prefab that can be reused in your test scenes. Additionally, it can be useful to have the camera nested in a parent object just in case you need to add sibling game objects.<br>
+<br>In the Hierarchy, create a parent object for your Main Camera and name it GameCamera
+<br>Turn the GameCamera object into a Prefab
+<br><br><br>Now that you have a way to spawn turrets into your scene during Play Mode, you can remove the starting turrets from the scene.<br>
+<br>Remove any turrets that you placed directly in your scene
+<br><br>Next, you will add a button to your scene that enables the TileCursor and TurretSpawner GameObjects when clicked.<br><br>Verify that disabilng TileCursor and TurretSpawner disables the ability to place turrets.<br>
+<br>Select both TileCursor and TurretSpawner in the Hierarchy
+<br>In the Inspector, disable both game objects
+<br>Enter Play Mode and verify that you can no longer place turrets
+<br>While in Play Mode enable both TileCursor and TurretSpawner
+<br>Verify that you can place turrets while they're enabled<br>
+
+<br><br>
+<br>In the Hierarchy, click the + icon
+<br>Select UI &gt; Button - TextMeshPro<br>
+<img alt="Add button textmeshpro.png" src="https://towerdefense.captaincoder.org/lib/media/add-button-textmeshpro.png">
+<br>The first time you add a TextMeshPro object to a Unity Project, you will be prompted to import the Text Mesh Pro library.<br>
+<br>Import Text Mesh Pro Essentials<br>
+<img alt="import-tmp-essentials.png" src="https://towerdefense.captaincoder.org/lib/media/import-tmp-essentials.png">
+<br>You do not need to Import the Examples &amp; Extras
+<br>After the library has been imported, you should see 3 new Game Objects in your Hierarchy<br>
+<img alt="after-importing-button.png" src="https://towerdefense.captaincoder.org/lib/media/after-importing-button.png"><br><br>You may be wondering what are the Canvas and EventSystem objects that were added to your scene. The Canvas in Unity is a component that acts as the root for all UI elements, determining how they are rendered and positioned in the game world or screen space. The EventSystem is responsible for processing and managing user input, such as mouse clicks, touches, and controller interactions, ensuring that UI elements respond correctly. Together, the Canvas and EventSystem enable interactive user interfaces by handling rendering and input events within Unity’s UI system.<br><br>If you are in the Scene tab, you probably do not see the Button you added. This is because the button is added to the Canvas which, by default, exists as a screen overlay.<br>
+<br>Open the Game view tab
+<br>Verify that there is a button in the center of the screen<br>
+<img alt="verify-button-in-center.png" src="https://towerdefense.captaincoder.org/lib/media/verify-button-in-center.png"><br>
+In the Scene view, you can switch to 2D mode to more easily view the button on the canvas.
+<br>Open the Scene view tab
+<br>Select the 2D mode in the top right of the Scene view
+<br>Double click on the Canvas in the Hierarchy to focus the camera on the canvas<br>
+
+<br><br>
+<br>Select the Move tool
+<br>Move the Button to the bottom left corner of the canvas<br>
+
+<br><br>Unfortunately, setting the position of the button in this way will only work if your player is using the exact same resolution as you. Unity provides tools for testing different resolutions so you can determine how your game will work in different screen modes.<br>
+<br>Open the Game view tab
+<br>Toggle between different resolutions
+<br>Observe the button moving to different screen positions<br>
+
+<br><br>This is happening because your button was positioned relative to the center of the screen. Thus, if the user is using a smaller resolution, the button will appear closer to the center of the screen. To help with this, Unity provides a way to specify a Pivot point.<br>
+<br>Select the your Button from the Hierarchy
+<br>In the Inspector, find the Rect Transform component
+<br>Click the Pivot icon to open the "quick" pivot and anchor settings
+<br>Click the Bottom Left Corner pivot icon<br>
+<br>
+This sets the objects position to be relative to the bottom left corner of the users screen regardless of their resolution.
+<br>If necessary, adjust the buttons position so it is near the bottom left corner
+<br>Enter Play Mode
+<br>Change Resolutions
+<br>Observe that the button doesn't change position
+<br>The size of the button may appear to change -- however, this is because the zoom scale is changing.<br>
+
+<br><br>By default, Unity's UI button object comes with an OnClick Listener that can be used in the Inspector to invoke a method on an object.<br>
+<br>
+Select your button in the Hierarchy
+
+<br>
+In the Inspector find the Button component
+
+<br>
+Within the Button component, locate the On Click event
+
+<br>
+Add a Listener by clicking the + icon<br>
+
+
+<br>
+Add the TileCursor to the listener
+
+<br>
+Invoke the GameObject.SetActive method and set it to true (enable checkbox)<br>
+
+
+<br>
+Enter Play Mode
+
+<br>
+Verify that the cursor does not display if you move on a tile
+
+<br>
+Click the Button
+
+<br>
+Verify that the cursor does display if you move on a tile<br>
+
+
+<br><br>
+<br>Update the button such that it will enable both the TileCursor and TurretSpawner when the button is clicked
+<br>When you're finished, your game should operate similar to the video below<br>
+<br><br>
+<br>Expand the Button in the Hierarchy
+<br>Select the Text (TMP) child
+<br>In the Inspector find the Text component
+<br>Update the Text component to display "Build"<br>
+
+<br><br>Now that you have a basic understanding about adding a button to your scene that can invoke methods on your other GameObjects, it is time to add in resources that will determine if the player is able to place a turret on the map.<br><a data-href="17 - Adding Gold" href="https://towerdefense.captaincoder.org/lessons/17-adding-gold.html" class="internal-link" target="_self" rel="noopener nofollow">17 - Adding Gold</a>]]></description><link>https://towerdefense.captaincoder.org/lessons/16-placing-turrets.html</link><guid isPermaLink="false">Lessons/16 - Placing Turrets.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Thu, 27 Feb 2025 21:07:40 GMT</pubDate><enclosure url="https://towerdefense.captaincoder.org/lib/media/add-button-textmeshpro.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://towerdefense.captaincoder.org/lib/media/add-button-textmeshpro.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[PlayerController Class]]></title><description><![CDATA[ 
+ <br><br>Currently, when your player clicks the Build button, it enables the TurretSpawner which, in turn allows them to click on tiles to spawn multiple turrets. Next, you will create a PlayerController class that will track a Gold resource for the player that limits their ability to place turrets. When the player builds a turret, it will reduce the player's Gold.<br><br>
+<br>Create a new MonoBehaviour named PlayerController
+<br>Add an int Gold Property
+<br>In your scene, add a new GameObject that has a PlayerController component . 
+<br>Set the Gold property in the Inspector to 200
+<br>When you have finished, your scene should look similar to the image below:<br><img alt="add-player-controller-gold-200.png" src="https://towerdefense.captaincoder.org/lib/media/add-player-controller-gold-200.png"><br><br>To help the player know how much gold they have, add a Text Label to your Canvas<br>
+<br>In the Hierarchy, right click on your Canvas
+<br>Select Create &gt; UI &gt; Text - TextMeshPro
+<br><br><br>Recall how you anchored your Build button to the bottom left corner of the screen (see: <a data-href="16 - Placing Turrets#UI Pivots" href="https://towerdefense.captaincoder.org/lessons/16-placing-turrets.html#UI_Pivots" class="internal-link" target="_self" rel="noopener nofollow">16 - Placing Turrets &gt; UI Pivots</a>). You can do the same thing with any UI component. Additionally, if you hold Shift and Alt while selecting a pivot, it will move your UI component to that position.<br>
+<br>Select your Gold Label
+<br>In the Inspector click the Pivot icon on the Rect Transform
+<br>Press and hold Shift + Alt
+<br>Click the Top Left Corner pivot icon
+<br>Observe that the text moves to the top left corner, additionally the anchor and pivot values update.<br>
+
+<br>Adjust the Pos X and Pos Y values slightly to keep the text from touching the edge of the screen.<br>
+
+<br>Update the default text to display "Gold: 0"<br>
+
+<br><br>Now that you have a Gold Label, you can make it reference your PlayerController and update the text component to display the current amount of Gold the player has available.<br><br>
+<br>Create a new MonoBehaviour named GoldLabelController
+<br>Add a PlayerController Controller property
+<br>Add a TextMeshProGUI Label property
+<br>Add an Update() method:
+<br>Set Label.text to display Controller.Gold
+<br><img alt="GoldLabelController.png" src="https://towerdefense.captaincoder.org/lib/media/goldlabelcontroller.png"><br><br>
+<br>Add a GoldLabelController component to your GoldLabel
+<br>Connect the PlayerController and Label properties in the Inspector
+
+<br>Note: Label should reference the Gold Label (self)
+
+
+<br>Enter Play Mode to confirm the label updates
+<br>Adjust the PlayerController's Gold property to observe the change<br>
+
+<br><br><br>To be able to check if we can spawn a turret, the TurretSpawner must check if the player has enough gold.<br>
+<br>Add a PlayerController Controller property to the TurretSpawner MonoBehaviour
+<br>In the Inspector connect the PlayerController to the TurretSpawner<br>
+When you have finished, your inspector should look similar to the image below:
+<br><img alt="reference-player-controller.png" src="https://towerdefense.captaincoder.org/lib/media/reference-player-controller.png"><br><br>
+<br>Add a bool CanSpawn(TileController tileController) method to the TurretSpawner MonoBehaviour:
+<br>The method returns false if the tileController is occupied 
+<br>The method returns false if the Controller does not have at least 50 gold
+<br>Otherwise, the method returns true
+<br>Update the SpawnTurret method to use CanSpawn to determine if a turret can be spawned
+<br>Update the SpawnTurret method to reduce Controller.Gold by 50
+<br>Enter Play Mode to test your spawner
+<br>You should only be able to place 4 turrets
+<br>After placing each turret, you should observe that the gold decreases
+<br>When you have finished, you should see something similar to the video below:<br>
+<br><br>Currently, your player does not receive much information about what the result of clicking on a tile will be. This can be both confusing and frustrating. How were they supposed to know the turret was going to cost 50 gold! Maybe they didn't see that they were out of gold and don't understand why clicking is not placing a turret. To help create a better user experience, you will add in a text label that will display information to the player.<br><br>
+<br>Add a Text - TextMeshPro to your Canvas (Info Label)
+<br>Change the default text to "Player Interaction Info Label"
+<br>Position and resize the text on the screen to your liking
+<br>Note: In the preview project, the information label will be on the bottom center of the screen<br>
+When you have finished, your game view should look like the video below:<br>
+<img alt="player-interaction-info-label.png" src="https://towerdefense.captaincoder.org/lib/media/player-interaction-info-label.png">
+<br><br>
+<br>Add a TextMeshProGUI InfoLabel to your PlayerController MonoBehaviour
+<br>Add a Start() method to PlayerController
+<br>Set InfoLabel.text to display "Click Build to Place a Turret"
+<br>Connect the InfoLabel in the Inspector
+<br>Enter Play Mode to test that the InfoLabel updates when the game starts<br>
+When you have finished, your scene should look similar to the video below:<br>
+
+<br><br>By default, Text labels intercept click events of a mouse. This can be useful if you want to detect if a mouse is hovering over a label. However, this can be problematic if your label is blocking a button or your game scene. This can be disabled in the Extra Settings section of the TextMeshPro - Text(UI) component. <br>
+<br>Disable Raycast Target in your Info Label / Gold Label to prevent them from blocking your buttons / turret placements.<br>
+
+<br><br>
+<br>Add a ShowInfo(TileController) method to TurretSpawner:
+<br>If the tileController.IsOccupied display "Cannot build here"
+<br>If the Controller.Gold &lt; 50 display "&lt;color=red&gt;Not enough gold"
+<br>else display "50 Gold - Place Turret"
+<br><img alt="show-info-method.png" src="https://towerdefense.captaincoder.org/lib/media/show-info-method.png"><br><br>
+<br>Update your TurretSpanwer MonoBehaviour in the following ways
+<br>When enabled, display "Select a Tile"
+<br>Add a listener such that ShowInfo is called when the cursor enters a tile
+<br>Add a listener such that "Select a Tile" is displayed when the cursor exits a tile
+<br>After a turret is placed, disable the TurretSpawner
+<br>Be sure to remove any listeners when TurretSpawner is disabled
+<br>When disabled, display "Click Build to Place a Turret"
+<br>Enter Play Mode to test your changes
+<br>When you have finished, your game should behave similar to the scene below:<br><br><br>Now that your player can use gold to build turrets, it is now time to create a way for the player to gain gold. In the next lesson, you will create a new building that continuously generates gold for the player.<br><a data-href="18 - Generating Gold" href="https://towerdefense.captaincoder.org/lessons/18-generating-gold.html" class="internal-link" target="_self" rel="noopener nofollow">18 - Generating Gold</a>]]></description><link>https://towerdefense.captaincoder.org/lessons/17-adding-gold.html</link><guid isPermaLink="false">Lessons/17 - Adding Gold.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Thu, 27 Feb 2025 23:48:07 GMT</pubDate><enclosure url="https://towerdefense.captaincoder.org/lib/media/add-player-controller-gold-200.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://towerdefense.captaincoder.org/lib/media/add-player-controller-gold-200.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[18 - Generating Gold]]></title><description><![CDATA[ 
+ <br>Currently, in your game, the player starts with a limited amount of gold that they can spend to build Turrets. Unfortunately, the player has no way to generate additional resources. Next, you will create a new type of building that the player can place that will generate Gold for them over time.<br><br>
+<br>Create a new GameObject to represent your GoldGenerator building
+<br>Add a model (or multiple models) as children objects to the GoldGenerator
+<br>
+<br>Feel free to use any model you would like! In this document, I will combine two of the Kenney models together.
+<br>
+<br>If necessary, adjust the models positions within the parent object to fit nicely on a tile
+<br>Convert your object into a Prefab
+<br>When you are finished, you should have a GoldGenerator Prefab that you can place on any tile in your game scene:<br><br><br>
+<br>Create a new MonoBehaviour called GoldGenerator
+<br>Add a float Delay property which represents how often it will generate gold
+<br>Add an int Gold property which represents how much gold is generated
+<br>Add a GoldGenertor component to your GoldGenerator prefab
+<br>In the Inspector set Delay to 2 and Gold to 1
+<br>When you've finished your prefab should look similar to the image below:<br><img alt="gold-generator.png" src="https://towerdefense.captaincoder.org/lib/media/gold-generator.png"><br><br>To be able to update the player's gold, the GoldGenerator requires a reference to the PlayerController. You will not be able to set this in the Prefab because the PlayerController does not exist here. One way you can acquire a reference to it without the need to set it in the Inspector is to assume that the PlayerController will be a parent of the GoldGenerator. Then, use GetComponentInParent to set the reference.<br>
+<br>Add a PlayerController Controller property to your GoldGenerator
+<br>Add an Awake() method
+<br>In Awake() use GetComponentInParent&lt;PlayerController&gt;() to assign Controller
+<br><img alt="cache-player-controller.png" src="https://towerdefense.captaincoder.org/lib/media/cache-player-controller.png"><br><br>
+<br>Add a GoldGenerator to your game scene as a child of the PlayerController
+<br>Enter Play Mode
+<br>Observe that the PlayerController property is set when the game starts
+<br><br><br>
+<br>Review how you used InvokeRepeating and CancelInvoke to spawn enemies into your game
+<br>Add a GenerateGold() method to your GoldGenerator MonoBehaviour
+<br>Use InvokeRepeating to cause GenerateGold() to execute every Delay seconds
+<br>Don't forget to use CancelInvoke when the GoldGenerator is disabled
+<br>Enter Play Mode to test that your Gold is now increasing
+<br>When you're finished, your game should look similar to the video below:<br>
+<br><br>The TurretSpawner you created previously does almost everything you need to be able to spawn GoldGenerators into your game.<br>
+<br>Select your TurretSpawner in the Hierarchy
+<br>In the Inspector change the Turret Prefab property to your GoldGenerator prefab
+<br>Enter Play Mode and place a GoldGenerator
+<br>Observe the error that occurs
+<br><br><br>If you investigate the error, you will find that the newly spawned GoldGenerator does not have a PlayerController. This is because the object is being instantiated without a parent.<br>The Instatiate method has several overloaded versions that allow you to specify additional information about how to create the specified GameObject. One version allows you to specify the parent object: Instantiate(GameObject, Transform)<br>
+<br>Update TurretSpawner.SpawnTurret to set the parent of the object of the turret to be the PlayerController's transform when it is spawned. (Controller.transform)<br>
+<img alt="set-parent-object.png" src="https://towerdefense.captaincoder.org/lib/media/set-parent-object.png">
+<br>Enter Play Mode to test that you are able to spawn your Gold Generators<br>
+When you are finished, your game should look and act similar to the video below:  
+<br><br><br>Currently, you only have a single Build button that enables the TurretSpawner game which knows references your GoldGenerator prefab. Next, you will update the Build button to set the prefab.<br>
+<br>Update your TurretSpawner.TurretPrefab field to have a public setter<br>
+<img alt="ensure-set-public.png" src="https://towerdefense.captaincoder.org/lib/media/ensure-set-public.png">
+<br>Select the Button in the Hierarchy
+<br>In the Inspector add a listener to the On Click event
+<br>Set the TurretSpawner as the listening object
+<br>Select  the TurretSpanwer.TurretPrefab property
+<br>Set the GameObject to be your Turret prefab
+<br><br>
+<br>Enter Play Mode and test that your TurretSpawner field is changed when the button is clicked. This results in the player being able to spawn Turrets (rather than GoldGenerators)
+<br><br><br>Currently, your player is only capable of building Turrets when they click the Build button. Can you add another button that allows them to create generators?<br>
+<br>Add a button to your Canvas
+<br>The button should be labeled "Generator"
+<br>Use Pivots and Anchors to set the buttons position relative to the screen
+<br>When the button is clicked, the player should be able to place generators
+<br>Enter Play Mode to test that both of your buttons works
+<br>When you have finished, your game should look and act similar to the video below:<br>
+<br><br>Although it is now possible to spawn different types of buildings/turrets, you are not able to easily change the cost (the gold cost of 50 is hard coded). Additionally, the user hints could be more descriptive based on the type of building you want to place. In the next lesson, you will create a ScriptableObject  building type that will allow you to quickly and easily create new building types and easily add them to your player's UI.<br><a data-href="19 - BuildingData" href="https://towerdefense.captaincoder.org/lessons/19-buildingdata.html" class="internal-link" target="_self" rel="noopener nofollow">19 - BuildingData</a>]]></description><link>https://towerdefense.captaincoder.org/lessons/18-generating-gold.html</link><guid isPermaLink="false">Lessons/18 - Generating Gold.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Thu, 06 Mar 2025 19:09:35 GMT</pubDate><enclosure url="https://towerdefense.captaincoder.org/lib/media/gold-generator.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://towerdefense.captaincoder.org/lib/media/gold-generator.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Challenge: Design a New Building]]></title><description><![CDATA[ 
+ <br><br>So far, you have created two buildings: one that fires projectiles when enemies are within its Area of Engagement and another that continuously generates Gold. In this challenge, you should define a new structure of your own choosing. Below are a few ideas to choose from.<br>
+<br>A turret that has a larger range but longer cooldown
+<br>A turret that fires at all enemies within its Area of Engagement
+<br>A building that doubles the amount of gold of all GoldGenerates adjacent to it
+<br>A building that slows down enemies that are within its AreaOfEngagment
+<br>A building of your own design
+<br><br>
+<br>Add a third button that can be used to place your new building
+<br>Enter Play Mode to test that your building works as expected<br>
+If all went well, you should have a scene that looks similar to the one below. For the demo, I've created a Cannon turret that has a wider range than the original Turret but has a longer cooldown.
+<br><br><br>Currently, the cost of each building is set to 50 directly in the code. To give your player more interesting choices, you can make each building have a different cost. To do this, you will create a ScriptableObject.<br><br>A ScriptableObject can be used to define and edit data in the Unity Inspector that does not exist on a Game Object.<br>
+<br>Read the Friendly Manual: <a data-tooltip-position="top" aria-label="https://docs.unity3d.com/6000.0/Documentation/Manual/class-ScriptableObject.html" rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/6000.0/Documentation/Manual/class-ScriptableObject.html" target="_blank">Unity - Manual: ScriptableObject</a>
+<br>In your Scripts folder right click
+<br>Select Create &gt; Scripting &gt; ScriptableObject Script
+<br>Name the ScriptableObject: "BuildingData"
+<br><img alt="scriptable-object.png" src="https://towerdefense.captaincoder.org/lib/media/scriptable-object.png"><br>
+<br>Open the BuildingData script
+<br>Verify that the class is named BuildingData
+<br>Verify that the class extends ScriptableObject
+<br>Verify the menuName is set to Scriptable Objects/BuildingData<br>
+<img alt="verify-buildingdata.png" src="https://towerdefense.captaincoder.org/lib/media/verify-buildingdata.png">
+<br><br>
+<br>Create a new folder in Assets called Data
+<br>Open the Data folder
+<br>Right click and select Create &gt; Scriptable Objects &gt; BuildingData<br>
+Note: The option to select Scriptable Objects &gt; BuildingData was defined by the CreateAssetMenu attribute in your BuildingData script.
+<br><br>
+<br>Rename the new BuildingData object to TurretData
+<br><br><br>
+<br>Open the BuildingData script
+<br>Add a string Name property
+<br>Add an int Cost property<br>
+<img alt="fields.png" src="https://towerdefense.captaincoder.org/lib/media/fields.png">
+<br><br>Similar to MonoBehaviours you can modify serialized properties in Unity's Inspector.<br>
+<br>Select TurretData in your Project window
+<br>Set the Cost in the Inspector
+<br>Set the Name in the Inspector
+<br><br><br>
+<br>Add a GameObject BuildingPrefab property to BuildingData
+<br>In the Inspector set BuildingPrefab to be your Turret Prefab
+<br>When you've finished, your TurretData should look similar to the image below:<br><img alt="turret-prefab-set.png" src="https://towerdefense.captaincoder.org/lib/media/turret-prefab-set.png"><br><br>One of the benefits of a ScriptableObject is the ability to create multiple instances each with their own values.<br>
+<br>In your Data folder:
+<br>Create a BuildingData for your GoldGenerator
+<br>Create a BuildingData for the building you defined at the beginning of this lesson
+<br>When you're done, your Data folder and objects should look similar to the video below:<br><br><br>Your TurretSpawner has outgrown its original functionality. Its initial purposed was meant to spawn turrets. However, it is time to replace it with a BuildingSpawner that can be used to place anything defined as a BuildingData.<br><br>
+<br>Select the TurretSpawner script
+<br>Rename the script to BuildingSpawner
+<br><br>
+<br>Open the script
+<br>Update the class name to match the file name BuildingSpanwer 
+<br><img alt="classname-match.png" src="https://towerdefense.captaincoder.org/lib/media/classname-match.png"><br><br>
+<br>Select your TurretSpawner from the Hierarchy
+<br>Rename it to BuildingSpawner
+<br>Verify that it has a Building Spawner component in the Inspector
+<br><img alt="verify-name-component.png" src="https://towerdefense.captaincoder.org/lib/media/verify-name-component.png"><br><br>
+<br>Open the BuildingSpawner MonoBehaviour
+<br>Remove the TurretPrefab property
+<br>Add a BuildingData Selected 
+<br><img alt="selected-1.png" src="https://towerdefense.captaincoder.org/lib/media/selected-1.png"><br>
+<br>Update your Instatiate call to use the Selected.BuildingPrefab property<br>
+<img alt="instantiate-update.png" src="https://towerdefense.captaincoder.org/lib/media/instantiate-update.png">
+<br>If necessary, update any other references to TurretPrefab to use Selected.BuildingPrefab
+<br><br>
+<br>In the Hierarchy select Turret Button
+<br>Update the OnClick listener to set Selected to TurretData 
+<br>Enter Play Mode to test that you can place your Turret
+<br><img alt="turret-placement.png" src="https://towerdefense.captaincoder.org/lib/media/turret-placement.png"><br>
+<br>Repeat this process for your other 2 buildings
+<br>When you have finished, your game should look and act similar to the video below:<br><br><br>
+<br>In BuildingSpawner.SpawnTurret: 
+<br>Update your code such that Controller.Gold is reduced by Selected.Cost when the building is placed.
+<br><img alt="selectedcost.png" src="https://towerdefense.captaincoder.org/lib/media/selectedcost.png"><br>
+<br>Enter Play Mode and test that each building used the specified amount
+<br><br><br>Currently, BuildingSpawner always displays 50 Gold - Place Turret even when placing non-turret buildings. Additionally, you can build structures that cost too much so long as you have at least 50 gold.<br>
+<br>The Info Label should display the cost and name of Selected
+<br>The Info Label should display Not Enough Gold if the player does not have enough gold to build the selected building
+<br>Update CanSpawn to use Selected.Cost
+<br>Update your InfoLabel's starting text to be empty (or another message of your choice)
+<br>When you have finished, your game should look and act similar to the video below:<br><br><br>Create 2 more buildings of your choice.<br>
+<br>Create a Prefab for each building
+<br>Create a ScriptableObject for each building
+<br>Add a button for each building
+<br><br>In the next lesson, you will add a Tower to your game that takes damage when enemies reach it and, if destroyed, shows a game over screen to the player.<br><a data-href="20 - Tower" href="https://towerdefense.captaincoder.org/lessons/20-tower.html" class="internal-link" target="_self" rel="noopener nofollow">20 - Tower</a>]]></description><link>https://towerdefense.captaincoder.org/lessons/19-buildingdata.html</link><guid isPermaLink="false">Lessons/19 - BuildingData.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Fri, 07 Mar 2025 01:08:34 GMT</pubDate><enclosure url="https://towerdefense.captaincoder.org/lib/media/scriptable-object.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://towerdefense.captaincoder.org/lib/media/scriptable-object.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Tower]]></title><description><![CDATA[ 
+ <br><br>At this point, you have a game scene in which enemies travel along a path and when it reaches the end simply stops. For a player, this is not very exciting and they have little (or no) incentive to try to stop the enemies. In this section, you will add a Tower to your scene that you player will defend from enemies. If enough enemies reach the Tower, the tower will be destroyed.<br><br>
+<br>Create a new Prefab object and name it Tower
+<br>Within the Prefab add a child component called model
+<br>Add one or more 3D models to create the visual representation of your Tower
+<br>When you have finished you should have a Prefab that looks similar to the image below:<br><img alt="tower-prefab.png" src="https://towerdefense.captaincoder.org/lib/media/tower-prefab.png"><br><br>Just as you did before with the Projectile Test and the TurretAttack Test, it is easier to test your new Tower component in isolation to know that it works the way you would like before adding it to your main level. <br>In this scene you will create a Tower that can withstand 5 points of damage. You will add two enemies to the scene. One enemy will deal 2 damage. The other will deal 3. After both enemies have damaged the tower, it will be destroyed.<br><br>
+<br>Create a new Scene in your Test Scenes folder called "Tower Test Scene"
+<br>Delete the default Main Camera from the Scene
+<br>Add a GameCamera Prefab to the Scene
+<br>Add your Tower Prefab to the Scene
+<br>Add a Waypoint centered on your Tower (Tower Waypoint)
+<br>Add a second Waypoint that is a short distance from your tower (Second Waypoint)
+<br>Set the second Waypoint to go toward the Tower Waypoint
+<br>Add an Enemy and set its starting Waypoint to Second Waypoint (First Enemy)
+<br>Add a third Waypoint that is a further distance from your tower (Third Waypoint)
+<br>Set the third Waypoint to go toward the Tower Waypoint
+<br>Add an Enemy and set its starting Waypoint to Third Waypoint (Second Enemy)
+<br>If all went well, you should have a scene that looks and acts similar to the one in the video below:<br><br><br>Before you can damage the tower, your Enemy will need to know how much damage it deals.<br>
+<br>Create a new MonoBehaviour called EnemyAttack
+<br>Add a int Damage property
+<br>Add the EnemyAttack component to your Enemy prefab
+<br>In the Inspector set First Enemy's Damage property to 2
+<br>In the Inspector set Second Enemy's Damage property to 3
+<br>When you have finished, your Hierarchy and Inspector should look similar to the video below:<br><br><br>To be able to detect when an Enemy has collided with your Tower, you will need to add a Collider. I recommend using a Capsule Collider but, depending on the shape of your Tower, you may choose to use a different Collider.<br>
+<br>Add a child component to your Tower prefab (Tower Collider)
+<br>Add a Collider to the new child component
+<br>Adjust the size of the collider to fit your model
+<br>Set the Collider to be a trigger
+<br>When you have finished, your Tower Prefab should look similar to the one in the video below:<br><br><br>Recall how you implemented the AreaOfEngagement MonoBehaviour to detect when an enemy moves in range of your turret in <a data-href="10 - Rotating Turret" href="https://towerdefense.captaincoder.org/lessons/10-rotating-turret.html" class="internal-link" target="_self" rel="noopener nofollow">10 - Rotating Turret</a>. <br>
+<br>Review <a data-href="10 - Rotating Turret#Add a Rigidbody to Area of Effect" href="https://towerdefense.captaincoder.org/lessons/10-rotating-turret.html#Add_a_Rigidbody_to_Area_of_Effect" class="internal-link" target="_self" rel="noopener nofollow">10 - Rotating Turret &gt; Add a Rigidbody to Area of Effect</a>
+<br>Review <a data-href="10 - Rotating Turret#AreaOfEngagement MonoBehaviour" href="https://towerdefense.captaincoder.org/lessons/10-rotating-turret.html#AreaOfEngagement_MonoBehaviour" class="internal-link" target="_self" rel="noopener nofollow">10 - Rotating Turret &gt; AreaOfEngagement MonoBehaviour</a>
+<br>Review <a data-href="10 - Rotating Turret#OnTriggerEnter(Collider)" href="https://towerdefense.captaincoder.org/lessons/10-rotating-turret.html#OnTriggerEnter(Collider)" class="internal-link" target="_self" rel="noopener nofollow">10 - Rotating Turret &gt; OnTriggerEnter(Collider)</a>
+<br>Create a new MonoBehaviour called TowerCollisionEvents
+<br>Add a property UnityEvent&lt;EnemyAttack&gt; OnEnemyHit
+<br>Add a void OnTriggerEnter(Collider other)
+<br>In OnTriggerEnter, useother.GetComponentInParent&lt;EnemyAttack&gt;() to get the EnemyAttack component.
+<br>If the component is null, do nothing (return)
+<br>Otherwise, use OnEnemyHit.Invoke to notify listeners of the collision
+<br>Additionally, add Debug.Log(other) to your method so you can verify it works
+<br>When you have finished, your prefab and test scene should look and act similar to the video below.<br><br><br>
+<br>Create a TowerController MonoBehaviour
+<br>Add a float BaseHealth property (set the default value to 5)
+<br>Add a float Damage property (set the default value to 0)
+<br>Add an ApplyHit(EnemyAttack attack) method:
+<br>Increase Damage by attack.Damage
+<br>Destroy attack.gameObject
+<br>If the tower has taken sufficient damage destroy this.gameObject
+<br>Add a TowerController component to your Tower Prefab
+<br>Register TowerController.ApplyHit as a listener on your TowerCollisionEvents.OnHit event
+<br>Enter Play Mode to test your component
+<br>If all went well, your Prefab and your Test Scene should look and act similar to the video below:<br><br><br>
+<br>Update your TowerController MonoBehaviour
+<br>Add a UnityEvent&lt;TowerController&gt; OnDestroyed property
+<br>In TowerController.ApplyHit
+<br>If the tower has taken sufficient damage to be destroyed, use OnDestroyed.Invoke(this) to notify any listeners that the tower was destroyed
+<br>Add a Label to your Test Scene
+<br>Update the Label to say Game Over
+<br>Position your Label in the center of the screen
+<br>Disable the Label so it is not enabled when the scene starts
+<br>Register your Label's GameObject.SetActive method on your TowerController.OnDestroyed event to enable the Label
+<br>Enter Play Mode to test your event
+<br>If all went well, your Hierarchy and Test Scene should look and act similar to the video below:<br><br><br>
+<br>Add your Tower Prefab to your main level
+<br>Add a Game Over label
+<br>Test your level
+<br>When you've finished, your level should look and act similar to the video below:<br><br><br>At this point, you have a very simple but playable level that is ready for some polish! In the next lesson, you will add a Level Select screen that will allow your player to select new levels to play.]]></description><link>https://towerdefense.captaincoder.org/lessons/20-tower.html</link><guid isPermaLink="false">Lessons/20 - Tower.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Fri, 07 Mar 2025 01:07:26 GMT</pubDate><enclosure url="https://towerdefense.captaincoder.org/lib/media/tower-prefab.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://towerdefense.captaincoder.org/lib/media/tower-prefab.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Community]]></title><description><![CDATA[ 
  <br>It is never too early to share your work with others to get feedback. One of the biggest mistakes a new developer can make is feeling like your work is not good enough to share. Sharing your work, asking questions, and getting feedback from others will accelerate your learning.<br>Discord: <a rel="noopener nofollow" class="external-link" href="https://discord.gg/captaincoder" target="_blank">https://discord.gg/captaincoder</a><br>
-Twitch: <a rel="noopener nofollow" class="external-link" href="https://twitch.tv/thecaptaincoder" target="_blank">https://twitch.tv/thecaptaincoder</a><br>]]></description><link>https://towerdefense.captaincoder.org/community.html</link><guid isPermaLink="false">Community.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Fri, 29 Nov 2024 13:05:15 GMT</pubDate></item><item><title><![CDATA[Unity Workshop - 3D Tower Defense]]></title><description><![CDATA[ 
+Twitch: <a rel="noopener nofollow" class="external-link" href="https://twitch.tv/thecaptaincoder" target="_blank">https://twitch.tv/thecaptaincoder</a><br>]]></description><link>https://towerdefense.captaincoder.org/community.html</link><guid isPermaLink="false">Community.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Thu, 27 Feb 2025 16:07:45 GMT</pubDate></item><item><title><![CDATA[Unity Workshop - 3D Tower Defense]]></title><description><![CDATA[ 
  <br><br>Take your Unity and C# skills to the next level with this hands-on workshop, designed for aspiring game developers who want to create their own 3D Tower Defense game. This course builds on your foundational knowledge of Unity and programming, focusing on practical application, advanced Unity concepts, and user-centric game design.<br><br>
 <br>Completion of at least one introductory Unity course.
 <br>Completion of at least one C# course or willingness to complete a programming proficiency project before the second week  of class.
@@ -997,5 +1487,10 @@ Twitch: <a rel="noopener nofollow" class="external-link" href="https://twitch.tv
 <br><a data-href="12 - Firing Projectiles" href="https://towerdefense.captaincoder.org/lessons/12-firing-projectiles.html" class="internal-link" target="_self" rel="noopener nofollow">12 - Firing Projectiles</a>
 <br><a data-href="13 - Mouse Events" href="https://towerdefense.captaincoder.org/lessons/13-mouse-events.html" class="internal-link" target="_self" rel="noopener nofollow">13 - Mouse Events</a>
 <br><a data-href="14 - Tile Cursor" href="https://towerdefense.captaincoder.org/lessons/14-tile-cursor.html" class="internal-link" target="_self" rel="noopener nofollow">14 - Tile Cursor</a>
-<br>
-<br><br>I would like to give a a huge thank you to everyone who helped test and proof read this project. I could not have done it without you.]]></description><link>https://towerdefense.captaincoder.org/index.html</link><guid isPermaLink="false">Index.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Tue, 03 Dec 2024 20:57:47 GMT</pubDate></item></channel></rss>
+<br><a data-href="15 - Turret Spawner" href="https://towerdefense.captaincoder.org/lessons/15-turret-spawner.html" class="internal-link" target="_self" rel="noopener nofollow">15 - Turret Spawner</a>
+<br><a data-href="16 - Placing Turrets" href="https://towerdefense.captaincoder.org/lessons/16-placing-turrets.html" class="internal-link" target="_self" rel="noopener nofollow">16 - Placing Turrets</a>
+<br><a data-href="17 - Adding Gold" href="https://towerdefense.captaincoder.org/lessons/17-adding-gold.html" class="internal-link" target="_self" rel="noopener nofollow">17 - Adding Gold</a>
+<br><a data-href="18 - Generating Gold" href="https://towerdefense.captaincoder.org/lessons/18-generating-gold.html" class="internal-link" target="_self" rel="noopener nofollow">18 - Generating Gold</a>
+<br><a data-href="19 - BuildingData" href="https://towerdefense.captaincoder.org/lessons/19-buildingdata.html" class="internal-link" target="_self" rel="noopener nofollow">19 - BuildingData</a>
+<br><a data-href="20 - Tower" href="https://towerdefense.captaincoder.org/lessons/20-tower.html" class="internal-link" target="_self" rel="noopener nofollow">20 - Tower</a>
+<br><br>I would like to give a a huge thank you to everyone who helped test and proof read this project. I could not have done it without you.]]></description><link>https://towerdefense.captaincoder.org/index.html</link><guid isPermaLink="false">Index.md</guid><dc:creator><![CDATA[Captain Coder]]></dc:creator><pubDate>Fri, 07 Mar 2025 01:08:25 GMT</pubDate></item></channel></rss>
