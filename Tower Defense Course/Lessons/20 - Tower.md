@@ -117,4 +117,6 @@ When you've finished, your level should look and act similar to the video below:
 
 ![[demo-game-over.webm]]
 # What's Next?
-At this point, you have a very simple but playable level that is ready for some polish! In the next lesson, you will add a **Level Select** screen that will allow your player to select new levels to play.
+At this point, you have a very simple but playable level that is ready for some polish! In the next lesson, you will add a sprinting animation to your Enemy.
+
+[[21 - Animation Basics]]

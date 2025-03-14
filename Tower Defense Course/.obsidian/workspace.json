@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lessons/19 - BuildingData.md",
+                "file": "Index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "19 - BuildingData"
+              "title": "Index"
             }
           }
         ],
@@ -181,9 +181,9 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "861a0aa8480fd0c5",
+  "active": "25d244e850a26219",
   "lastOpenFiles": [
-    "Index.md",
+    "Lessons/21 - Animation Basics.md",
     "Lessons/20 - Tower.md",
     "Lessons/19 - BuildingData.md",
     "Lessons/18 - Generating Gold.md",
@@ -207,19 +207,19 @@
     "Lessons/00 - Install Unity 6.md",
     "Challenges/02 - Binary Waypoint Challenge/Binary Waypoint Challenge.md",
     "Challenges/01 - Isometric Camera Challenge/Isometric Camera Challenge.md",
-    "Assets/m20 - Tower/tower-collider.webm",
-    "Assets/m20 - Tower/show-game-over.webm",
-    "Assets/m20 - Tower/demo-game-over.webm",
-    "Assets/m20 - Tower",
-    "Assets/m20 - Tower/test-tower-controller.webm",
-    "Assets/m20 - Tower/testing-collisions.webm",
-    "Assets/m20 - Tower/tower-collider 1.webm",
-    "Assets/m20 - Tower/enemy-attack-setup.webm",
-    "Assets/m20 - Tower/test-tower-scene 1.webm",
-    "Assets/m20 - Tower/test-tower-scene.webm",
+    "Index.md",
+    "Assets/m21 - Animation Basics/rename-sprint-state.webm",
+    "Assets/m21 - Animation Basics/locate-animations.webm",
+    "Assets/m21 - Animation Basics/create-animation-controller.webm",
+    "Assets/m21 - Animation Basics/add-animation-controller.webm",
+    "Assets/m21 - Animation Basics",
+    "Assets/m21 - Animation Basics/set-sprint-animation.webm",
+    "Assets/m21 - Animation Basics/add-sprint-loop.webm",
+    "Assets/m21 - Animation Basics/play-once-and-stop.webm",
+    "Assets/m21 - Animation Basics/previewing-animation-onprefab.webm",
+    "Assets/m21 - Animation Basics/attach-sprint-animation.webm",
     "Assets/m20 - Tower/tower-prefab.png",
     "Assets/m19-BuildingData/turret-placement.png",
-    "To Do (Kanban).md",
     "Assets/m19-BuildingData/instantiate-update.png",
     "Assets/m19-BuildingData/selectedcost.png",
     "Assets/m19-BuildingData/selected-1.png",
